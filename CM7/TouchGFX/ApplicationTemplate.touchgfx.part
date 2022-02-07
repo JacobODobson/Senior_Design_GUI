@@ -1,0 +1,22 @@
+
+{
+  "Application": {
+    "Name": "STM32H745I_DISCO",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "AvailableColorDepths": [ 16 ],
+    "AvailableLCDs":
+    {
+      "16": "LCD16bpp"
+    },
+    "AvailableResolutions" : [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PostGenerateTargetCommand" : "touchgfx update_project --project-file=../../STM32H745I_DISCO.ioc --platform=m7",
+    "Family" : "STM32H7",
+    "SubFamily" : "STM32H745/755"
+  },
+  "Version": "4.18.0"
+}

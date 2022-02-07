@@ -1,0 +1,2 @@
+3.0.0
+- First public version based on TouchGFX 4.18.0

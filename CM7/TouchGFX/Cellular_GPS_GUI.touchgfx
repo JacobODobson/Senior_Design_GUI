@@ -1,0 +1,1247 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Home",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 480,
+            "Height": 272,
+            "Color": {
+              "Red": 229,
+              "Green": 229,
+              "Blue": 229
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2",
+            "Width": 480,
+            "Height": 27,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "digitalClock1",
+            "X": 9,
+            "Y": 4,
+            "Width": 69,
+            "Height": 23,
+            "TextId": "__SingleUse_ZX00",
+            "UseAmPm": true,
+            "InitialHour": 10,
+            "InitialMinute": 10
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 214,
+            "Y": 4,
+            "Width": 53,
+            "Height": 18,
+            "TextId": "__SingleUse_5QAY",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2",
+            "X": 411,
+            "Width": 24,
+            "Height": 26,
+            "Filename": "Battery.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Map",
+            "X": 19,
+            "Y": 32,
+            "Width": 166,
+            "Height": 42,
+            "Pressed": "Button_Pressed.png",
+            "Released": "Button_Unpressed.png",
+            "TextId": "__SingleUse_0ZP6",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "List",
+            "X": 19,
+            "Y": 80,
+            "Width": 166,
+            "Height": 42,
+            "Pressed": "Button_Pressed.png",
+            "Released": "Button_Unpressed.png",
+            "TextId": "__SingleUse_BNSB",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Export",
+            "X": 19,
+            "Y": 128,
+            "Width": 166,
+            "Height": 42,
+            "Pressed": "Button_Pressed.png",
+            "Released": "Button_Unpressed.png",
+            "TextId": "__SingleUse_9D38",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Pair",
+            "X": 19,
+            "Y": 176,
+            "Width": 166,
+            "Height": 42,
+            "Pressed": "Button_Pressed.png",
+            "Released": "Button_Unpressed.png",
+            "TextId": "__SingleUse_KZ8L",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Settings",
+            "X": 19,
+            "Y": 224,
+            "Width": 166,
+            "Height": 42,
+            "Pressed": "Button_Pressed.png",
+            "Released": "Button_Unpressed.png",
+            "TextId": "__SingleUse_L9IW",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage3",
+            "X": 198,
+            "Y": 101,
+            "Width": 271,
+            "Height": 165,
+            "Filename": "Status_Rectangle.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage4",
+            "X": 198,
+            "Y": 38,
+            "Width": 271,
+            "Height": 52,
+            "Filename": "Logo_Border.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage5",
+            "X": 210,
+            "Y": 43,
+            "Width": 246,
+            "Height": 42,
+            "Filename": "True_Line_Logo.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 441,
+            "Y": 7,
+            "Width": 23,
+            "Height": 13,
+            "TextId": "__SingleUse_0QAP",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage6",
+            "X": 310,
+            "Y": 149,
+            "Width": 146,
+            "Height": 109,
+            "Filename": "Small_Map.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 210,
+            "Y": 111,
+            "Width": 113,
+            "Height": 23,
+            "TextId": "__SingleUse_S398",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "X": 204,
+            "Y": 134,
+            "Width": 260,
+            "Height": 15,
+            "StartX": 5,
+            "StartY": 5,
+            "EndX": 252,
+            "EndY": 5,
+            "LineWidth": 1,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea4",
+            "X": 204,
+            "Y": 149,
+            "Width": 65,
+            "Height": 12,
+            "TextId": "__SingleUse_QD7P",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea5",
+            "X": 204,
+            "Y": 164,
+            "Width": 62,
+            "Height": 12,
+            "TextId": "__SingleUse_EVKR",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Map",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Map"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Map"
+            }
+          },
+          {
+            "InteractionName": "List",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "List"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "List"
+            }
+          },
+          {
+            "InteractionName": "Export",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Export"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Export"
+            }
+          },
+          {
+            "InteractionName": "Pair",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Pair"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Pair"
+            }
+          },
+          {
+            "InteractionName": "Settings",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Settings"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Settings"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Map",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 480,
+            "Height": 272,
+            "Color": {
+              "Red": 229,
+              "Green": 229,
+              "Blue": 229
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2",
+            "Width": 480,
+            "Height": 27,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "X": 11,
+            "Y": 56,
+            "Width": 342,
+            "Height": 210,
+            "Filename": "Map_Border.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Map_Tab",
+            "X": 11,
+            "Y": 34,
+            "Width": 95,
+            "Height": 22,
+            "Pressed": "Background_Tab.png",
+            "Released": "Foreground_Tab.png",
+            "TextId": "__SingleUse_32LF",
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "Right_Arrow",
+            "X": 363,
+            "Y": 34,
+            "Width": 117,
+            "Height": 41,
+            "Pressed": "Side_Button_Pressed.png",
+            "Released": "Side_Button.png",
+            "IconPressed": "Arrow_Right.png",
+            "IconReleased": "Arrow_Right.png",
+            "IconX": 49,
+            "IconY": 10,
+            "IconHeight": 20,
+            "IconWidth": 18
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "Left_Arrow",
+            "X": 363,
+            "Y": 83,
+            "Width": 117,
+            "Height": 41,
+            "Pressed": "Side_Button_Pressed.png",
+            "Released": "Side_Button.png",
+            "IconPressed": "Arrow_Left.png",
+            "IconReleased": "Arrow_Left.png",
+            "IconX": 49,
+            "IconY": 10,
+            "IconHeight": 20,
+            "IconWidth": 18
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Home",
+            "X": 363,
+            "Y": 130,
+            "Width": 117,
+            "Height": 41,
+            "Pressed": "Side_Button_Pressed.png",
+            "Released": "Side_Button.png",
+            "TextId": "__SingleUse_9YKY",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Store",
+            "X": 363,
+            "Y": 177,
+            "Width": 117,
+            "Height": 41,
+            "Pressed": "Side_Button_Pressed.png",
+            "Released": "Side_Button.png",
+            "TextId": "__SingleUse_GYON",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Back",
+            "X": 363,
+            "Y": 225,
+            "Width": 117,
+            "Height": 41,
+            "Pressed": "Side_Button_Pressed.png",
+            "Released": "Side_Button.png",
+            "TextId": "__SingleUse_4YHD",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "List_Tab",
+            "X": 106,
+            "Y": 34,
+            "Width": 95,
+            "Height": 22,
+            "Pressed": "Background_Tab.png",
+            "Released": "Background_Tab.png",
+            "TextId": "__SingleUse_MPCF",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "digitalClock1",
+            "X": 11,
+            "Y": 4,
+            "Width": 69,
+            "Height": 23,
+            "TextId": "__SingleUse_VVE3",
+            "UseAmPm": true,
+            "InitialHour": 10,
+            "InitialMinute": 10
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 209,
+            "Y": 4,
+            "Width": 53,
+            "Height": 18,
+            "TextId": "__SingleUse_QT17",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2",
+            "X": 411,
+            "Y": 1,
+            "Width": 24,
+            "Height": 26,
+            "Filename": "Battery.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage3",
+            "X": 20,
+            "Y": 66,
+            "Width": 325,
+            "Height": 191,
+            "Filename": "Example_Map.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 441,
+            "Y": 7,
+            "Width": 23,
+            "Height": 13,
+            "TextId": "__SingleUse_0ZM8",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "List",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "List_Tab"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "List"
+            }
+          },
+          {
+            "InteractionName": "Right",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Right_Arrow"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "List"
+            }
+          },
+          {
+            "InteractionName": "Home",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Home"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Home"
+            }
+          },
+          {
+            "InteractionName": "Back",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Back"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Home"
+            }
+          },
+          {
+            "InteractionName": "Store",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Store"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Store"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "List",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 480,
+            "Height": 272,
+            "Color": {
+              "Red": 229,
+              "Green": 229,
+              "Blue": 229
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2",
+            "Width": 480,
+            "Height": 27,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "X": 11,
+            "Y": 56,
+            "Width": 342,
+            "Height": 210,
+            "Filename": "Map_Border.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Map_Tab",
+            "X": 11,
+            "Y": 34,
+            "Width": 95,
+            "Height": 22,
+            "Pressed": "Foreground_Tab.png",
+            "Released": "Background_Tab.png",
+            "TextId": "__SingleUse_SQGE",
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "Right_Button",
+            "X": 363,
+            "Y": 34,
+            "Width": 117,
+            "Height": 41,
+            "Pressed": "Side_Button_Pressed.png",
+            "Released": "Side_Button.png",
+            "IconPressed": "Arrow_Right.png",
+            "IconReleased": "Arrow_Right.png",
+            "IconX": 49,
+            "IconY": 10,
+            "IconHeight": 20,
+            "IconWidth": 18
+          },
+          {
+            "Type": "ButtonWithIcon",
+            "Name": "Left_Button",
+            "X": 363,
+            "Y": 83,
+            "Width": 117,
+            "Height": 41,
+            "Pressed": "Side_Button_Pressed.png",
+            "Released": "Side_Button.png",
+            "IconPressed": "Arrow_Left.png",
+            "IconReleased": "Arrow_Left.png",
+            "IconX": 49,
+            "IconY": 10,
+            "IconHeight": 20,
+            "IconWidth": 18
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Home",
+            "X": 363,
+            "Y": 130,
+            "Width": 117,
+            "Height": 41,
+            "Pressed": "Side_Button_Pressed.png",
+            "Released": "Side_Button.png",
+            "TextId": "__SingleUse_LOKL",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Store",
+            "X": 363,
+            "Y": 177,
+            "Width": 117,
+            "Height": 41,
+            "Pressed": "Side_Button_Pressed.png",
+            "Released": "Side_Button.png",
+            "TextId": "__SingleUse_JZM8",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Back",
+            "X": 363,
+            "Y": 225,
+            "Width": 117,
+            "Height": 41,
+            "Pressed": "Side_Button_Pressed.png",
+            "Released": "Side_Button.png",
+            "TextId": "__SingleUse_8SBT",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "List_Tab",
+            "X": 106,
+            "Y": 34,
+            "Width": 95,
+            "Height": 22,
+            "Pressed": "Background_Tab.png",
+            "Released": "Foreground_Tab.png",
+            "TextId": "__SingleUse_35B8",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "digitalClock1",
+            "X": 11,
+            "Y": 4,
+            "Width": 69,
+            "Height": 23,
+            "TextId": "__SingleUse_3XS0",
+            "UseAmPm": true,
+            "InitialHour": 10,
+            "InitialMinute": 10
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 209,
+            "Y": 4,
+            "Width": 53,
+            "Height": 18,
+            "TextId": "__SingleUse_LIZG",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2",
+            "X": 411,
+            "Y": 1,
+            "Width": 24,
+            "Height": 26,
+            "Filename": "Battery.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 441,
+            "Y": 7,
+            "Width": 23,
+            "Height": 13,
+            "TextId": "__SingleUse_1YGC",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 24,
+            "Y": 69,
+            "Width": 42,
+            "Height": 13,
+            "TextId": "__SingleUse_EKQZ",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3_1",
+            "X": 24,
+            "Y": 90,
+            "Width": 42,
+            "Height": 13,
+            "TextId": "__SingleUse_660L",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3_2",
+            "X": 24,
+            "Y": 111,
+            "Width": 42,
+            "Height": 13,
+            "TextId": "__SingleUse_4J7M",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Map_Tab",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Map_Tab"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Map"
+            }
+          },
+          {
+            "InteractionName": "Left_Arrow",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Left_Button"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Map"
+            }
+          },
+          {
+            "InteractionName": "Home",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Home"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Home"
+            }
+          },
+          {
+            "InteractionName": "Store",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Store"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Store"
+            }
+          },
+          {
+            "InteractionName": "Back",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Back"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Home"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Store",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 480,
+            "Height": 272,
+            "Color": {
+              "Red": 229,
+              "Green": 229,
+              "Blue": 229
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2",
+            "Width": 480,
+            "Height": 27,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Back",
+            "X": 363,
+            "Y": 225,
+            "Width": 117,
+            "Height": 41,
+            "Pressed": "Side_Button_Pressed.png",
+            "Released": "Side_Button.png",
+            "TextId": "__SingleUse_QKC1",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "digitalClock1",
+            "X": 11,
+            "Y": 4,
+            "Width": 69,
+            "Height": 23,
+            "TextId": "__SingleUse_P646",
+            "UseAmPm": true,
+            "InitialHour": 10,
+            "InitialMinute": 10
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 209,
+            "Y": 4,
+            "Width": 53,
+            "Height": 18,
+            "TextId": "__SingleUse_OI0A",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2",
+            "X": 411,
+            "Y": 1,
+            "Width": 24,
+            "Height": 26,
+            "Filename": "Battery.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 441,
+            "Y": 7,
+            "Width": 23,
+            "Height": 13,
+            "TextId": "__SingleUse_2J1L",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "To_Map",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Back"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Map"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Settings",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 480,
+            "Height": 272,
+            "Color": {
+              "Red": 229,
+              "Green": 229,
+              "Blue": 229
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2",
+            "Width": 480,
+            "Height": 27,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Back",
+            "X": 363,
+            "Y": 225,
+            "Width": 117,
+            "Height": 41,
+            "Pressed": "Side_Button_Pressed.png",
+            "Released": "Side_Button.png",
+            "TextId": "__SingleUse_97JB",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "digitalClock1",
+            "X": 11,
+            "Y": 4,
+            "Width": 69,
+            "Height": 23,
+            "TextId": "__SingleUse_PNUF",
+            "UseAmPm": true,
+            "InitialHour": 10,
+            "InitialMinute": 10
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 209,
+            "Y": 4,
+            "Width": 53,
+            "Height": 18,
+            "TextId": "__SingleUse_6CUD",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2",
+            "X": 411,
+            "Y": 1,
+            "Width": 24,
+            "Height": 26,
+            "Filename": "Battery.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 441,
+            "Y": 7,
+            "Width": 23,
+            "Height": 13,
+            "TextId": "__SingleUse_K9AW",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Back",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Back"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Home"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Export",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 480,
+            "Height": 272,
+            "Color": {
+              "Red": 229,
+              "Green": 229,
+              "Blue": 229
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2",
+            "Width": 480,
+            "Height": 27,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Back",
+            "X": 363,
+            "Y": 225,
+            "Width": 117,
+            "Height": 41,
+            "Pressed": "Side_Button_Pressed.png",
+            "Released": "Side_Button.png",
+            "TextId": "__SingleUse_XHJ7",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "digitalClock1",
+            "X": 11,
+            "Y": 4,
+            "Width": 69,
+            "Height": 23,
+            "TextId": "__SingleUse_ZEGU",
+            "UseAmPm": true,
+            "InitialHour": 10,
+            "InitialMinute": 10
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 209,
+            "Y": 4,
+            "Width": 53,
+            "Height": 18,
+            "TextId": "__SingleUse_4NXD",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2",
+            "X": 411,
+            "Y": 1,
+            "Width": 24,
+            "Height": 26,
+            "Filename": "Battery.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 441,
+            "Y": 7,
+            "Width": 23,
+            "Height": 13,
+            "TextId": "__SingleUse_4VEU",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Back",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Back"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Home"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Pair",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 480,
+            "Height": 272,
+            "Color": {
+              "Red": 229,
+              "Green": 229,
+              "Blue": 229
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2",
+            "Width": 480,
+            "Height": 27,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Back",
+            "X": 363,
+            "Y": 225,
+            "Width": 117,
+            "Height": 41,
+            "Pressed": "Side_Button_Pressed.png",
+            "Released": "Side_Button.png",
+            "TextId": "__SingleUse_LL1S",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "digitalClock1",
+            "X": 11,
+            "Y": 4,
+            "Width": 69,
+            "Height": 23,
+            "TextId": "__SingleUse_AAMY",
+            "UseAmPm": true,
+            "InitialHour": 10,
+            "InitialMinute": 10
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 209,
+            "Y": 4,
+            "Width": 53,
+            "Height": 18,
+            "TextId": "__SingleUse_3EHN",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2",
+            "X": 411,
+            "Y": 1,
+            "Width": 24,
+            "Height": 26,
+            "Filename": "Battery.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 441,
+            "Y": 7,
+            "Width": 23,
+            "Height": 13,
+            "TextId": "__SingleUse_63ID",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Back",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Back"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Home"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "Cellular_GPS_GUI",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Home",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project --project-file=../../STM32H745I_DISCO.ioc --platform=m7",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../../gcc/Makefile clean && make -f ../../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32H7"
+  },
+  "Version": "4.18.0",
+  "CreatedBy": "4.18.0"
+}
