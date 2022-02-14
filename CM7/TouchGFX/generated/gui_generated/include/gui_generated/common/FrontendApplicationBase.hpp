@@ -36,6 +36,9 @@ public:
     // Pair
     void gotoPairScreenNoTransition();
 
+    // Keyboard
+    void gotoKeyboardScreenNoTransition();
+
 protected:
     touchgfx::Callback<FrontendApplicationBase> transitionCallback;
     FrontendHeap& frontendHeap;
@@ -61,6 +64,9 @@ protected:
 
     // Pair
     void gotoPairScreenNoTransitionImpl();
+
+    // Keyboard
+    void gotoKeyboardScreenNoTransitionImpl();
 };
 
 #endif // FRONTENDAPPLICATIONBASE_HPP

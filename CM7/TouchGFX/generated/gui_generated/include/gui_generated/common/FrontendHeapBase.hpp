@@ -26,6 +26,8 @@
 #include <gui/export_screen/ExportPresenter.hpp>
 #include <gui/pair_screen/PairView.hpp>
 #include <gui/pair_screen/PairPresenter.hpp>
+#include <gui/keyboard_screen/KeyboardView.hpp>
+#include <gui/keyboard_screen/KeyboardPresenter.hpp>
 
 
 /**
@@ -55,7 +57,8 @@ public:
             touchgfx::meta::TypeList< SettingsView,
             touchgfx::meta::TypeList< ExportView,
             touchgfx::meta::TypeList< PairView,
-            touchgfx::meta::Nil > > > > > >
+            touchgfx::meta::TypeList< KeyboardView,
+            touchgfx::meta::Nil > > > > > > >
             > GeneratedViewTypes;
 
     /**
@@ -74,7 +77,8 @@ public:
             touchgfx::meta::TypeList< SettingsPresenter,
             touchgfx::meta::TypeList< ExportPresenter,
             touchgfx::meta::TypeList< PairPresenter,
-            touchgfx::meta::Nil > > > > > >
+            touchgfx::meta::TypeList< KeyboardPresenter,
+            touchgfx::meta::Nil > > > > > > >
             > GeneratedPresenterTypes;
 
     /**

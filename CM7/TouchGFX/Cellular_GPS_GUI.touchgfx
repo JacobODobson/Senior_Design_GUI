@@ -200,7 +200,7 @@
             "Name": "textArea4",
             "X": 204,
             "Y": 149,
-            "Width": 65,
+            "Width": 64,
             "Height": 12,
             "TextId": "__SingleUse_QD7P",
             "TextRotation": "0",
@@ -712,7 +712,7 @@
             "Name": "textArea3",
             "X": 24,
             "Y": 69,
-            "Width": 42,
+            "Width": 43,
             "Height": 13,
             "TextId": "__SingleUse_EKQZ",
             "TextRotation": "0",
@@ -723,7 +723,7 @@
             "Name": "textArea3_1",
             "X": 24,
             "Y": 90,
-            "Width": 42,
+            "Width": 43,
             "Height": 13,
             "TextId": "__SingleUse_660L",
             "TextRotation": "0",
@@ -734,7 +734,7 @@
             "Name": "textArea3_2",
             "X": 24,
             "Y": 111,
-            "Width": 42,
+            "Width": 43,
             "Height": 13,
             "TextId": "__SingleUse_4J7M",
             "TextRotation": "0",
@@ -1175,6 +1175,72 @@
             "TextId": "__SingleUse_63ID",
             "TextRotation": "0",
             "AutoSize": true
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "boxWithBorder1",
+            "X": 105,
+            "Y": 111,
+            "Width": 243,
+            "Height": 50,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "BorderSize": 5
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaID",
+            "X": 125,
+            "Y": 124,
+            "Width": 210,
+            "Height": 25,
+            "TextId": "__SingleUse_S131",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 18
+            }
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButtonID",
+            "X": 105,
+            "Y": 111,
+            "Width": 243,
+            "Height": 50,
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 243,
+                "Height": 50,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
           }
         ],
         "Interactions": [
@@ -1188,6 +1254,162 @@
               "Type": "ActionGotoScreen",
               "ScreenTransitionType": "ScreenTransitionNone",
               "ActionComponent": "Home"
+            }
+          },
+          {
+            "InteractionName": "keyboardSelected",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButtonID"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Keyboard"
+            }
+          },
+          {
+            "InteractionName": "updateText",
+            "Trigger": {
+              "Type": "TriggerScreenTransitionBegins"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateScreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Keyboard",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 480,
+            "Height": 272,
+            "Color": {
+              "Red": 229,
+              "Green": 229,
+              "Blue": 229
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2",
+            "Width": 480,
+            "Height": 27,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Cancel",
+            "X": 363,
+            "Y": 225,
+            "Width": 117,
+            "Height": 41,
+            "Pressed": "Side_Button_Pressed.png",
+            "Released": "Side_Button.png",
+            "TextId": "__SingleUse_ZM34",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "digitalClock1",
+            "X": 11,
+            "Y": 4,
+            "Width": 69,
+            "Height": 23,
+            "TextId": "__SingleUse_J7WE",
+            "UseAmPm": true,
+            "InitialHour": 10,
+            "InitialMinute": 10
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 209,
+            "Y": 4,
+            "Width": 53,
+            "Height": 18,
+            "TextId": "__SingleUse_X6DM",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2",
+            "X": 411,
+            "Y": 1,
+            "Width": 24,
+            "Height": 26,
+            "Filename": "Battery.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 441,
+            "Y": 7,
+            "Width": 23,
+            "Height": 13,
+            "TextId": "__SingleUse_NOEU",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Confirm",
+            "X": 363,
+            "Y": 177,
+            "Width": 117,
+            "Height": 41,
+            "Pressed": "Side_Button_Pressed.png",
+            "Released": "Side_Button.png",
+            "TextId": "__SingleUse_84G8",
+            "TextRotation": "0"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "ButtonCancel",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Cancel"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Pair"
+            }
+          },
+          {
+            "InteractionName": "ButtonConfirm",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Confirm"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "getBuffer"
+            }
+          },
+          {
+            "InteractionName": "goBack",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "ButtonConfirm"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Pair"
             }
           }
         ]

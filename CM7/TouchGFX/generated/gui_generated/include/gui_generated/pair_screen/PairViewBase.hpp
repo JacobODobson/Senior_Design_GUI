@@ -12,6 +12,9 @@
 #include <touchgfx/containers/clock/DigitalClock.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
 #include <touchgfx/widgets/ScalableImage.hpp>
+#include <touchgfx/widgets/BoxWithBorder.hpp>
+#include <touchgfx/widgets/TextAreaWithWildcard.hpp>
+#include <touchgfx/containers/buttons/Buttons.hpp>
 
 class PairViewBase : public touchgfx::View<PairPresenter>
 {
@@ -19,6 +22,14 @@ public:
     PairViewBase();
     virtual ~PairViewBase() {}
     virtual void setupScreen();
+
+    /*
+     * Virtual Action Handlers
+     */
+    virtual void updateScreen()
+    {
+        // Override and implement this function in Pair
+    }
 
 protected:
     FrontendApplication& application() {
@@ -36,6 +47,15 @@ protected:
     touchgfx::TextArea textArea1;
     touchgfx::ScalableImage scalableImage2;
     touchgfx::TextArea textArea2;
+    touchgfx::BoxWithBorder boxWithBorder1;
+    touchgfx::TextAreaWithOneWildcard textAreaID;
+    touchgfx::BoxWithBorderButtonStyle< touchgfx::ClickButtonTrigger > flexButtonID;
+
+    /*
+     * Wildcard Buffers
+     */
+    static const uint16_t TEXTAREAID_SIZE = 18;
+    touchgfx::Unicode::UnicodeChar textAreaIDBuffer[TEXTAREAID_SIZE];
 
 private:
 
@@ -43,11 +63,13 @@ private:
      * Callback Declarations
      */
     touchgfx::Callback<PairViewBase, const touchgfx::AbstractButton&> buttonCallback;
+    touchgfx::Callback<PairViewBase, const touchgfx::AbstractButtonContainer&> flexButtonCallback;
 
     /*
      * Callback Handler Declarations
      */
     void buttonCallbackHandler(const touchgfx::AbstractButton& src);
+    void flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer& src);
 
 };
 

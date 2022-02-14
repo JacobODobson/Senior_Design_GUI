@@ -23,6 +23,8 @@
 #include <gui/export_screen/ExportPresenter.hpp>
 #include <gui/pair_screen/PairView.hpp>
 #include <gui/pair_screen/PairPresenter.hpp>
+#include <gui/keyboard_screen/KeyboardView.hpp>
+#include <gui/keyboard_screen/KeyboardPresenter.hpp>
 
 using namespace touchgfx;
 
@@ -130,4 +132,17 @@ void FrontendApplicationBase::gotoPairScreenNoTransition()
 void FrontendApplicationBase::gotoPairScreenNoTransitionImpl()
 {
     touchgfx::makeTransition<PairView, PairPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
+}
+
+// Keyboard
+
+void FrontendApplicationBase::gotoKeyboardScreenNoTransition()
+{
+    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplication::gotoKeyboardScreenNoTransitionImpl);
+    pendingScreenTransitionCallback = &transitionCallback;
+}
+
+void FrontendApplicationBase::gotoKeyboardScreenNoTransitionImpl()
+{
+    touchgfx::makeTransition<KeyboardView, KeyboardPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
 }

@@ -11,6 +11,7 @@ public:
     virtual ~PairView() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+    virtual void updateScreen();
 protected:
 };
 
