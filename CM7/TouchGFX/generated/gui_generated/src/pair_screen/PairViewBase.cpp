@@ -14,7 +14,7 @@ PairViewBase::PairViewBase() :
     __background.setPosition(0, 0, 480, 272);
     __background.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
 
-    box1.setPosition(0, 0, 480, 272);
+    box1.setPosition(0, -6, 480, 272);
     box1.setColor(touchgfx::Color::getColorFromRGB(229, 229, 229));
 
     box2.setPosition(0, 0, 480, 27);
@@ -48,12 +48,12 @@ PairViewBase::PairViewBase() :
     textArea2.setLinespacing(0);
     textArea2.setTypedText(touchgfx::TypedText(T___SINGLEUSE_63ID));
 
-    boxWithBorder1.setPosition(105, 111, 243, 50);
+    boxWithBorder1.setPosition(114, 175, 243, 50);
     boxWithBorder1.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     boxWithBorder1.setBorderColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     boxWithBorder1.setBorderSize(5);
 
-    textAreaID.setPosition(125, 124, 210, 25);
+    textAreaID.setPosition(135, 188, 210, 25);
     textAreaID.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     textAreaID.setLinespacing(0);
     textAreaIDBuffer[0] = 0;
@@ -63,9 +63,14 @@ PairViewBase::PairViewBase() :
     flexButtonID.setBoxWithBorderPosition(0, 0, 243, 50);
     flexButtonID.setBorderSize(5);
     flexButtonID.setBoxWithBorderColors(touchgfx::Color::getColorFromRGB(0, 102, 153), touchgfx::Color::getColorFromRGB(0, 153, 204), touchgfx::Color::getColorFromRGB(0, 51, 102), touchgfx::Color::getColorFromRGB(51, 102, 153));
-    flexButtonID.setPosition(105, 111, 243, 50);
+    flexButtonID.setPosition(114, 175, 243, 50);
     flexButtonID.setAlpha(0);
     flexButtonID.setAction(flexButtonCallback);
+
+    textArea4.setXY(19, 27);
+    textArea4.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    textArea4.setLinespacing(0);
+    textArea4.setTypedText(touchgfx::TypedText(T___SINGLEUSE_UF3Q));
 
     add(__background);
     add(box1);
@@ -78,6 +83,7 @@ PairViewBase::PairViewBase() :
     add(boxWithBorder1);
     add(textAreaID);
     add(flexButtonID);
+    add(textArea4);
 }
 
 void PairViewBase::setupScreen()

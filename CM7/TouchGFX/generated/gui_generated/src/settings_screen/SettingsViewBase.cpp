@@ -7,7 +7,8 @@
 #include <texts/TextKeysAndLanguages.hpp>
 
 SettingsViewBase::SettingsViewBase() :
-    buttonCallback(this, &SettingsViewBase::buttonCallbackHandler)
+    buttonCallback(this, &SettingsViewBase::buttonCallbackHandler),
+    flexButtonCallback(this, &SettingsViewBase::flexButtonCallbackHandler)
 {
 
     __background.setPosition(0, 0, 480, 272);
@@ -47,6 +48,37 @@ SettingsViewBase::SettingsViewBase() :
     textArea2.setLinespacing(0);
     textArea2.setTypedText(touchgfx::TypedText(T___SINGLEUSE_K9AW));
 
+    Mode.setXY(157, 41);
+    Mode.setBitmaps(touchgfx::Bitmap(BITMAP_ROVER_MODE_ID), touchgfx::Bitmap(BITMAP_BASE_STATION_MODE_ID));
+
+    textArea3.setXY(81, 51);
+    textArea3.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    textArea3.setLinespacing(0);
+    textArea3.setTypedText(touchgfx::TypedText(T___SINGLEUSE_TL0W));
+
+    textArea4.setXY(11, 125);
+    textArea4.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    textArea4.setLinespacing(0);
+    textArea4.setTypedText(touchgfx::TypedText(T___SINGLEUSE_Z8T1));
+
+    boxWithBorder1.setPosition(157, 111, 243, 50);
+    boxWithBorder1.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
+    boxWithBorder1.setBorderColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    boxWithBorder1.setBorderSize(5);
+
+    textAreaID.setPosition(173, 123, 210, 25);
+    textAreaID.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    textAreaID.setLinespacing(0);
+    textAreaIDBuffer[0] = 0;
+    textAreaID.setWildcard(textAreaIDBuffer);
+    textAreaID.setTypedText(touchgfx::TypedText(T___SINGLEUSE_XH0F));
+
+    flexButtonID.setBoxWithBorderPosition(0, 0, 243, 50);
+    flexButtonID.setBorderSize(5);
+    flexButtonID.setBoxWithBorderColors(touchgfx::Color::getColorFromRGB(0, 102, 153), touchgfx::Color::getColorFromRGB(0, 153, 204), touchgfx::Color::getColorFromRGB(0, 51, 102), touchgfx::Color::getColorFromRGB(51, 102, 153));
+    flexButtonID.setPosition(157, 111, 243, 50);
+    flexButtonID.setAlpha(0);
+
     add(__background);
     add(box1);
     add(box2);
@@ -55,6 +87,12 @@ SettingsViewBase::SettingsViewBase() :
     add(textArea1);
     add(scalableImage2);
     add(textArea2);
+    add(Mode);
+    add(textArea3);
+    add(textArea4);
+    add(boxWithBorder1);
+    add(textAreaID);
+    add(flexButtonID);
 }
 
 void SettingsViewBase::setupScreen()
@@ -71,4 +109,8 @@ void SettingsViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& src
         //Go to Home with no screen transition
         application().gotoHomeScreenNoTransition();
     }
+}
+
+void SettingsViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer& src)
+{
 }

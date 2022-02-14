@@ -47,6 +47,11 @@ ExportViewBase::ExportViewBase() :
     textArea2.setLinespacing(0);
     textArea2.setTypedText(touchgfx::TypedText(T___SINGLEUSE_4VEU));
 
+    textArea3.setXY(17, 102);
+    textArea3.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    textArea3.setLinespacing(0);
+    textArea3.setTypedText(touchgfx::TypedText(T___SINGLEUSE_JSFL));
+
     add(__background);
     add(box1);
     add(box2);
@@ -55,6 +60,7 @@ ExportViewBase::ExportViewBase() :
     add(textArea1);
     add(scalableImage2);
     add(textArea2);
+    add(textArea3);
 }
 
 void ExportViewBase::setupScreen()

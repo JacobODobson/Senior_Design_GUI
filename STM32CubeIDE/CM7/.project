@@ -657,6 +657,11 @@
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_Background_Tab.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/image_Base_Station_Mode.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_Base_Station_Mode.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/image_Battery.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_Battery.cpp</locationURI>
@@ -725,6 +730,11 @@
 			<name>Application/User/generated/image_Reception_Bar_3.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_Reception_Bar_3.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_Rover_Mode.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_Rover_Mode.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/image_Side_Button.cpp</name>

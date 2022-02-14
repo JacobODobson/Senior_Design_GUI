@@ -107,12 +107,7 @@ build/MINGW32_NT-6.2/generated/simulator/src/mainBase.o: \
  gui/include/gui/settings_screen/SettingsView.hpp \
  generated/gui_generated/include/gui_generated/settings_screen/SettingsViewBase.hpp \
  gui/include/gui/settings_screen/SettingsPresenter.hpp \
- gui/include/gui/export_screen/ExportView.hpp \
- generated/gui_generated/include/gui_generated/export_screen/ExportViewBase.hpp \
- gui/include/gui/export_screen/ExportPresenter.hpp \
- gui/include/gui/pair_screen/PairView.hpp \
- generated/gui_generated/include/gui_generated/pair_screen/PairViewBase.hpp \
- gui/include/gui/pair_screen/PairPresenter.hpp \
+ ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/BoxWithBorder.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/Buttons.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/AnimatedImageButtonStyle.hpp \
@@ -130,6 +125,12 @@ build/MINGW32_NT-6.2/generated/simulator/src/mainBase.o: \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TouchButtonTrigger.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TwoWildcardTextButtonStyle.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/WildcardTextButtonStyle.hpp \
+ gui/include/gui/export_screen/ExportView.hpp \
+ generated/gui_generated/include/gui_generated/export_screen/ExportViewBase.hpp \
+ gui/include/gui/export_screen/ExportPresenter.hpp \
+ gui/include/gui/pair_screen/PairView.hpp \
+ generated/gui_generated/include/gui_generated/pair_screen/PairViewBase.hpp \
+ gui/include/gui/pair_screen/PairPresenter.hpp \
  gui/include/gui/keyboard_screen/KeyboardView.hpp \
  generated/gui_generated/include/gui_generated/keyboard_screen/KeyboardViewBase.hpp \
  gui/include/gui/keyboard_screen/KeyboardPresenter.hpp \
@@ -358,17 +359,7 @@ generated/gui_generated/include/gui_generated/settings_screen/SettingsViewBase.h
 
 gui/include/gui/settings_screen/SettingsPresenter.hpp:
 
-gui/include/gui/export_screen/ExportView.hpp:
-
-generated/gui_generated/include/gui_generated/export_screen/ExportViewBase.hpp:
-
-gui/include/gui/export_screen/ExportPresenter.hpp:
-
-gui/include/gui/pair_screen/PairView.hpp:
-
-generated/gui_generated/include/gui_generated/pair_screen/PairViewBase.hpp:
-
-gui/include/gui/pair_screen/PairPresenter.hpp:
+../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/BoxWithBorder.hpp:
 
@@ -403,6 +394,18 @@ gui/include/gui/pair_screen/PairPresenter.hpp:
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TwoWildcardTextButtonStyle.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/WildcardTextButtonStyle.hpp:
+
+gui/include/gui/export_screen/ExportView.hpp:
+
+generated/gui_generated/include/gui_generated/export_screen/ExportViewBase.hpp:
+
+gui/include/gui/export_screen/ExportPresenter.hpp:
+
+gui/include/gui/pair_screen/PairView.hpp:
+
+generated/gui_generated/include/gui_generated/pair_screen/PairViewBase.hpp:
+
+gui/include/gui/pair_screen/PairPresenter.hpp:
 
 gui/include/gui/keyboard_screen/KeyboardView.hpp:
 

@@ -50,6 +50,7 @@ protected:
     touchgfx::BoxWithBorder boxWithBorder1;
     touchgfx::TextAreaWithOneWildcard textAreaID;
     touchgfx::BoxWithBorderButtonStyle< touchgfx::ClickButtonTrigger > flexButtonID;
+    touchgfx::TextArea textArea4;
 
     /*
      * Wildcard Buffers

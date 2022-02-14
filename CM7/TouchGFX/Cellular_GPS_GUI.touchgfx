@@ -200,7 +200,7 @@
             "Name": "textArea4",
             "X": 204,
             "Y": 149,
-            "Width": 64,
+            "Width": 65,
             "Height": 12,
             "TextId": "__SingleUse_QD7P",
             "TextRotation": "0",
@@ -981,6 +981,104 @@
             "TextId": "__SingleUse_K9AW",
             "TextRotation": "0",
             "AutoSize": true
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "Mode",
+            "X": 157,
+            "Y": 41,
+            "Width": 166,
+            "Height": 42,
+            "Pressed": "Base_Station_Mode.png",
+            "Released": "Rover_Mode.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 81,
+            "Y": 51,
+            "Width": 50,
+            "Height": 23,
+            "TextId": "__SingleUse_TL0W",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea4",
+            "X": 11,
+            "Y": 125,
+            "Width": 120,
+            "Height": 23,
+            "TextId": "__SingleUse_Z8T1",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "boxWithBorder1",
+            "X": 157,
+            "Y": 111,
+            "Width": 243,
+            "Height": 50,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "BorderSize": 5
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaID",
+            "X": 173,
+            "Y": 123,
+            "Width": 210,
+            "Height": 25,
+            "TextId": "__SingleUse_XH0F",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 18
+            }
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButtonID",
+            "X": 157,
+            "Y": 111,
+            "Width": 243,
+            "Height": 50,
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 243,
+                "Height": 50,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
           }
         ],
         "Interactions": [
@@ -1078,6 +1176,17 @@
             "TextId": "__SingleUse_4VEU",
             "TextRotation": "0",
             "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 17,
+            "Y": 102,
+            "Width": 436,
+            "Height": 69,
+            "TextId": "__SingleUse_JSFL",
+            "TextRotation": "0",
+            "AutoSize": true
           }
         ],
         "Interactions": [
@@ -1101,6 +1210,7 @@
           {
             "Type": "Box",
             "Name": "box1",
+            "Y": -6,
             "Width": 480,
             "Height": 272,
             "Color": {
@@ -1179,8 +1289,8 @@
           {
             "Type": "BoxWithBorder",
             "Name": "boxWithBorder1",
-            "X": 105,
-            "Y": 111,
+            "X": 114,
+            "Y": 175,
             "Width": 243,
             "Height": 50,
             "Color": {
@@ -1193,8 +1303,8 @@
           {
             "Type": "TextArea",
             "Name": "textAreaID",
-            "X": 125,
-            "Y": 124,
+            "X": 135,
+            "Y": 188,
             "Width": 210,
             "Height": 25,
             "TextId": "__SingleUse_S131",
@@ -1207,8 +1317,8 @@
           {
             "Type": "FlexButton",
             "Name": "flexButtonID",
-            "X": 105,
-            "Y": 111,
+            "X": 114,
+            "Y": 175,
             "Width": 243,
             "Height": 50,
             "Alpha": 0,
@@ -1241,6 +1351,17 @@
                 }
               }
             ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea4",
+            "X": 19,
+            "Y": 27,
+            "Width": 433,
+            "Height": 138,
+            "TextId": "__SingleUse_UF3Q",
+            "TextRotation": "0",
+            "AutoSize": true
           }
         ],
         "Interactions": [

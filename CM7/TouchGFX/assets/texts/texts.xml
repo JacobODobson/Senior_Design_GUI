@@ -166,6 +166,21 @@
     <Text Id="AlphaMode" TypographyId="Mode" Alignment="Center" Direction="LTR">
       <Translation Language="GB">123</Translation>
     </Text>
+    <Text Id="__SingleUse_TL0W" TypographyId="Arial_Large" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Mode</Translation>
+    </Text>
+    <Text Id="__SingleUse_UF3Q" TypographyId="Arial_Large" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Enter this code on the other device's pair screen:&#10;ABC123&#10;&#10;Or&#10;Enter the code displayed on&#10;the other device's pair screen</Translation>
+    </Text>
+    <Text Id="__SingleUse_Z8T1" TypographyId="Arial_Large" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Device Name</Translation>
+    </Text>
+    <Text Id="__SingleUse_JSFL" TypographyId="Arial_Large" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">To export data, connect this device to a computer&#10;and use the computer's file explorer to navigate&#10;to this device's internal storage</Translation>
+    </Text>
+    <Text Id="__SingleUse_XH0F" TypographyId="Default" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&lt;value&gt;</Translation>
+    </Text>
   </Texts>
   <Typographies>
     <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" FallbackCharacter="?" WildcardCharacters="!”&quot;#*%&amp;()'$+-@_, .:;?/~±×÷•º`´{}©£€^®¥_=[]¡¢|\¿&gt;&lt;" WildcardCharacterRanges="a-z,A-Z,0-9" />
