@@ -1,0 +1,5 @@
+MapPresenter.hpp:28:13:MapPresenter::~MapPresenter()	0	static
+MapPresenter.cpp:10:6:virtual void MapPresenter::activate()	0	static
+MapPresenter.hpp:28:13:virtual MapPresenter::~MapPresenter()	8	static
+MapPresenter.hpp:28:13:virtual void* MapPresenter::_ZThn4_N12MapPresenterD1Ev()	0	static
+MapPresenter.cpp:4:1:MapPresenter::MapPresenter(MapView&)	8	static

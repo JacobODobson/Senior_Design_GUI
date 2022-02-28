@@ -1,0 +1,13 @@
+stm32h745i_discovery_qspi.c:231:26:MX_QSPI_Init	0	static
+stm32h745i_discovery_qspi.c:329:9:BSP_QSPI_Read	16	static
+stm32h745i_discovery_qspi.c:368:9:BSP_QSPI_Write	40	static
+stm32h745i_discovery_qspi.c:438:9:BSP_QSPI_EraseBlock	16	static
+stm32h745i_discovery_qspi.c:477:9:BSP_QSPI_EraseChip	8	static
+stm32h745i_discovery_qspi.c:517:9:BSP_QSPI_GetStatus	16	static
+stm32h745i_discovery_qspi.c:553:9:BSP_QSPI_GetInfo	8	static
+stm32h745i_discovery_qspi.c:577:9:BSP_QSPI_EnableMemoryMappedMode	8	static
+stm32h745i_discovery_qspi.c:622:9:BSP_QSPI_DisableMemoryMappedMode	32	static
+stm32h745i_discovery_qspi.c:182:9:BSP_QSPI_DeInit	16	static
+stm32h745i_discovery_qspi.c:673:9:BSP_QSPI_ReadID	8	static
+stm32h745i_discovery_qspi.c:703:9:BSP_QSPI_ConfigFlash	24	static
+stm32h745i_discovery_qspi.c:97:9:BSP_QSPI_Init	176	static

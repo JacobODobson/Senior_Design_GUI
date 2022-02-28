@@ -1,4 +1,6 @@
 #include <gui/pair_screen/PairView.hpp>
+#include <stdio.h>
+#include <string.h>
 
 Unicode::UnicodeChar keyboardBuffer[18];
 
