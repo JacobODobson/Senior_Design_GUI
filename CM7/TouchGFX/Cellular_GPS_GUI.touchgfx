@@ -200,7 +200,7 @@
             "Name": "textArea4",
             "X": 204,
             "Y": 149,
-            "Width": 65,
+            "Width": 64,
             "Height": 12,
             "TextId": "__SingleUse_QD7P",
             "TextRotation": "0",
@@ -1585,6 +1585,6 @@
     "DisplayOrientation": "Landscape",
     "Family": "STM32H7"
   },
-  "Version": "4.18.0",
+  "Version": "4.18.1",
   "CreatedBy": "4.18.0"
 }
