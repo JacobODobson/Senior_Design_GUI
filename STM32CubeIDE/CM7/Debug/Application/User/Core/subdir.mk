@@ -12,7 +12,8 @@ C:/Users/eamon/Documents/ece485/stmworkspace/Senior_Design_GUI/CM7/Core/Src/stm3
 C:/Users/eamon/Documents/ece485/stmworkspace/Senior_Design_GUI/CM7/Core/Src/stm32h7xx_hal_timebase_tim.c \
 C:/Users/eamon/Documents/ece485/stmworkspace/Senior_Design_GUI/CM7/Core/Src/stm32h7xx_it.c \
 ../Application/User/Core/syscalls.c \
-../Application/User/Core/sysmem.c 
+../Application/User/Core/sysmem.c \
+../Application/User/Core/trilateration.c 
 
 C_DEPS += \
 ./Application/User/Core/freertos.d \
@@ -22,7 +23,8 @@ C_DEPS += \
 ./Application/User/Core/stm32h7xx_hal_timebase_tim.d \
 ./Application/User/Core/stm32h7xx_it.d \
 ./Application/User/Core/syscalls.d \
-./Application/User/Core/sysmem.d 
+./Application/User/Core/sysmem.d \
+./Application/User/Core/trilateration.d 
 
 OBJS += \
 ./Application/User/Core/freertos.o \
@@ -32,7 +34,8 @@ OBJS += \
 ./Application/User/Core/stm32h7xx_hal_timebase_tim.o \
 ./Application/User/Core/stm32h7xx_it.o \
 ./Application/User/Core/syscalls.o \
-./Application/User/Core/sysmem.o 
+./Application/User/Core/sysmem.o \
+./Application/User/Core/trilateration.o 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -54,7 +57,7 @@ Application/User/Core/%.o: ../Application/User/Core/%.c Application/User/Core/su
 clean: clean-Application-2f-User-2f-Core
 
 clean-Application-2f-User-2f-Core:
-	-$(RM) ./Application/User/Core/freertos.d ./Application/User/Core/freertos.o ./Application/User/Core/main.d ./Application/User/Core/main.o ./Application/User/Core/main_user.d ./Application/User/Core/main_user.o ./Application/User/Core/stm32h7xx_hal_msp.d ./Application/User/Core/stm32h7xx_hal_msp.o ./Application/User/Core/stm32h7xx_hal_timebase_tim.d ./Application/User/Core/stm32h7xx_hal_timebase_tim.o ./Application/User/Core/stm32h7xx_it.d ./Application/User/Core/stm32h7xx_it.o ./Application/User/Core/syscalls.d ./Application/User/Core/syscalls.o ./Application/User/Core/sysmem.d ./Application/User/Core/sysmem.o
+	-$(RM) ./Application/User/Core/freertos.d ./Application/User/Core/freertos.o ./Application/User/Core/main.d ./Application/User/Core/main.o ./Application/User/Core/main_user.d ./Application/User/Core/main_user.o ./Application/User/Core/stm32h7xx_hal_msp.d ./Application/User/Core/stm32h7xx_hal_msp.o ./Application/User/Core/stm32h7xx_hal_timebase_tim.d ./Application/User/Core/stm32h7xx_hal_timebase_tim.o ./Application/User/Core/stm32h7xx_it.d ./Application/User/Core/stm32h7xx_it.o ./Application/User/Core/syscalls.d ./Application/User/Core/syscalls.o ./Application/User/Core/sysmem.d ./Application/User/Core/sysmem.o ./Application/User/Core/trilateration.d ./Application/User/Core/trilateration.o
 
 .PHONY: clean-Application-2f-User-2f-Core
 

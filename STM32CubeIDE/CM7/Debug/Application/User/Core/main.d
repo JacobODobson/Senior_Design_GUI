@@ -51,7 +51,7 @@ Application/User/Core/main.o: \
  ../../../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
  ../../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
  ../../../CM7/TouchGFX/App/app_touchgfx.h \
- ../../../CM7/Core/Inc/main_user.h
+ ../../../CM7/Core/Inc/main_user.h ../../../CM7/Core/Inc/trilateration.h
 
 ../../../CM7/Core/Inc/main.h:
 
@@ -156,3 +156,5 @@ Application/User/Core/main.o: \
 ../../../CM7/TouchGFX/App/app_touchgfx.h:
 
 ../../../CM7/Core/Inc/main_user.h:
+
+../../../CM7/Core/Inc/trilateration.h:

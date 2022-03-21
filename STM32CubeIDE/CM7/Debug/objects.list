@@ -6,6 +6,7 @@
 "./Application/User/Core/stm32h7xx_it.o"
 "./Application/User/Core/syscalls.o"
 "./Application/User/Core/sysmem.o"
+"./Application/User/Core/trilateration.o"
 "./Application/User/Startup/startup_stm32h745xihx.o"
 "./Application/User/TouchGFX/App/app_touchgfx.o"
 "./Application/User/TouchGFX/target/STM32TouchController.o"
