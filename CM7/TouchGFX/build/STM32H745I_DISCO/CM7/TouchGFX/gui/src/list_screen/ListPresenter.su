@@ -1,5 +1,0 @@
-ListPresenter.hpp:28:13:ListPresenter::~ListPresenter()	0	static
-ListPresenter.cpp:10:6:virtual void ListPresenter::activate()	0	static
-ListPresenter.hpp:28:13:virtual ListPresenter::~ListPresenter()	8	static
-ListPresenter.hpp:28:13:virtual void* ListPresenter::_ZThn4_N13ListPresenterD1Ev()	0	static
-ListPresenter.cpp:4:1:ListPresenter::ListPresenter(ListView&)	8	static

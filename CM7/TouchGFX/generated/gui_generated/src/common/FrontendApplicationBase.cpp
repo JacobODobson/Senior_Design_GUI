@@ -11,20 +11,18 @@
 #include <platform/driver/lcd/LCD16bpp.hpp>
 #include <gui/home_screen/HomeView.hpp>
 #include <gui/home_screen/HomePresenter.hpp>
-#include <gui/map_screen/MapView.hpp>
-#include <gui/map_screen/MapPresenter.hpp>
 #include <gui/list_screen/ListView.hpp>
 #include <gui/list_screen/ListPresenter.hpp>
 #include <gui/store_screen/StoreView.hpp>
 #include <gui/store_screen/StorePresenter.hpp>
 #include <gui/settings_screen/SettingsView.hpp>
 #include <gui/settings_screen/SettingsPresenter.hpp>
-#include <gui/export_screen/ExportView.hpp>
-#include <gui/export_screen/ExportPresenter.hpp>
 #include <gui/pair_screen/PairView.hpp>
 #include <gui/pair_screen/PairPresenter.hpp>
 #include <gui/keyboard_screen/KeyboardView.hpp>
 #include <gui/keyboard_screen/KeyboardPresenter.hpp>
+#include <gui/keyboard_1_screen/Keyboard_1View.hpp>
+#include <gui/keyboard_1_screen/Keyboard_1Presenter.hpp>
 
 using namespace touchgfx;
 
@@ -54,19 +52,6 @@ void FrontendApplicationBase::gotoHomeScreenNoTransition()
 void FrontendApplicationBase::gotoHomeScreenNoTransitionImpl()
 {
     touchgfx::makeTransition<HomeView, HomePresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
-}
-
-// Map
-
-void FrontendApplicationBase::gotoMapScreenNoTransition()
-{
-    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplication::gotoMapScreenNoTransitionImpl);
-    pendingScreenTransitionCallback = &transitionCallback;
-}
-
-void FrontendApplicationBase::gotoMapScreenNoTransitionImpl()
-{
-    touchgfx::makeTransition<MapView, MapPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
 }
 
 // List
@@ -108,19 +93,6 @@ void FrontendApplicationBase::gotoSettingsScreenNoTransitionImpl()
     touchgfx::makeTransition<SettingsView, SettingsPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
 }
 
-// Export
-
-void FrontendApplicationBase::gotoExportScreenNoTransition()
-{
-    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplication::gotoExportScreenNoTransitionImpl);
-    pendingScreenTransitionCallback = &transitionCallback;
-}
-
-void FrontendApplicationBase::gotoExportScreenNoTransitionImpl()
-{
-    touchgfx::makeTransition<ExportView, ExportPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
-}
-
 // Pair
 
 void FrontendApplicationBase::gotoPairScreenNoTransition()
@@ -145,4 +117,17 @@ void FrontendApplicationBase::gotoKeyboardScreenNoTransition()
 void FrontendApplicationBase::gotoKeyboardScreenNoTransitionImpl()
 {
     touchgfx::makeTransition<KeyboardView, KeyboardPresenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
+}
+
+// Keyboard_1
+
+void FrontendApplicationBase::gotoKeyboard_1ScreenNoTransition()
+{
+    transitionCallback = touchgfx::Callback<FrontendApplicationBase>(this, &FrontendApplication::gotoKeyboard_1ScreenNoTransitionImpl);
+    pendingScreenTransitionCallback = &transitionCallback;
+}
+
+void FrontendApplicationBase::gotoKeyboard_1ScreenNoTransitionImpl()
+{
+    touchgfx::makeTransition<Keyboard_1View, Keyboard_1Presenter, touchgfx::NoTransition, Model >(&currentScreen, &currentPresenter, frontendHeap, &currentTransition, &model);
 }

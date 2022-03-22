@@ -19,52 +19,23 @@ ListViewBase::ListViewBase() :
     box2.setPosition(0, 0, 480, 27);
     box2.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
 
-    scalableImage1.setBitmap(touchgfx::Bitmap(BITMAP_MAP_BORDER_ID));
-    scalableImage1.setPosition(11, 56, 342, 210);
+    scalableImage1.setBitmap(touchgfx::Bitmap(BITMAP_STATUS_RECTANGLE_ID));
+    scalableImage1.setPosition(11, 42, 339, 216);
     scalableImage1.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
 
-    Map_Tab.setXY(11, 34);
-    Map_Tab.setBitmaps(touchgfx::Bitmap(BITMAP_BACKGROUND_TAB_ID), touchgfx::Bitmap(BITMAP_FOREGROUND_TAB_ID));
-    Map_Tab.setLabelText(touchgfx::TypedText(T___SINGLEUSE_SQGE));
-    Map_Tab.setLabelColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
-    Map_Tab.setLabelColorPressed(touchgfx::Color::getColorFromRGB(255, 255, 255));
-    Map_Tab.setAction(buttonCallback);
-
-    Right_Button.setXY(363, 34);
-    Right_Button.setBitmaps(touchgfx::Bitmap(BITMAP_SIDE_BUTTON_ID), touchgfx::Bitmap(BITMAP_SIDE_BUTTON_PRESSED_ID), touchgfx::Bitmap(BITMAP_ARROW_RIGHT_ID), touchgfx::Bitmap(BITMAP_ARROW_RIGHT_ID));
-    Right_Button.setIconXY(49, 10);
-
-    Left_Button.setXY(363, 83);
-    Left_Button.setBitmaps(touchgfx::Bitmap(BITMAP_SIDE_BUTTON_ID), touchgfx::Bitmap(BITMAP_SIDE_BUTTON_PRESSED_ID), touchgfx::Bitmap(BITMAP_ARROW_LEFT_ID), touchgfx::Bitmap(BITMAP_ARROW_LEFT_ID));
-    Left_Button.setIconXY(49, 10);
-    Left_Button.setAction(buttonCallback);
-
-    Home.setXY(363, 130);
-    Home.setBitmaps(touchgfx::Bitmap(BITMAP_SIDE_BUTTON_ID), touchgfx::Bitmap(BITMAP_SIDE_BUTTON_PRESSED_ID));
-    Home.setLabelText(touchgfx::TypedText(T___SINGLEUSE_LOKL));
-    Home.setLabelColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
-    Home.setLabelColorPressed(touchgfx::Color::getColorFromRGB(0, 0, 0));
-    Home.setAction(buttonCallback);
-
-    Store.setXY(363, 177);
+    Store.setXY(363, 42);
     Store.setBitmaps(touchgfx::Bitmap(BITMAP_SIDE_BUTTON_ID), touchgfx::Bitmap(BITMAP_SIDE_BUTTON_PRESSED_ID));
     Store.setLabelText(touchgfx::TypedText(T___SINGLEUSE_JZM8));
     Store.setLabelColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     Store.setLabelColorPressed(touchgfx::Color::getColorFromRGB(0, 0, 0));
     Store.setAction(buttonCallback);
 
-    Back.setXY(363, 225);
+    Back.setXY(363, 100);
     Back.setBitmaps(touchgfx::Bitmap(BITMAP_SIDE_BUTTON_ID), touchgfx::Bitmap(BITMAP_SIDE_BUTTON_PRESSED_ID));
     Back.setLabelText(touchgfx::TypedText(T___SINGLEUSE_8SBT));
     Back.setLabelColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     Back.setLabelColorPressed(touchgfx::Color::getColorFromRGB(0, 0, 0));
     Back.setAction(buttonCallback);
-
-    List_Tab.setXY(106, 34);
-    List_Tab.setBitmaps(touchgfx::Bitmap(BITMAP_FOREGROUND_TAB_ID), touchgfx::Bitmap(BITMAP_BACKGROUND_TAB_ID));
-    List_Tab.setLabelText(touchgfx::TypedText(T___SINGLEUSE_35B8));
-    List_Tab.setLabelColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
-    List_Tab.setLabelColorPressed(touchgfx::Color::getColorFromRGB(0, 0, 0));
 
     digitalClock1.setPosition(11, 4, 69, 23);
     digitalClock1.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
@@ -87,12 +58,12 @@ ListViewBase::ListViewBase() :
     textArea2.setLinespacing(0);
     textArea2.setTypedText(touchgfx::TypedText(T___SINGLEUSE_1YGC));
 
-    textArea3.setXY(24, 69);
+    textArea3.setXY(24, 51);
     textArea3.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     textArea3.setLinespacing(0);
     textArea3.setTypedText(touchgfx::TypedText(T___SINGLEUSE_EKQZ));
 
-    textArea3_1.setXY(24, 90);
+    textArea3_1.setXY(24, 81);
     textArea3_1.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     textArea3_1.setLinespacing(0);
     textArea3_1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_660L));
@@ -106,13 +77,8 @@ ListViewBase::ListViewBase() :
     add(box1);
     add(box2);
     add(scalableImage1);
-    add(Map_Tab);
-    add(Right_Button);
-    add(Left_Button);
-    add(Home);
     add(Store);
     add(Back);
-    add(List_Tab);
     add(digitalClock1);
     add(textArea1);
     add(scalableImage2);
@@ -129,28 +95,7 @@ void ListViewBase::setupScreen()
 
 void ListViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& src)
 {
-    if (&src == &Map_Tab)
-    {
-        //Map_Tab
-        //When Map_Tab clicked change screen to Map
-        //Go to Map with no screen transition
-        application().gotoMapScreenNoTransition();
-    }
-    else if (&src == &Left_Button)
-    {
-        //Left_Arrow
-        //When Left_Button clicked change screen to Map
-        //Go to Map with no screen transition
-        application().gotoMapScreenNoTransition();
-    }
-    else if (&src == &Home)
-    {
-        //Home
-        //When Home clicked change screen to Home
-        //Go to Home with no screen transition
-        application().gotoHomeScreenNoTransition();
-    }
-    else if (&src == &Store)
+    if (&src == &Store)
     {
         //Store
         //When Store clicked change screen to Store

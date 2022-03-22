@@ -78,6 +78,7 @@ SettingsViewBase::SettingsViewBase() :
     flexButtonID.setBoxWithBorderColors(touchgfx::Color::getColorFromRGB(0, 102, 153), touchgfx::Color::getColorFromRGB(0, 153, 204), touchgfx::Color::getColorFromRGB(0, 51, 102), touchgfx::Color::getColorFromRGB(51, 102, 153));
     flexButtonID.setPosition(157, 111, 243, 50);
     flexButtonID.setAlpha(0);
+    flexButtonID.setAction(flexButtonCallback);
 
     add(__background);
     add(box1);
@@ -98,6 +99,11 @@ SettingsViewBase::SettingsViewBase() :
 void SettingsViewBase::setupScreen()
 {
 
+    //update_text
+    //When screen transition begins call virtual function
+    //Call updateScreen
+    updateScreen();
+
 }
 
 void SettingsViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& src)
@@ -113,4 +119,11 @@ void SettingsViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& src
 
 void SettingsViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer& src)
 {
+    if (&src == &flexButtonID)
+    {
+        //KeyboardSelected
+        //When flexButtonID clicked change screen to Keyboard_1
+        //Go to Keyboard_1 with no screen transition
+        application().gotoKeyboard_1ScreenNoTransition();
+    }
 }

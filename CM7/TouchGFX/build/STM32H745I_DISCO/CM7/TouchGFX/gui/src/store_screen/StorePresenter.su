@@ -1,5 +1,0 @@
-StorePresenter.hpp:28:13:StorePresenter::~StorePresenter()	0	static
-StorePresenter.cpp:10:6:virtual void StorePresenter::activate()	0	static
-StorePresenter.hpp:28:13:virtual StorePresenter::~StorePresenter()	8	static
-StorePresenter.hpp:28:13:virtual void* StorePresenter::_ZThn4_N14StorePresenterD1Ev()	0	static
-StorePresenter.cpp:4:1:StorePresenter::StorePresenter(StoreView&)	8	static

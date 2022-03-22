@@ -17,9 +17,6 @@
     <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\hal\simulator\sdl2\OSWrappers.cpp"/>
     <ClCompile Include="$(ApplicationRoot)\simulator\main.cpp"/>
     <ClCompile Include="$(ApplicationRoot)\generated\simulator\src\mainBase.cpp"/>
-    <ClCompile Include="..\..\gui\src\export_screen\ExportPresenter.cpp"/>
-    <ClCompile Include="..\..\gui\src\export_screen\ExportView.cpp"/>
-    <ClCompile Include="..\..\generated\gui_generated\src\export_screen\ExportViewBase.cpp"/>
     <ClCompile Include="..\..\gui\src\common\FrontendApplication.cpp"/>
     <ClCompile Include="..\..\generated\gui_generated\src\common\FrontendApplicationBase.cpp"/>
     <ClCompile Include="..\..\gui\src\home_screen\HomePresenter.cpp"/>
@@ -28,9 +25,6 @@
     <ClCompile Include="..\..\gui\src\list_screen\ListPresenter.cpp"/>
     <ClCompile Include="..\..\gui\src\list_screen\ListView.cpp"/>
     <ClCompile Include="..\..\generated\gui_generated\src\list_screen\ListViewBase.cpp"/>
-    <ClCompile Include="..\..\gui\src\map_screen\MapPresenter.cpp"/>
-    <ClCompile Include="..\..\gui\src\map_screen\MapView.cpp"/>
-    <ClCompile Include="..\..\generated\gui_generated\src\map_screen\MapViewBase.cpp"/>
     <ClCompile Include="..\..\gui\src\model\Model.cpp"/>
     <ClCompile Include="..\..\gui\src\pair_screen\PairPresenter.cpp"/>
     <ClCompile Include="..\..\gui\src\pair_screen\PairView.cpp"/>
@@ -46,6 +40,9 @@
     <ClCompile Include="..\..\gui\src\keyboard_screen\KeyboardView.cpp"/>
     <ClCompile Include="..\..\generated\gui_generated\src\keyboard_screen\KeyboardViewBase.cpp"/>
     <ClCompile Include="..\..\gui\src\common\CustomKeyboard.cpp"/>
+    <ClCompile Include="..\..\gui\src\keyboard_1_screen\Keyboard_1Presenter.cpp"/>
+    <ClCompile Include="..\..\gui\src\keyboard_1_screen\Keyboard_1View.cpp"/>
+    <ClCompile Include="..\..\generated\gui_generated\src\keyboard_1_screen\Keyboard_1ViewBase.cpp"/>
   </ItemGroup>
   <ItemGroup>
     <None Include="$(ApplicationRoot)\assets\texts\texts.xml"/>
@@ -187,9 +184,6 @@
     <ClInclude Include="$(TouchGFXReleasePath)\framework\include\touchgfx\widgets\Widget.hpp"/>
     <ClInclude Include="$(ApplicationRoot)\generated\simulator\include\simulator\mainBase.hpp"/>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\DirectFrameBufferVideoController.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\export_screen\ExportPresenter.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\export_screen\ExportView.hpp"/>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\export_screen\ExportViewBase.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\common\FrontendApplication.hpp"/>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\common\FrontendApplicationBase.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\common\FrontendHeap.hpp"/>
@@ -200,9 +194,6 @@
     <ClInclude Include="..\..\gui\include\gui\list_screen\ListPresenter.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\list_screen\ListView.hpp"/>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\list_screen\ListViewBase.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\map_screen\MapPresenter.hpp"/>
-    <ClInclude Include="..\..\gui\include\gui\map_screen\MapView.hpp"/>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\map_screen\MapViewBase.hpp"/>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\MJPEGDecoder.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\model\Model.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\model\ModelListener.hpp"/>
@@ -223,6 +214,9 @@
     <ClInclude Include="..\..\gui\include\gui\common\CustomKeyboard.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\common\KeyboardKeyMapping.hpp"/>
     <ClInclude Include="..\..\gui\include\gui\common\KeyboardLayout.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\keyboard_1_screen\Keyboard_1Presenter.hpp"/>
+    <ClInclude Include="..\..\gui\include\gui\keyboard_1_screen\Keyboard_1View.hpp"/>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\keyboard_1_screen\Keyboard_1ViewBase.hpp"/>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="$(ApplicationRoot)\generated\simulator\touchgfx.rc"/>

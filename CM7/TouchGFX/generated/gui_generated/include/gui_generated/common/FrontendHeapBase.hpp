@@ -14,20 +14,18 @@
 
 #include <gui/home_screen/HomeView.hpp>
 #include <gui/home_screen/HomePresenter.hpp>
-#include <gui/map_screen/MapView.hpp>
-#include <gui/map_screen/MapPresenter.hpp>
 #include <gui/list_screen/ListView.hpp>
 #include <gui/list_screen/ListPresenter.hpp>
 #include <gui/store_screen/StoreView.hpp>
 #include <gui/store_screen/StorePresenter.hpp>
 #include <gui/settings_screen/SettingsView.hpp>
 #include <gui/settings_screen/SettingsPresenter.hpp>
-#include <gui/export_screen/ExportView.hpp>
-#include <gui/export_screen/ExportPresenter.hpp>
 #include <gui/pair_screen/PairView.hpp>
 #include <gui/pair_screen/PairPresenter.hpp>
 #include <gui/keyboard_screen/KeyboardView.hpp>
 #include <gui/keyboard_screen/KeyboardPresenter.hpp>
+#include <gui/keyboard_1_screen/Keyboard_1View.hpp>
+#include <gui/keyboard_1_screen/Keyboard_1Presenter.hpp>
 
 
 /**
@@ -51,14 +49,13 @@ public:
      * @note All view types used in the application MUST be added to this list!
      */
     typedef touchgfx::meta::TypeList< HomeView,
-            touchgfx::meta::TypeList< MapView,
             touchgfx::meta::TypeList< ListView,
             touchgfx::meta::TypeList< StoreView,
             touchgfx::meta::TypeList< SettingsView,
-            touchgfx::meta::TypeList< ExportView,
             touchgfx::meta::TypeList< PairView,
             touchgfx::meta::TypeList< KeyboardView,
-            touchgfx::meta::Nil > > > > > > >
+            touchgfx::meta::TypeList< Keyboard_1View,
+            touchgfx::meta::Nil > > > > > >
             > GeneratedViewTypes;
 
     /**
@@ -71,14 +68,13 @@ public:
      * @note All presenter types used in the application MUST be added to this list!
      */
     typedef touchgfx::meta::TypeList< HomePresenter,
-            touchgfx::meta::TypeList< MapPresenter,
             touchgfx::meta::TypeList< ListPresenter,
             touchgfx::meta::TypeList< StorePresenter,
             touchgfx::meta::TypeList< SettingsPresenter,
-            touchgfx::meta::TypeList< ExportPresenter,
             touchgfx::meta::TypeList< PairPresenter,
             touchgfx::meta::TypeList< KeyboardPresenter,
-            touchgfx::meta::Nil > > > > > > >
+            touchgfx::meta::TypeList< Keyboard_1Presenter,
+            touchgfx::meta::Nil > > > > > >
             > GeneratedPresenterTypes;
 
     /**

@@ -148,14 +148,8 @@
     <Filter Include="Source Files\generated\gui_generated">
       <UniqueIdentifier>E6A8C774-666A-D3FC-E598-7034121FFBBD</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\gui\map_screen">
-      <UniqueIdentifier>EB14367D-2D03-59F0-547B-EB52AE4A8830</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\gui\model">
       <UniqueIdentifier>3548794A-6DE1-2792-BAD6-C8A6C9E27AA1</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\gui\map_screen">
-      <UniqueIdentifier>7DA2E3F3-6C95-D64C-9166-5FC84132E69F</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\gui\pair_screen">
       <UniqueIdentifier>AF1596A2-C2FF-86CA-A337-1AC420B45314</UniqueIdentifier>
@@ -190,12 +184,6 @@
     <Filter Include="Source Files\gui\common">
       <UniqueIdentifier>7BD9A3DF-9037-7472-0BE6-A6F33CBCF07A</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\gui\export_screen">
-      <UniqueIdentifier>83A51090-1241-8806-B599-15D4D0D20A21</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\gui\export_screen">
-      <UniqueIdentifier>330F6409-E705-4290-CC3E-C44E69030A4A</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\generated\gui_generated\common">
       <UniqueIdentifier>DC968991-B7EE-36F9-A772-987F57605C19</UniqueIdentifier>
     </Filter>
@@ -219,18 +207,6 @@
     </Filter>
     <Filter Include="Source Files\generated\gui_generated\pair_screen">
       <UniqueIdentifier>A99BFBC8-00AC-50A9-2AC2-4E83AD760080</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\generated\gui_generated\export_screen">
-      <UniqueIdentifier>AEFAB202-D591-909A-95A8-EC90FA1FF723</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\generated\gui_generated\export_screen">
-      <UniqueIdentifier>8782F907-9A15-300B-ACFD-BA037DEAC7C9</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\generated\gui_generated\map_screen">
-      <UniqueIdentifier>57D15B8F-4D26-F2C5-3021-97CAD1403518</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\generated\gui_generated\map_screen">
-      <UniqueIdentifier>27B366D2-9066-A86A-9C0A-10F9B3A5F4CE</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\generated\gui_generated\list_screen">
       <UniqueIdentifier>E66EB462-EA8D-8EC1-346D-D612B0B14519</UniqueIdentifier>
@@ -268,6 +244,18 @@
     <Filter Include="Header Files\generated\gui_generated\keyboard_screen">
       <UniqueIdentifier>464802C7-5915-0F2E-A31F-280B736752F1</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\gui\keyboard_1_screen">
+      <UniqueIdentifier>6E09BEFA-C09C-6DD4-7CD3-CC2B8E846ED4</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\keyboard_1_screen">
+      <UniqueIdentifier>F6E49825-FDC9-078B-5BCD-34B2E649AB34</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generated\gui_generated\keyboard_1_screen">
+      <UniqueIdentifier>8616E200-C722-8530-BD48-2DF71B61BE61</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\generated\gui_generated\keyboard_1_screen">
+      <UniqueIdentifier>99F6B0F8-8B0E-C81E-AA85-FECA8150E374</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(TouchGFXReleasePath)\framework\source\platform\driver\touch\SDL2TouchController.cpp">
@@ -287,15 +275,6 @@
     </ClCompile>
     <ClCompile Include="$(ApplicationRoot)\generated\simulator\src\mainBase.cpp">
       <Filter>Source Files\generated\simulator</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gui\src\export_screen\ExportPresenter.cpp">
-      <Filter>Source Files\gui\export_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gui\src\export_screen\ExportView.cpp">
-      <Filter>Source Files\gui\export_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\export_screen\ExportViewBase.cpp">
-      <Filter>Source Files\generated\gui_generated\export_screen</Filter>
     </ClCompile>
     <ClCompile Include="..\..\gui\src\common\FrontendApplication.cpp">
       <Filter>Source Files\gui\common</Filter>
@@ -320,15 +299,6 @@
     </ClCompile>
     <ClCompile Include="..\..\generated\gui_generated\src\list_screen\ListViewBase.cpp">
       <Filter>Source Files\generated\gui_generated\list_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gui\src\map_screen\MapPresenter.cpp">
-      <Filter>Source Files\gui\map_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\gui\src\map_screen\MapView.cpp">
-      <Filter>Source Files\gui\map_screen</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\generated\gui_generated\src\map_screen\MapViewBase.cpp">
-      <Filter>Source Files\generated\gui_generated\map_screen</Filter>
     </ClCompile>
     <ClCompile Include="..\..\gui\src\model\Model.cpp">
       <Filter>Source Files\gui\model</Filter>
@@ -374,6 +344,15 @@
     </ClCompile>
     <ClCompile Include="..\..\gui\src\common\CustomKeyboard.cpp">
       <Filter>Source Files\gui\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\keyboard_1_screen\Keyboard_1Presenter.cpp">
+      <Filter>Source Files\gui\keyboard_1_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gui\src\keyboard_1_screen\Keyboard_1View.cpp">
+      <Filter>Source Files\gui\keyboard_1_screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\generated\gui_generated\src\keyboard_1_screen\Keyboard_1ViewBase.cpp">
+      <Filter>Source Files\generated\gui_generated\keyboard_1_screen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -790,15 +769,6 @@
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\DirectFrameBufferVideoController.hpp">
       <Filter>Header Files\generated\simulator\include\simulator\video</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\export_screen\ExportPresenter.hpp">
-      <Filter>Header Files\gui\export_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\export_screen\ExportView.hpp">
-      <Filter>Header Files\gui\export_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\export_screen\ExportViewBase.hpp">
-      <Filter>Header Files\generated\gui_generated\export_screen</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\gui\include\gui\common\FrontendApplication.hpp">
       <Filter>Header Files\gui\common</Filter>
     </ClInclude>
@@ -828,15 +798,6 @@
     </ClInclude>
     <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\list_screen\ListViewBase.hpp">
       <Filter>Header Files\generated\gui_generated\list_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\map_screen\MapPresenter.hpp">
-      <Filter>Header Files\gui\map_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\gui\include\gui\map_screen\MapView.hpp">
-      <Filter>Header Files\gui\map_screen</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\map_screen\MapViewBase.hpp">
-      <Filter>Header Files\generated\gui_generated\map_screen</Filter>
     </ClInclude>
     <ClInclude Include="..\..\generated\simulator\include\simulator\video\MJPEGDecoder.hpp">
       <Filter>Header Files\generated\simulator\include\simulator\video</Filter>
@@ -897,6 +858,15 @@
     </ClInclude>
     <ClInclude Include="..\..\gui\include\gui\common\KeyboardLayout.hpp">
       <Filter>Header Files\gui\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\keyboard_1_screen\Keyboard_1Presenter.hpp">
+      <Filter>Header Files\gui\keyboard_1_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\gui\include\gui\keyboard_1_screen\Keyboard_1View.hpp">
+      <Filter>Header Files\gui\keyboard_1_screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\generated\gui_generated\include\gui_generated\keyboard_1_screen\Keyboard_1ViewBase.hpp">
+      <Filter>Header Files\generated\gui_generated\keyboard_1_screen</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
