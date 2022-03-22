@@ -72,15 +72,16 @@ const osThreadAttr_t TouchGFXTask_attributes = {
   .stack_size = 3048 * 4,
   .priority = (osPriority_t) osPriorityNormal,
 };
-/* Definitions for TrilaterationTa */
-osThreadId_t TrilaterationTaskHandle;
-const osThreadAttr_t TrilaterationTask_attributes = {
-  .name = "TrilaterationTask",
-  .stack_size = 128 * 4,
+/* Definitions for TrilaterateTask */
+osThreadId_t TrilaterateTaskHandle;
+const osThreadAttr_t TrilaterateTask_attributes = {
+  .name = "TrilaterateTask",
+  .stack_size = 512 * 4,
   .priority = (osPriority_t) osPriorityLow,
 };
 /* USER CODE BEGIN PV */
 
+const vec3d monument_loc = {2096103.42, 735109.43, 364.0};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -94,7 +95,7 @@ static void MX_CRC_Init(void);
 static void MX_DMA2D_Init(void);
 void StartDefaultTask(void *argument);
 void TouchGFX_Task(void *argument);
-void Trilateration_Task(void *argument);
+void Trilaterate_Task(void *argument);
 
 /* USER CODE BEGIN PFP */
 
@@ -207,8 +208,8 @@ Error_Handler();
   /* creation of TouchGFXTask */
   TouchGFXTaskHandle = osThreadNew(TouchGFX_Task, NULL, &TouchGFXTask_attributes);
 
-  /* creation of TrilaterationTa */
-  TrilaterationTaskHandle = osThreadNew(Trilateration_Task, NULL, &TrilaterationTask_attributes);
+  /* creation of TrilaterateTask */
+  TrilaterateTaskHandle = osThreadNew(Trilaterate_Task, NULL, &TrilaterateTask_attributes);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -567,31 +568,30 @@ __weak void TouchGFX_Task(void *argument)
   /* USER CODE END TouchGFX_Task */
 }
 
-/* USER CODE BEGIN Header_Trilateration_Task */
+/* USER CODE BEGIN Header_Trilaterate_Task */
 /**
-* @brief Function implementing the TrilaterationTa thread.
+* @brief Function implementing the TrilaterateTask thread.
 * @param argument: Not used
 * @retval None
 */
-/* USER CODE END Header_Trilateration_Task */
-const vec3d monument_loc = {2096103.42, 735109.43, 364.0};
-vec3d baseStations[4] = {{monument_loc.x, monument_loc.y, monument_loc.z},
-		  	  	  	  	  {monument_loc.x+100, monument_loc.y, monument_loc.z},
-						  {monument_loc.x, monument_loc.y+100, monument_loc.z},
-						  {monument_loc.x+100, monument_loc.y+100, monument_loc.z}};
-double dist[4] = {70.71, 70.71, 70.71, 70.71};
-vec3d pos;
-int use4thAnchor = 1;
-void Trilateration_Task(void *argument)
+/* USER CODE END Header_Trilaterate_Task */
+void Trilaterate_Task(void *argument)
 {
-  /* USER CODE BEGIN Trilateration_Task */
+  /* USER CODE BEGIN Trilaterate_Task */
   /* Infinite loop */
   for(;;)
   {
-	  GetLocation(&pos, use4thAnchor, baseStations, dist);
-	  osDelay(500);
+	vec3d baseStations[4] = {{monument_loc.x, monument_loc.y, monument_loc.z},
+	  		  	  	  	  	  {monument_loc.x+100, monument_loc.y, monument_loc.z},
+	  						  {monument_loc.x, monument_loc.y+100, monument_loc.z},
+	  						  {monument_loc.x+100, monument_loc.y+100, monument_loc.z}};
+	double dist[4] = {70.71, 70.71, 70.71, 70.71};
+	vec3d pos;
+	int use4thAnchor = 1;
+	GetLocation(&pos, use4thAnchor, baseStations, dist);
+    osDelay(500);
   }
-  /* USER CODE END Trilateration_Task */
+  /* USER CODE END Trilaterate_Task */
 }
 
 /* MPU Configuration */
