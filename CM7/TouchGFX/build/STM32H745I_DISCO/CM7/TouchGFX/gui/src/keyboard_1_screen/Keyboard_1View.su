@@ -1,0 +1,12 @@
+Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+TypedText.hpp:65:13:touchgfx::TypedText::~TypedText()	0	static
+Keyboard_1View.hpp:12:13:Keyboard_1View::~Keyboard_1View()	0	static
+Keyboard_1View.cpp:16:6:virtual void Keyboard_1View::tearDownScreen()	0	static
+Keyboard_1View.cpp:11:6:virtual void Keyboard_1View::setupScreen()	0	static
+Keyboard_1View.cpp:21:6:virtual void Keyboard_1View::getBuffer_1()	8	static
+TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	8	static
+Keyboard_1View.hpp:12:13:virtual Keyboard_1View::~Keyboard_1View()	8	static
+Keyboard_1View.cpp:5:1:Keyboard_1View::Keyboard_1View()	16	static
+Keyboard_1View.cpp:25:1:cpp)	0	static

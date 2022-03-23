@@ -1,0 +1,8 @@
+Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+StoreView.hpp:11:13:StoreView::~StoreView()	0	static
+StoreView.cpp:13:6:virtual void StoreView::tearDownScreen()	0	static
+StoreView.cpp:8:6:virtual void StoreView::setupScreen()	0	static
+StoreView.hpp:11:13:virtual StoreView::~StoreView()	8	static
+StoreView.cpp:3:1:StoreView::StoreView()	8	static

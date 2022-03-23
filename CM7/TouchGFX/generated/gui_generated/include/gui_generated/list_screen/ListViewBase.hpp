@@ -41,6 +41,10 @@ protected:
     touchgfx::TextArea textArea3;
     touchgfx::TextArea textArea3_1;
     touchgfx::TextArea textArea3_2;
+    touchgfx::ScalableImage scalableImage3;
+    touchgfx::ScalableImage scalableImage4;
+    touchgfx::ScalableImage scalableImage5;
+    touchgfx::ScalableImage scalableImage6;
 
 private:
 

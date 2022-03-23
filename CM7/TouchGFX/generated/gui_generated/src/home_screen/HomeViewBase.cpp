@@ -100,6 +100,19 @@ HomeViewBase::HomeViewBase() :
     textArea5.setLinespacing(0);
     textArea5.setTypedText(touchgfx::TypedText(T___SINGLEUSE_EVKR));
 
+    scalableImage6.setBitmap(touchgfx::Bitmap(BITMAP_GRID_ID));
+    scalableImage6.setPosition(341, 149, 115, 102);
+    scalableImage6.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
+
+    image1.setXY(360, 167);
+    image1.setBitmap(touchgfx::Bitmap(BITMAP_POINT_MAP_ID));
+
+    image1_1.setXY(388, 158);
+    image1_1.setBitmap(touchgfx::Bitmap(BITMAP_POINT_MAP_ID));
+
+    image1_1_1.setXY(423, 210);
+    image1_1_1.setBitmap(touchgfx::Bitmap(BITMAP_POINT_MAP_ID));
+
     add(__background);
     add(box1);
     add(box2);
@@ -117,6 +130,10 @@ HomeViewBase::HomeViewBase() :
     add(line1);
     add(textArea4);
     add(textArea5);
+    add(scalableImage6);
+    add(image1);
+    add(image1_1);
+    add(image1_1_1);
 }
 
 void HomeViewBase::setupScreen()

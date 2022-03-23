@@ -1,0 +1,5 @@
+SettingsPresenter.hpp:28:13:SettingsPresenter::~SettingsPresenter()	0	static
+SettingsPresenter.cpp:10:6:virtual void SettingsPresenter::activate()	0	static
+SettingsPresenter.hpp:28:13:virtual SettingsPresenter::~SettingsPresenter()	8	static
+SettingsPresenter.hpp:28:13:virtual void* SettingsPresenter::_ZThn4_N17SettingsPresenterD1Ev()	0	static
+SettingsPresenter.cpp:4:1:SettingsPresenter::SettingsPresenter(SettingsView&)	8	static

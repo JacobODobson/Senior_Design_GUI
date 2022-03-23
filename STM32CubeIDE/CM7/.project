@@ -677,6 +677,11 @@
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_Button_Unpressed.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/image_Dot.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_Dot.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/image_Example_Map.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_Example_Map.cpp</locationURI>
@@ -685,6 +690,11 @@
 			<name>Application/User/generated/image_Foreground_Tab.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_Foreground_Tab.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_Grid.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_Grid.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/image_Logo_Border.cpp</name>

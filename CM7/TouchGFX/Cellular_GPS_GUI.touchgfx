@@ -182,6 +182,43 @@
             "TextId": "__SingleUse_EVKR",
             "TextRotation": "0",
             "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage6",
+            "X": 341,
+            "Y": 149,
+            "Width": 115,
+            "Height": 102,
+            "Filename": "Grid.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 360,
+            "Y": 167,
+            "Width": 10,
+            "Height": 10,
+            "RelativeFilename": "Point_Map.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image1_1",
+            "X": 388,
+            "Y": 158,
+            "Width": 10,
+            "Height": 10,
+            "RelativeFilename": "Point_Map.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image1_1_1",
+            "X": 423,
+            "Y": 210,
+            "Width": 10,
+            "Height": 10,
+            "RelativeFilename": "Point_Map.png"
           }
         ],
         "Interactions": [
@@ -341,7 +378,7 @@
             "Type": "TextArea",
             "Name": "textArea3_1",
             "X": 24,
-            "Y": 81,
+            "Y": 100,
             "Width": 55,
             "Height": 18,
             "TextId": "__SingleUse_660L",
@@ -352,12 +389,52 @@
             "Type": "TextArea",
             "Name": "textArea3_2",
             "X": 24,
-            "Y": 111,
+            "Y": 150,
             "Width": 55,
             "Height": 18,
             "TextId": "__SingleUse_4J7M",
             "TextRotation": "0",
             "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage3",
+            "X": 146,
+            "Y": 62,
+            "Width": 189,
+            "Height": 176,
+            "Filename": "Grid.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage4",
+            "X": 171,
+            "Y": 83,
+            "Width": 15,
+            "Height": 17,
+            "Filename": "Dot.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage5",
+            "X": 286,
+            "Y": 193,
+            "Width": 15,
+            "Height": 15,
+            "Filename": "Dot.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage6",
+            "X": 227,
+            "Y": 76,
+            "Width": 15,
+            "Height": 15,
+            "Filename": "Dot.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
           }
         ],
         "Interactions": [

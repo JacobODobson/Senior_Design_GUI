@@ -1,0 +1,9 @@
+Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+PairView.hpp:11:13:PairView::~PairView()	0	static
+PairView.cpp:17:6:virtual void PairView::tearDownScreen()	0	static
+PairView.cpp:12:6:virtual void PairView::setupScreen()	0	static
+PairView.hpp:11:13:virtual PairView::~PairView()	8	static
+PairView.cpp:22:6:virtual void PairView::updateScreen()	8	static
+PairView.cpp:7:1:PairView::PairView()	8	static
