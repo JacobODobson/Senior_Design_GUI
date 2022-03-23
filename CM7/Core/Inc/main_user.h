@@ -15,7 +15,6 @@ void initBspQuadSpi(void (*error_handler)());
 //! initialize SDRAM/FMC via BSP
 void initBspSdRam(void (*error_handler)());
 
-
 #ifdef __cplusplus
 }
 #endif

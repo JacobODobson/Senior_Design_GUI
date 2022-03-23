@@ -162,4 +162,6 @@
 "./Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_sdram.o"
 "./Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_tim.o"
 "./Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_tim_ex.o"
+"./Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_uart.o"
+"./Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_uart_ex.o"
 "./Drivers/STM32H7xx_HAL_Driver/stm32h7xx_ll_fmc.o"

@@ -26,11 +26,12 @@
 /* USER CODE BEGIN Includes */
 #include "main_user.h"
 #include "trilateration.h"
+#include "stdio.h"
+#include "errno.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -39,6 +40,14 @@
 #ifndef HSEM_ID_0
 #define HSEM_ID_0 (0U) /* HW semaphore 0*/
 #endif
+
+#ifdef __GNUC__
+/* With GCC/RAISONANCE, small printf (option LD Linker->Libraries->Small printf
+set to 'Yes') calls __io_putchar() */
+#define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
+#else
+#define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
+#endif /* __GNUC__ */
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -55,6 +64,8 @@ DMA2D_HandleTypeDef hdma2d;
 LTDC_HandleTypeDef hltdc;
 
 QSPI_HandleTypeDef hqspi;
+
+UART_HandleTypeDef UartHandle;
 
 SDRAM_HandleTypeDef hsdram2;
 
@@ -77,11 +88,20 @@ osThreadId_t TrilaterateTaskHandle;
 const osThreadAttr_t TrilaterateTask_attributes = {
   .name = "TrilaterateTask",
   .stack_size = 512 * 4,
-  .priority = (osPriority_t) osPriorityLow,
+  .priority = (osPriority_t) osPriorityHigh,
 };
 /* USER CODE BEGIN PV */
 
 const vec3d monument_loc = {2096103.42, 735109.43, 364.0};
+
+PUTCHAR_PROTOTYPE
+{
+  /* Place your implementation of fputc here */
+  /* e.g. write a character to the USART1 and Loop until the end of transmission */
+  HAL_UART_Transmit(&UartHandle, (uint8_t *)&ch, 1, 0xFFFFF);
+
+  return ch;
+}
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -93,17 +113,16 @@ static void MX_FMC_Init(void);
 static void MX_LTDC_Init(void);
 static void MX_CRC_Init(void);
 static void MX_DMA2D_Init(void);
+static void UART_Config(void);
 void StartDefaultTask(void *argument);
 void TouchGFX_Task(void *argument);
 void Trilaterate_Task(void *argument);
 
 /* USER CODE BEGIN PFP */
-
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
 /* USER CODE END 0 */
 
 /**
@@ -172,6 +191,7 @@ Error_Handler();
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  UART_Config();
   MX_QUADSPI_Init();
   MX_FMC_Init();
   MX_LTDC_Init();
@@ -451,6 +471,26 @@ static void MX_QUADSPI_Init(void)
 
 }
 
+static void UART_Config(void)
+{
+
+  UartHandle.Instance        = USARTx;
+  UartHandle.Init.BaudRate   = 115200;
+  UartHandle.Init.WordLength = UART_WORDLENGTH_8B;
+  UartHandle.Init.StopBits   = UART_STOPBITS_1;
+  UartHandle.Init.Parity     = UART_PARITY_ODD;
+  UartHandle.Init.HwFlowCtl  = UART_HWCONTROL_NONE;
+  UartHandle.Init.Mode       = UART_MODE_TX_RX;
+  UartHandle.Init.OverSampling = UART_OVERSAMPLING_16;
+
+  HAL_UART_DeInit(&UartHandle);
+  if(HAL_UART_Init(&UartHandle) != HAL_OK)
+  {
+    /* Initialization Error */
+    Error_Handler();
+  }
+}
+
 /* FMC initialization function */
 void MX_FMC_Init(void)
 {
@@ -510,6 +550,7 @@ static void MX_GPIO_Init(void)
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOK_CLK_ENABLE();
   __HAL_RCC_GPIOG_CLK_ENABLE();
+  __HAL_RCC_GPIOC_CLK_ENABLE();
   __HAL_RCC_GPIOI_CLK_ENABLE();
   __HAL_RCC_GPIOE_CLK_ENABLE();
   __HAL_RCC_GPIOJ_CLK_ENABLE();
@@ -575,6 +616,8 @@ __weak void TouchGFX_Task(void *argument)
 * @retval None
 */
 /* USER CODE END Header_Trilaterate_Task */
+uint8_t data[] = "Serial is working\n";
+HAL_StatusTypeDef x;
 void Trilaterate_Task(void *argument)
 {
   /* USER CODE BEGIN Trilaterate_Task */
@@ -589,6 +632,8 @@ void Trilaterate_Task(void *argument)
 	vec3d pos;
 	int use4thAnchor = 1;
 	GetLocation(&pos, use4thAnchor, baseStations, dist);
+	x = HAL_UART_Transmit(&UartHandle, data, sizeof(data), 100);
+	printf("Serial is working???\n");
     osDelay(500);
   }
   /* USER CODE END Trilaterate_Task */
