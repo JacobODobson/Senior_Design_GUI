@@ -89,7 +89,7 @@ osThreadId_t TrilaterateTaskHandle;
 const osThreadAttr_t TrilaterateTask_attributes = {
   .name = "TrilaterateTask",
   .stack_size = 512 * 4,
-  .priority = (osPriority_t) osPriorityLow,
+  .priority = (osPriority_t) osPriorityNormal,
 };
 /* USER CODE BEGIN PV */
 
@@ -233,15 +233,13 @@ Error_Handler();
   /* start timers, add new ones, ... */
   /* USER CODE END RTOS_TIMERS */
 
-  /* Create the queue(s) */
+  /* USER CODE BEGIN RTOS_QUEUES */
+  /* add queues, ... */
   distance_queue = xQueueCreate(distance_queue_max_len, sizeof(distancesStruct));
   distancesStruct testQueueItem = {{70.71, 70.71, 70.71, 70.71}};
   if(xQueueSend(distance_queue, (void *)&testQueueItem, 100) != pdTRUE) {
 	  printf("Could not send data to distances queue");
   }
-
-  /* USER CODE BEGIN RTOS_QUEUES */
-  /* add queues, ... */
   /* USER CODE END RTOS_QUEUES */
 
   /* Create the thread(s) */
@@ -605,7 +603,6 @@ static void MX_GPIO_Init(void)
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOK_CLK_ENABLE();
   __HAL_RCC_GPIOG_CLK_ENABLE();
-  __HAL_RCC_GPIOC_CLK_ENABLE();
   __HAL_RCC_GPIOI_CLK_ENABLE();
   __HAL_RCC_GPIOE_CLK_ENABLE();
   __HAL_RCC_GPIOJ_CLK_ENABLE();
@@ -613,6 +610,7 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOF_CLK_ENABLE();
   __HAL_RCC_GPIOH_CLK_ENABLE();
+  __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin : PA8 */
   GPIO_InitStruct.Pin = GPIO_PIN_8;
@@ -671,20 +669,18 @@ __weak void TouchGFX_Task(void *argument)
 * @retval None
 */
 /* USER CODE END Header_Trilaterate_Task */
-distancesStruct trilaterateTaskDistances;
 void Trilaterate_Task(void *argument)
 {
   /* USER CODE BEGIN Trilaterate_Task */
   /* Infinite loop */
   for(;;)
   {
-	//double dist[4] = {70.71, 70.71, 70.71, 70.71};
 	vec3d pos;
-	//int use4thAnchor = 1;
+	distancesStruct trilaterateTaskDistances;
 	if(xQueueReceive(distance_queue, (void *)&trilaterateTaskDistances, 20) == pdTRUE) {
 	  GetLocation(&pos, use4thAnchor, baseStations, trilaterateTaskDistances.dists);
+	  printf("Current position %f, %f, %f\n", pos.x, pos.y, pos.z);
 	}
-	//x = HAL_UART_Transmit(&huart3, data, sizeof(data), 0xFFFFF);
     osDelay(1500);
   }
   /* USER CODE END Trilaterate_Task */
