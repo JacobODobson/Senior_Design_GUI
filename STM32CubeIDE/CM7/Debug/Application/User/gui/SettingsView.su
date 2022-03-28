@@ -57,9 +57,10 @@ SettingsViewBase.hpp:24:13:SettingsViewBase::~SettingsViewBase()	16	static
 SettingsViewBase.hpp:24:13:virtual SettingsViewBase::~SettingsViewBase()	16	static
 SettingsView.hpp:11:13:SettingsView::~SettingsView()	16	static
 SettingsView.hpp:11:13:virtual SettingsView::~SettingsView()	16	static
-SettingsView.cpp:3:1:SettingsView::SettingsView()	16	static
-SettingsView.cpp:8:6:virtual void SettingsView::setupScreen()	16	static
-SettingsView.cpp:13:6:virtual void SettingsView::tearDownScreen()	16	static
+SettingsView.cpp:7:1:SettingsView::SettingsView()	16	static
+SettingsView.cpp:12:6:virtual void SettingsView::setupScreen()	16	static
+SettingsView.cpp:17:6:virtual void SettingsView::tearDownScreen()	16	static
+SettingsView.cpp:22:6:virtual void SettingsView::updateScreen()	16	static
 Button.hpp:31:7:touchgfx::Button::~Button()	16	static
 Button.hpp:31:7:virtual touchgfx::Button::~Button()	16	static
 ButtonWithLabel.hpp:38:7:touchgfx::ButtonWithLabel::~ButtonWithLabel()	16	static

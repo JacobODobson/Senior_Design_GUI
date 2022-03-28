@@ -74,6 +74,7 @@ AbstractButtonContainer.hpp:51:10:void touchgfx::AbstractButtonContainer::setPre
 AbstractButtonContainer.hpp:64:10:bool touchgfx::AbstractButtonContainer::getPressed()	16	static
 AbstractButtonContainer.hpp:70:10:void touchgfx::AbstractButtonContainer::setAlpha(uint8_t)	16	static
 AbstractButtonContainer.hpp:77:13:uint8_t touchgfx::AbstractButtonContainer::getAlpha() const	16	static
+AbstractButtonContainer.hpp:89:10:void touchgfx::AbstractButtonContainer::setAction(touchgfx::GenericCallback<const touchgfx::AbstractButtonContainer&>&)	16	static
 AbstractButtonContainer.hpp:99:18:virtual void touchgfx::AbstractButtonContainer::executeAction()	16	static
 AbstractButtonContainer.hpp:114:18:virtual void touchgfx::AbstractButtonContainer::handlePressedUpdated()	16	static
 AbstractButtonContainer.hpp:119:18:virtual void touchgfx::AbstractButtonContainer::handleAlphaUpdated()	16	static
@@ -86,14 +87,15 @@ View.hpp:36:7:touchgfx::View<SettingsPresenter>::~View()	16	static
 View.hpp:36:7:virtual touchgfx::View<SettingsPresenter>::~View()	16	static
 SettingsViewBase.hpp:24:13:SettingsViewBase::~SettingsViewBase()	16	static
 SettingsViewBase.hpp:24:13:virtual SettingsViewBase::~SettingsViewBase()	16	static
-SettingsViewBase.hpp:28:26:FrontendApplication& SettingsViewBase::application()	16	static
+SettingsViewBase.hpp:30:18:virtual void SettingsViewBase::updateScreen()	16	static
+SettingsViewBase.hpp:36:26:FrontendApplication& SettingsViewBase::application()	16	static
 Button.hpp:31:7:touchgfx::Button::~Button()	16	static
 Button.hpp:31:7:virtual touchgfx::Button::~Button()	16	static
 ToggleButton.hpp:32:7:touchgfx::ToggleButton::ToggleButton()	16	static
 SettingsViewBase.cpp:9:1:SettingsViewBase::SettingsViewBase()	344	static
-SettingsViewBase.cpp:98:6:virtual void SettingsViewBase::setupScreen()	16	static
-SettingsViewBase.cpp:103:6:void SettingsViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	16	static
-SettingsViewBase.cpp:114:6:void SettingsViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	16	static
+SettingsViewBase.cpp:99:6:virtual void SettingsViewBase::setupScreen()	16	static
+SettingsViewBase.cpp:109:6:void SettingsViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	16	static
+SettingsViewBase.cpp:120:6:void SettingsViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	16	static
 View.hpp:39:5:touchgfx::View<T>::View() [with T = SettingsPresenter]	16	static
 ClickButtonTrigger.hpp:35:7:touchgfx::ClickButtonTrigger::ClickButtonTrigger()	16	static
 ClickButtonTrigger.hpp:35:7:touchgfx::ClickButtonTrigger::~ClickButtonTrigger()	16	static

@@ -70,9 +70,9 @@ View.hpp:36:7:virtual touchgfx::View<HomePresenter>::~View()	16	static
 HomeViewBase.hpp:22:13:HomeViewBase::~HomeViewBase()	16	static
 HomeViewBase.hpp:22:13:virtual HomeViewBase::~HomeViewBase()	16	static
 HomeViewBase.hpp:26:26:FrontendApplication& HomeViewBase::application()	16	static
-HomeViewBase.cpp:11:1:HomeViewBase::HomeViewBase()	440	static
-HomeViewBase.cpp:143:6:virtual void HomeViewBase::setupScreen()	16	static
-HomeViewBase.cpp:148:6:void HomeViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	16	static
+HomeViewBase.cpp:11:1:HomeViewBase::HomeViewBase()	384	static
+HomeViewBase.cpp:127:6:virtual void HomeViewBase::setupScreen()	16	static
+HomeViewBase.cpp:132:6:void HomeViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	16	static
 View.hpp:39:5:touchgfx::View<T>::View() [with T = HomePresenter]	16	static
 Callback.hpp:134:7:constexpr touchgfx::GenericCallback<const touchgfx::AbstractButton&>::GenericCallback()	16	static
 Callback.hpp:373:5:touchgfx::Callback<dest_type, T1, void, void>::Callback(dest_type*, void (dest_type::*)(T1)) [with dest_type = HomeViewBase; T1 = const touchgfx::AbstractButton&]	24	static

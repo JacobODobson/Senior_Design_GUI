@@ -1,0 +1,22 @@
+Types.hpp:91:5:touchgfx::colortype::colortype(uint32_t)	16	static
+Types.hpp:140:5:touchgfx::Rect::Rect(int16_t, int16_t, int16_t, int16_t)	24	static
+Presenter.hpp:37:18:virtual void touchgfx::Presenter::activate()	16	static
+Presenter.hpp:47:18:virtual void touchgfx::Presenter::deactivate()	16	static
+Presenter.hpp:52:13:touchgfx::Presenter::~Presenter()	16	static
+Presenter.hpp:52:13:virtual touchgfx::Presenter::~Presenter()	16	static
+Presenter.hpp:58:5:touchgfx::Presenter::Presenter()	16	static
+ModelListener.hpp:9:5:ModelListener::ModelListener()	16	static
+ModelListener.hpp:11:13:ModelListener::~ModelListener()	16	static
+ModelListener.hpp:11:13:virtual ModelListener::~ModelListener()	16	static
+Keyboard_1Presenter.hpp:28:13:Keyboard_1Presenter::~Keyboard_1Presenter()	16	static
+Keyboard_1Presenter.hpp:28:13:virtual Keyboard_1Presenter::~Keyboard_1Presenter()	16	static
+TypedText.hpp:59:14:touchgfx::TypedText::TypedText(touchgfx::TypedTextId)	16	static
+TypedText.hpp:65:13:touchgfx::TypedText::~TypedText()	16	static
+TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	16	static
+Keyboard_1Presenter.cpp:4:1:Keyboard_1Presenter::Keyboard_1Presenter(Keyboard_1View&)	16	static
+Keyboard_1Presenter.cpp:10:6:virtual void Keyboard_1Presenter::activate()	16	static
+Keyboard_1Presenter.cpp:15:6:virtual void Keyboard_1Presenter::deactivate()	16	static
+Keyboard.hpp:74:12:touchgfx::Keyboard::Layout::~Layout()	16	static
+Keyboard_1Presenter.cpp:18:1:void __static_initialization_and_destruction_0(int, int)	32	static
+Keyboard_1Presenter.cpp:18:1:cpp)	8	static
+Keyboard_1Presenter.cpp:18:1:cpp)	8	static
