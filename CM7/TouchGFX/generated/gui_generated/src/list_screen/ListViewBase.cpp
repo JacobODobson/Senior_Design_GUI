@@ -77,18 +77,6 @@ ListViewBase::ListViewBase() :
     scalableImage3.setPosition(146, 62, 189, 176);
     scalableImage3.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
 
-    scalableImage4.setBitmap(touchgfx::Bitmap(BITMAP_DOT_ID));
-    scalableImage4.setPosition(171, 83, 15, 17);
-    scalableImage4.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
-
-    scalableImage5.setBitmap(touchgfx::Bitmap(BITMAP_DOT_ID));
-    scalableImage5.setPosition(286, 193, 15, 15);
-    scalableImage5.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
-
-    scalableImage6.setBitmap(touchgfx::Bitmap(BITMAP_DOT_ID));
-    scalableImage6.setPosition(227, 76, 15, 15);
-    scalableImage6.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
-
     add(__background);
     add(box1);
     add(box2);
@@ -103,9 +91,6 @@ ListViewBase::ListViewBase() :
     add(textArea3_1);
     add(textArea3_2);
     add(scalableImage3);
-    add(scalableImage4);
-    add(scalableImage5);
-    add(scalableImage6);
 }
 
 void ListViewBase::setupScreen()

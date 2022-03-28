@@ -1,62 +1,62 @@
 Archive member included to satisfy reference by file (symbol)
 
-a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o)
-                              a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o (exit)
-a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
-                              a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o) (_global_impure_ptr)
-a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-init.o)
-                              a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o (__libc_init_array)
-a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-memset.o)
-                              a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o (memset)
-a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
-                              a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o) (__call_exitprocs)
-a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o)
-                              a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o) (atexit)
-a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-fini.o)
-                              a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
-a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
-                              a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o) (__retarget_lock_acquire_recursive)
-a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__atexit.o)
-                              a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o) (__register_exitproc)
-a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(_exit.o)
-                              a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o) (_exit)
+f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o)
+                              f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o (exit)
+f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
+                              f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o) (_global_impure_ptr)
+f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-init.o)
+                              f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o (__libc_init_array)
+f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-memset.o)
+                              f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o (memset)
+f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
+                              f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o) (__call_exitprocs)
+f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o)
+                              f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o) (atexit)
+f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-fini.o)
+                              f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
+f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                              f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o) (__retarget_lock_acquire_recursive)
+f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__atexit.o)
+                              f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o) (__register_exitproc)
+f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(_exit.o)
+                              f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o) (_exit)
 
 Allocating common symbols
 Common symbol       size              file
 
 __lock___atexit_recursive_mutex
-                    0x1               a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                    0x1               f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
 __lock___arc4random_mutex
-                    0x1               a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                    0x1               f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
 uwTick              0x4               CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o
 pFlash              0x1c              CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o
 __lock___env_recursive_mutex
-                    0x1               a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                    0x1               f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
 __lock___sinit_recursive_mutex
-                    0x1               a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                    0x1               f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
 __lock___malloc_recursive_mutex
-                    0x1               a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                    0x1               f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
 __lock___at_quick_exit_mutex
-                    0x1               a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                    0x1               f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
 __lock___dd_hash_mutex
-                    0x1               a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
-__lock___tz_mutex   0x1               a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                    0x1               f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+__lock___tz_mutex   0x1               f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
 __lock___sfp_recursive_mutex
-                    0x1               a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                    0x1               f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
 
 Discarded input sections
 
- .text          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
- .data          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
- .bss           0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
- .data          0x00000000        0x4 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
- .text          0x00000000       0x74 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
- .data          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
- .bss           0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
- .ARM.extab     0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
- .ARM.exidx     0x00000000        0x8 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+ .text          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+ .data          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+ .bss           0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+ .data          0x00000000        0x4 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .text          0x00000000       0x74 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+ .data          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+ .bss           0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+ .ARM.extab     0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+ .ARM.exidx     0x00000000        0x8 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
  .ARM.attributes
-                0x00000000       0x20 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+                0x00000000       0x20 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
  .text          0x00000000        0x0 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o
  .data          0x00000000        0x0 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o
  .bss           0x00000000        0x0 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o
@@ -217,7 +217,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.o
  .debug_line    0x00000000      0x277 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.o
- .debug_str     0x00000000      0x8af CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.o
+ .debug_str     0x00000000      0x8c9 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.o
  .comment       0x00000000       0x80 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.o
  .ARM.attributes
                 0x00000000       0x39 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.o
@@ -229,7 +229,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.o
  .debug_line    0x00000000      0x277 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.o
- .debug_str     0x00000000      0x8b2 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.o
+ .debug_str     0x00000000      0x8cc CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.o
  .comment       0x00000000       0x80 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.o
  .ARM.attributes
                 0x00000000       0x39 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.o
@@ -277,7 +277,7 @@ Discarded input sections
                 0x00000000       0x98 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.o
  .debug_ranges  0x00000000       0xc0 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.o
  .debug_line    0x00000000     0x13b1 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.o
- .debug_str     0x00000000     0x104f CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.o
+ .debug_str     0x00000000     0x1069 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.o
  .comment       0x00000000       0x80 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.o
  .debug_frame   0x00000000      0x1c4 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.o
  .ARM.attributes
@@ -310,7 +310,7 @@ Discarded input sections
                 0x00000000       0x60 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o
  .debug_ranges  0x00000000       0x50 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o
  .debug_line    0x00000000      0x821 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o
- .debug_str     0x00000000      0xe92 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o
+ .debug_str     0x00000000      0xeac CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o
  .comment       0x00000000       0x80 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o
  .debug_frame   0x00000000      0x100 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o
  .ARM.attributes
@@ -323,7 +323,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.o
  .debug_line    0x00000000      0x277 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.o
- .debug_str     0x00000000      0x8b1 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.o
+ .debug_str     0x00000000      0x8cb CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.o
  .comment       0x00000000       0x80 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.o
  .ARM.attributes
                 0x00000000       0x39 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma2d.o
@@ -355,7 +355,7 @@ Discarded input sections
                 0x00000000       0x60 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o
  .debug_ranges  0x00000000       0x50 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o
  .debug_line    0x00000000      0x4ac CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o
- .debug_str     0x00000000      0xc59 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o
+ .debug_str     0x00000000      0xc73 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o
  .comment       0x00000000       0x80 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o
  .debug_frame   0x00000000      0x100 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o
  .ARM.attributes
@@ -398,7 +398,7 @@ Discarded input sections
                 0x00000000       0x80 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o
  .debug_ranges  0x00000000       0x70 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o
  .debug_line    0x00000000      0x5fc CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o
- .debug_str     0x00000000      0xc57 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o
+ .debug_str     0x00000000      0xc71 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o
  .comment       0x00000000       0x80 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o
  .debug_frame   0x00000000      0x15c CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o
  .ARM.attributes
@@ -436,7 +436,7 @@ Discarded input sections
                 0x00000000       0x70 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o
  .debug_ranges  0x00000000      0x140 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o
  .debug_line    0x00000000      0x673 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o
- .debug_str     0x00000000      0xf72 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o
+ .debug_str     0x00000000      0xf8c CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o
  .comment       0x00000000       0x80 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o
  .debug_frame   0x00000000      0x110 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o
  .ARM.attributes
@@ -467,7 +467,7 @@ Discarded input sections
                 0x00000000       0x58 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o
  .debug_ranges  0x00000000       0x68 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o
  .debug_line    0x00000000      0x4b6 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o
- .debug_str     0x00000000      0xdf5 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o
+ .debug_str     0x00000000      0xe0f CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o
  .comment       0x00000000       0x80 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o
  .debug_frame   0x00000000       0xd8 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o
  .ARM.attributes
@@ -663,7 +663,7 @@ Discarded input sections
                 0x00000000      0x240 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.o
  .debug_ranges  0x00000000      0x278 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.o
  .debug_line    0x00000000     0x1c91 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.o
- .debug_str     0x00000000     0x17c7 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.o
+ .debug_str     0x00000000     0x17e1 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.o
  .comment       0x00000000       0x80 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.o
  .debug_frame   0x00000000      0x920 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.o
  .ARM.attributes
@@ -690,7 +690,7 @@ Discarded input sections
                 0x00000000       0x48 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.o
  .debug_ranges  0x00000000       0x68 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.o
  .debug_line    0x00000000      0x427 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.o
- .debug_str     0x00000000     0x11d1 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.o
+ .debug_str     0x00000000     0x11eb CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.o
  .comment       0x00000000       0x80 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.o
  .debug_frame   0x00000000       0x90 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.o
  .ARM.attributes
@@ -703,7 +703,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.o
  .debug_line    0x00000000      0x277 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.o
- .debug_str     0x00000000      0x8b0 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.o
+ .debug_str     0x00000000      0x8ca CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.o
  .comment       0x00000000       0x80 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.o
  .ARM.attributes
                 0x00000000       0x39 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc.o
@@ -715,7 +715,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.o
  .debug_line    0x00000000      0x277 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.o
- .debug_str     0x00000000      0x8b3 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.o
+ .debug_str     0x00000000      0x8cd CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.o
  .comment       0x00000000       0x80 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.o
  .ARM.attributes
                 0x00000000       0x39 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_ltdc_ex.o
@@ -769,7 +769,7 @@ Discarded input sections
                 0x00000000       0xb8 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o
  .debug_ranges  0x00000000       0xa8 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o
  .debug_line    0x00000000      0x7df CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o
- .debug_str     0x00000000     0x10af CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o
+ .debug_str     0x00000000     0x10c9 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o
  .comment       0x00000000       0x80 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o
  .debug_frame   0x00000000      0x200 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o
  .ARM.attributes
@@ -818,7 +818,7 @@ Discarded input sections
                 0x00000000       0xa0 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o
  .debug_ranges  0x00000000       0x90 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o
  .debug_line    0x00000000      0x48c CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o
- .debug_str     0x00000000      0xc92 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o
+ .debug_str     0x00000000      0xcac CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o
  .comment       0x00000000       0x80 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o
  .debug_frame   0x00000000      0x13c CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o
  .ARM.attributes
@@ -916,7 +916,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_qspi.o
  .debug_line    0x00000000      0x277 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_qspi.o
- .debug_str     0x00000000      0x8b0 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_qspi.o
+ .debug_str     0x00000000      0x8ca CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_qspi.o
  .comment       0x00000000       0x80 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_qspi.o
  .ARM.attributes
                 0x00000000       0x39 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_qspi.o
@@ -1017,7 +1017,7 @@ Discarded input sections
                 0x00000000       0xe0 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o
  .debug_ranges  0x00000000      0x100 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o
  .debug_line    0x00000000      0x957 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o
- .debug_str     0x00000000     0x15fd CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o
+ .debug_str     0x00000000     0x1617 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o
  .comment       0x00000000       0x80 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o
  .debug_frame   0x00000000      0x284 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o
  .ARM.attributes
@@ -1030,7 +1030,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.o
  .debug_line    0x00000000      0x277 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.o
- .debug_str     0x00000000      0x8b1 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.o
+ .debug_str     0x00000000      0x8cb CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.o
  .comment       0x00000000       0x80 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.o
  .ARM.attributes
                 0x00000000       0x39 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_sdram.o
@@ -1042,7 +1042,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.o
  .debug_line    0x00000000      0x277 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.o
- .debug_str     0x00000000      0x8af CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.o
+ .debug_str     0x00000000      0x8c9 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.o
  .comment       0x00000000       0x80 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.o
  .ARM.attributes
                 0x00000000       0x39 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.o
@@ -1054,7 +1054,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.o
  .debug_line    0x00000000      0x277 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.o
- .debug_str     0x00000000      0x8b2 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.o
+ .debug_str     0x00000000      0x8cc CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.o
  .comment       0x00000000       0x80 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.o
  .ARM.attributes
                 0x00000000       0x39 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.o
@@ -1066,7 +1066,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.o
  .debug_line    0x00000000      0x277 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.o
- .debug_str     0x00000000      0x8ae CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.o
+ .debug_str     0x00000000      0x8c8 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.o
  .comment       0x00000000       0x80 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.o
  .ARM.attributes
                 0x00000000       0x39 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_fmc.o
@@ -1089,77 +1089,77 @@ Discarded input sections
  .text          0x00000000       0x14 CM4/TouchGFX/build/STM32H745I_DISCO/gcc/startup_stm32h745xihx_cm4.o
  .data          0x00000000        0x0 CM4/TouchGFX/build/STM32H745I_DISCO/gcc/startup_stm32h745xihx_cm4.o
  .bss           0x00000000        0x0 CM4/TouchGFX/build/STM32H745I_DISCO/gcc/startup_stm32h745xihx_cm4.o
- .text          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o)
- .data          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o)
- .bss           0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o)
- .text.exit     0x00000000       0x20 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o)
- .debug_frame   0x00000000       0x28 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o)
+ .text          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o)
+ .data          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x20 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o)
+ .debug_frame   0x00000000       0x28 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o)
  .ARM.attributes
-                0x00000000       0x34 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o)
- .text          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
- .data          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
- .bss           0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
+                0x00000000       0x34 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-exit.o)
+ .text          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
  .data._impure_ptr
-                0x00000000        0x4 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
- .text          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-init.o)
- .data          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-init.o)
- .bss           0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-init.o)
- .text          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-memset.o)
- .data          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-memset.o)
- .bss           0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-memset.o)
- .text.memset   0x00000000       0x94 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-memset.o)
- .debug_frame   0x00000000       0x38 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-memset.o)
+                0x00000000        0x4 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
+ .text          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-init.o)
+ .data          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-init.o)
+ .bss           0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-init.o)
+ .text          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-memset.o)
+ .text.memset   0x00000000       0x94 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-memset.o)
+ .debug_frame   0x00000000       0x38 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-memset.o)
  .ARM.attributes
-                0x00000000       0x34 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-memset.o)
- .text          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
- .data          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
- .bss           0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
+                0x00000000       0x34 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
+ .data          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
+ .bss           0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
  .text.__call_exitprocs
-                0x00000000       0xe8 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
- .text          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o)
- .data          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o)
- .bss           0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o)
- .text          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-fini.o)
- .data          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-fini.o)
- .bss           0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-fini.o)
- .text          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
- .data          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
- .bss           0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                0x00000000       0xe8 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
+ .text          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o)
+ .data          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o)
+ .bss           0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o)
+ .text          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-fini.o)
+ .data          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-fini.o)
+ .bss           0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-fini.o)
+ .text          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+ .data          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+ .bss           0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
  .text.__retarget_lock_init
-                0x00000000        0x4 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                0x00000000        0x4 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
  .text.__retarget_lock_init_recursive
-                0x00000000        0x4 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                0x00000000        0x4 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
  .text.__retarget_lock_close
-                0x00000000        0x4 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                0x00000000        0x4 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
  .text.__retarget_lock_close_recursive
-                0x00000000        0x4 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                0x00000000        0x4 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
  .text.__retarget_lock_acquire
-                0x00000000        0x4 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                0x00000000        0x4 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
  .text.__retarget_lock_try_acquire
-                0x00000000        0x4 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                0x00000000        0x4 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
  .text.__retarget_lock_try_acquire_recursive
-                0x00000000        0x4 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                0x00000000        0x4 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
  .text.__retarget_lock_release
-                0x00000000        0x4 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
- .text          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__atexit.o)
- .data          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__atexit.o)
- .bss           0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__atexit.o)
- .text          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(_exit.o)
- .data          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(_exit.o)
- .bss           0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(_exit.o)
- .text._exit    0x00000000        0x4 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(_exit.o)
- .debug_frame   0x00000000       0x20 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(_exit.o)
+                0x00000000        0x4 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+ .text          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__atexit.o)
+ .data          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__atexit.o)
+ .bss           0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__atexit.o)
+ .text          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(_exit.o)
+ .data          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(_exit.o)
+ .text._exit    0x00000000        0x4 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(_exit.o)
+ .debug_frame   0x00000000       0x20 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(_exit.o)
  .ARM.attributes
-                0x00000000       0x34 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(_exit.o)
- .text          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
- .data          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
- .bss           0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
- .eh_frame      0x00000000        0x4 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
+                0x00000000       0x34 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a(_exit.o)
+ .text          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
+ .data          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
+ .bss           0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
+ .eh_frame      0x00000000        0x4 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
  .ARM.attributes
-                0x00000000       0x34 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
- .text          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
- .data          0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
- .bss           0x00000000        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+                0x00000000       0x34 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
+ .text          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+ .data          0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+ .bss           0x00000000        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
 
 Memory Configuration
 
@@ -1170,12 +1170,12 @@ RAM              0x10000000         0x00048000         xrw
 
 Linker script and memory map
 
-LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
-LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
-LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
+LOAD f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+LOAD f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+LOAD f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o
 START GROUP
-LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++.a
-LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libsupc++.a
+LOAD f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++.a
+LOAD f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libsupc++.a
 END GROUP
 LOAD CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o
 LOAD CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.o
@@ -1210,21 +1210,21 @@ LOAD CM4/TouchGFX/build/STM32H745I_DISCO/Common/Src/system_stm32h7xx_dualcore_bo
 LOAD CM4/TouchGFX/build/STM32H745I_DISCO/gcc/startup_stm32h745xihx_cm4.o
 START GROUP
 END GROUP
-LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++.a
-LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a
-LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a
+LOAD f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libstdc++.a
+LOAD f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libm.a
+LOAD f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a
 START GROUP
-LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a
-LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libg.a
-LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a
+LOAD f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a
+LOAD f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libg.a
+LOAD f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a
 END GROUP
 START GROUP
-LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a
-LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a
-LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a
+LOAD f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard\libgcc.a
+LOAD f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a
+LOAD f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libnosys.a
 END GROUP
-LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
-LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+LOAD f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
+LOAD f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
                 0x10048000                _estack = (ORIGIN (RAM) + LENGTH (RAM))
                 0x00000200                _Min_Heap_Size = 0x200
                 0x00000400                _Min_Stack_Size = 0x400
@@ -1239,7 +1239,7 @@ LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-e
 .text           0x08100298      0x680
                 0x08100298                . = ALIGN (0x4)
  *(.text)
- .text          0x08100298       0x40 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .text          0x08100298       0x40 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
  *(.text*)
  .text.HAL_InitTick
                 0x081002d8       0x4c CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o
@@ -1463,38 +1463,38 @@ LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-e
                 0x08100798                DMA1_Stream3_IRQHandler
  *fill*         0x0810079a        0x2 
  .text.__libc_init_array
-                0x0810079c       0x48 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-init.o)
+                0x0810079c       0x48 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-init.o)
                 0x0810079c                __libc_init_array
  .text.startup.register_fini
-                0x081007e4       0x14 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
- .text.atexit   0x081007f8        0xc a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o)
+                0x081007e4       0x14 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
+ .text.atexit   0x081007f8        0xc f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o)
                 0x081007f8                atexit
  .text.__libc_fini_array
-                0x08100804       0x34 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-fini.o)
+                0x08100804       0x34 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-fini.o)
                 0x08100804                __libc_fini_array
  .text.__retarget_lock_acquire_recursive
-                0x08100838        0x4 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                0x08100838        0x4 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
                 0x08100838                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x0810083c        0x4 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                0x0810083c        0x4 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
                 0x0810083c                __retarget_lock_release_recursive
  .text.__register_exitproc
-                0x08100840       0xc0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__atexit.o)
+                0x08100840       0xc0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__atexit.o)
                 0x08100840                __register_exitproc
  *(.glue_7)
  .glue_7        0x08100900        0x0 linker stubs
  *(.glue_7t)
  .glue_7t       0x08100900        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08100900        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .eh_frame      0x08100900        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
  *(.init)
- .init          0x08100900        0x4 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+ .init          0x08100900        0x4 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
                 0x08100900                _init
- .init          0x08100904        0x8 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+ .init          0x08100904        0x8 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
  *(.fini)
- .fini          0x0810090c        0x4 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+ .fini          0x0810090c        0x4 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
                 0x0810090c                _fini
- .fini          0x08100910        0x8 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+ .fini          0x08100910        0x8 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
                 0x08100918                . = ALIGN (0x4)
                 0x08100918                _etext = .
 
@@ -1505,7 +1505,7 @@ LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-e
  .v4_bx         0x08100918        0x0 linker stubs
 
 .iplt           0x08100918        0x0
- .iplt          0x08100918        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .iplt          0x08100918        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
 
 .rodata         0x08100918       0x14
                 0x08100918                . = ALIGN (0x4)
@@ -1515,12 +1515,12 @@ LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-e
                 0x08100918       0x10 CM4/TouchGFX/build/STM32H745I_DISCO/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.o
                 0x08100918                D1CorePrescTable
  .rodata._global_impure_ptr
-                0x08100928        0x4 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
+                0x08100928        0x4 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
                 0x08100928                _global_impure_ptr
                 0x0810092c                . = ALIGN (0x4)
 
 .rel.dyn        0x0810092c        0x0
- .rel.iplt      0x0810092c        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .rel.iplt      0x0810092c        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
@@ -1539,16 +1539,16 @@ LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-e
                 0x0810092c                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x0810092c        0x4 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
+                0x0810092c        0x4 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08100930        0x4 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .init_array    0x08100930        0x4 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
                 0x08100934                PROVIDE (__init_array_end = .)
 
 .fini_array     0x08100934        0x4
                 0x08100934                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08100934        0x4 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .fini_array    0x08100934        0x4 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
                 0x08100938                PROVIDE (__fini_array_end = .)
                 0x08100938                _sidata = LOADADDR (.data)
 
@@ -1571,9 +1571,9 @@ LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-e
                 0x1000000c        0x4 CM4/TouchGFX/build/STM32H745I_DISCO/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.o
                 0x1000000c                SystemD2Clock
  .data.impure_data
-                0x10000010      0x428 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
+                0x10000010      0x428 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
  .data.__atexit_recursive_mutex
-                0x10000438        0x4 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
+                0x10000438        0x4 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
                 0x10000438                __atexit_recursive_mutex
  *(.RamFunc)
  *(.RamFunc*)
@@ -1581,19 +1581,19 @@ LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-e
                 0x1000043c                _edata = .
 
 .igot.plt       0x1000043c        0x0 load address 0x08100d74
- .igot.plt      0x1000043c        0x0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .igot.plt      0x1000043c        0x0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
                 0x1000043c                . = ALIGN (0x4)
 
 .bss            0x1000043c       0x44 load address 0x08100d74
                 0x1000043c                _sbss = .
                 0x1000043c                __bss_start__ = _sbss
  *(.bss)
- .bss           0x1000043c       0x1c a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+ .bss           0x1000043c       0x1c f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
  *(.bss*)
  *(COMMON)
  COMMON         0x10000458        0x4 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o
                 0x10000458                uwTick
- COMMON         0x1000045c       0x21 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+ COMMON         0x1000045c       0x21 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
                 0x1000045c                __lock___atexit_recursive_mutex
                 0x10000460                __lock___arc4random_mutex
                 0x10000464                __lock___env_recursive_mutex
@@ -1628,9 +1628,9 @@ LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-e
                 0x00000000       0x30
  *(.ARM.attributes)
  .ARM.attributes
-                0x00000000       0x22 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
+                0x00000000       0x22 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
  .ARM.attributes
-                0x00000022       0x34 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
+                0x00000022       0x34 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
  .ARM.attributes
                 0x00000056       0x39 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o
  .ARM.attributes
@@ -1652,21 +1652,21 @@ LOAD a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-e
  .ARM.attributes
                 0x00000257       0x21 CM4/TouchGFX/build/STM32H745I_DISCO/gcc/startup_stm32h745xihx_cm4.o
  .ARM.attributes
-                0x00000278       0x34 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
+                0x00000278       0x34 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-impure.o)
  .ARM.attributes
-                0x000002ac       0x34 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-init.o)
+                0x000002ac       0x34 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-init.o)
  .ARM.attributes
-                0x000002e0       0x34 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
+                0x000002e0       0x34 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
  .ARM.attributes
-                0x00000314       0x34 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o)
+                0x00000314       0x34 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o)
  .ARM.attributes
-                0x00000348       0x34 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-fini.o)
+                0x00000348       0x34 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-fini.o)
  .ARM.attributes
-                0x0000037c       0x34 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+                0x0000037c       0x34 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
  .ARM.attributes
-                0x000003b0       0x34 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__atexit.o)
+                0x000003b0       0x34 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__atexit.o)
  .ARM.attributes
-                0x000003e4       0x22 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
+                0x000003e4       0x22 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
 OUTPUT(CM4/TouchGFX/build/bin/target.elf elf32-littlearm)
 
 .debug_info     0x00000000     0xba6a
@@ -1747,27 +1747,27 @@ OUTPUT(CM4/TouchGFX/build/bin/target.elf elf32-littlearm)
  .debug_line    0x00002810      0x32f CM4/TouchGFX/build/STM32H745I_DISCO/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.o
  .debug_line    0x00002b3f       0x80 CM4/TouchGFX/build/STM32H745I_DISCO/gcc/startup_stm32h745xihx_cm4.o
 
-.debug_str      0x00000000     0x2ed6
- .debug_str     0x00000000     0x1be8 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o
-                               0x1cf2 (size before relaxing)
- .debug_str     0x00001be8      0x4c5 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.o
-                               0x1673 (size before relaxing)
- .debug_str     0x000020ad      0x1a6 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.o
-                                0xa62 (size before relaxing)
- .debug_str     0x00002253      0x5de CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.o
-                               0x111d (size before relaxing)
- .debug_str     0x00002831      0x525 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.o
-                               0x10bc (size before relaxing)
- .debug_str     0x00002d56       0x30 CM4/TouchGFX/build/STM32H745I_DISCO/CM4/Core/Src/main.o
-                                0xbdf (size before relaxing)
- .debug_str     0x00002d86       0xac CM4/TouchGFX/build/STM32H745I_DISCO/CM4/Core/Src/stm32h7xx_it.o
-                                0x932 (size before relaxing)
- .debug_str     0x00002e32       0x21 CM4/TouchGFX/build/STM32H745I_DISCO/CM4/Core/Src/stm32h7xx_hal_msp.o
-                                0xad1 (size before relaxing)
- .debug_str     0x00002e53       0x55 CM4/TouchGFX/build/STM32H745I_DISCO/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.o
-                                0xba1 (size before relaxing)
- .debug_str     0x00002ea8       0x2e CM4/TouchGFX/build/STM32H745I_DISCO/gcc/startup_stm32h745xihx_cm4.o
-                                 0x4c (size before relaxing)
+.debug_str      0x00000000     0x2ef0
+ .debug_str     0x00000000     0x1c02 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o
+                               0x1d0c (size before relaxing)
+ .debug_str     0x00001c02      0x4c5 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.o
+                               0x168d (size before relaxing)
+ .debug_str     0x000020c7      0x1a6 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.o
+                                0xa7c (size before relaxing)
+ .debug_str     0x0000226d      0x5de CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.o
+                               0x1137 (size before relaxing)
+ .debug_str     0x0000284b      0x525 CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.o
+                               0x10d6 (size before relaxing)
+ .debug_str     0x00002d70       0x30 CM4/TouchGFX/build/STM32H745I_DISCO/CM4/Core/Src/main.o
+                                0xbf9 (size before relaxing)
+ .debug_str     0x00002da0       0xac CM4/TouchGFX/build/STM32H745I_DISCO/CM4/Core/Src/stm32h7xx_it.o
+                                0x94c (size before relaxing)
+ .debug_str     0x00002e4c       0x21 CM4/TouchGFX/build/STM32H745I_DISCO/CM4/Core/Src/stm32h7xx_hal_msp.o
+                                0xaeb (size before relaxing)
+ .debug_str     0x00002e6d       0x55 CM4/TouchGFX/build/STM32H745I_DISCO/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.o
+                                0xbbb (size before relaxing)
+ .debug_str     0x00002ec2       0x2e CM4/TouchGFX/build/STM32H745I_DISCO/gcc/startup_stm32h745xihx_cm4.o
+                                 0x66 (size before relaxing)
 
 .comment        0x00000000       0x7f
  .comment       0x00000000       0x7f CM4/TouchGFX/build/STM32H745I_DISCO/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o
@@ -1791,9 +1791,9 @@ OUTPUT(CM4/TouchGFX/build/bin/target.elf elf32-littlearm)
  .debug_frame   0x00000b6c       0xa0 CM4/TouchGFX/build/STM32H745I_DISCO/CM4/Core/Src/stm32h7xx_it.o
  .debug_frame   0x00000c0c       0x28 CM4/TouchGFX/build/STM32H745I_DISCO/CM4/Core/Src/stm32h7xx_hal_msp.o
  .debug_frame   0x00000c34       0x38 CM4/TouchGFX/build/STM32H745I_DISCO/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.o
- .debug_frame   0x00000c6c       0x2c a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-init.o)
- .debug_frame   0x00000c98       0x5c a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
- .debug_frame   0x00000cf4       0x20 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o)
- .debug_frame   0x00000d14       0x34 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-fini.o)
- .debug_frame   0x00000d48       0xb0 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
- .debug_frame   0x00000df8       0x34 a:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__atexit.o)
+ .debug_frame   0x00000c6c       0x2c f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-init.o)
+ .debug_frame   0x00000c98       0x5c f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000cf4       0x20 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-atexit.o)
+ .debug_frame   0x00000d14       0x34 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-fini.o)
+ .debug_frame   0x00000d48       0xb0 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-lock.o)
+ .debug_frame   0x00000df8       0x34 f:/touchgfx/4.18.1/env/mingw/msys/1.0/gnu-arm-gcc/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard\libc.a(lib_a-__atexit.o)

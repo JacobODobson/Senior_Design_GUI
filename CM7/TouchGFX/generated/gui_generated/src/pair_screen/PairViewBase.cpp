@@ -14,7 +14,7 @@ PairViewBase::PairViewBase() :
     __background.setPosition(0, 0, 480, 272);
     __background.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
 
-    box1.setPosition(0, -6, 480, 272);
+    box1.setPosition(0, 0, 480, 272);
     box1.setColor(touchgfx::Color::getColorFromRGB(229, 229, 229));
 
     box2.setPosition(0, 0, 480, 27);

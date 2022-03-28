@@ -33,19 +33,21 @@ const uint16_t BITMAP_KEYBOARD_KEY_SHIFT_HIGHLIGHTED_ID = 23;
 const uint16_t BITMAP_KEYBOARD_SPACE_HIGHLIGHTED_ID = 24;
 const uint16_t BITMAP_LOGO_BORDER_ID = 25;
 const uint16_t BITMAP_MAP_BORDER_ID = 26;
-const uint16_t BITMAP_POINT_MAP_ID = 27;
-const uint16_t BITMAP_RECEPTION_BAR_1_ID = 28;
-const uint16_t BITMAP_RECEPTION_BAR_2_ID = 29;
-const uint16_t BITMAP_RECEPTION_BAR_3_ID = 30;
-const uint16_t BITMAP_ROVER_MODE_ID = 31;
-const uint16_t BITMAP_SIDE_BUTTON_ID = 32;
-const uint16_t BITMAP_SIDE_BUTTON_PRESSED_ID = 33;
-const uint16_t BITMAP_SMALL_MAP_ID = 34;
-const uint16_t BITMAP_STAR_ID = 35;
-const uint16_t BITMAP_STATUS_LINE_ID = 36;
-const uint16_t BITMAP_STATUS_RECTANGLE_ID = 37;
-const uint16_t BITMAP_TOP_BAR_ID = 38;
-const uint16_t BITMAP_TRUE_LINE_LOGO_ID = 39;
+const uint16_t BITMAP_O_ID = 27;
+const uint16_t BITMAP_POINT_MAP_ID = 28;
+const uint16_t BITMAP_RECEPTION_BAR_1_ID = 29;
+const uint16_t BITMAP_RECEPTION_BAR_2_ID = 30;
+const uint16_t BITMAP_RECEPTION_BAR_3_ID = 31;
+const uint16_t BITMAP_ROVER_MODE_ID = 32;
+const uint16_t BITMAP_SIDE_BUTTON_ID = 33;
+const uint16_t BITMAP_SIDE_BUTTON_PRESSED_ID = 34;
+const uint16_t BITMAP_SMALL_MAP_ID = 35;
+const uint16_t BITMAP_STAR_ID = 36;
+const uint16_t BITMAP_STATUS_LINE_ID = 37;
+const uint16_t BITMAP_STATUS_RECTANGLE_ID = 38;
+const uint16_t BITMAP_TOP_BAR_ID = 39;
+const uint16_t BITMAP_TRUE_LINE_LOGO_ID = 40;
+const uint16_t BITMAP_X_ID = 41;
 
 namespace BitmapDatabase
 {

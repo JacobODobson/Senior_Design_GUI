@@ -14,7 +14,6 @@
 #include <touchgfx/widgets/ButtonWithLabel.hpp>
 #include <touchgfx/widgets/canvas/Line.hpp>
 #include <touchgfx/widgets/canvas/PainterRGB565.hpp>
-#include <touchgfx/widgets/Image.hpp>
 
 class HomeViewBase : public touchgfx::View<HomePresenter>
 {
@@ -50,9 +49,6 @@ protected:
     touchgfx::TextArea textArea4;
     touchgfx::TextArea textArea5;
     touchgfx::ScalableImage scalableImage6;
-    touchgfx::Image image1;
-    touchgfx::Image image1_1;
-    touchgfx::Image image1_1_1;
 
 private:
 

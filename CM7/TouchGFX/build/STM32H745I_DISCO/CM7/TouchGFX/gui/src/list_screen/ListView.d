@@ -53,7 +53,8 @@ CM7/TouchGFX/build/STM32H745I_DISCO/CM7/TouchGFX/gui/src/list_screen/ListView.o:
  CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp \
  CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/AbstractClock.hpp \
  CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp \
- CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp
+ CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
+ CM7/TouchGFX/generated/images/include/BitmapDatabase.hpp
 
 CM7/TouchGFX/gui/include/gui/list_screen/ListView.hpp:
 
@@ -162,3 +163,5 @@ CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/Abstract
 CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:
 
 CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
+
+CM7/TouchGFX/generated/images/include/BitmapDatabase.hpp:

@@ -67,7 +67,8 @@ CM7/TouchGFX/build/STM32H745I_DISCO/CM7/TouchGFX/gui/src/home_screen/HomeView.o:
  CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainter.hpp \
  CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidget.hpp \
  CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB565.hpp \
- CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB565.hpp
+ CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB565.hpp \
+ CM7/TouchGFX/generated/images/include/BitmapDatabase.hpp
 
 CM7/TouchGFX/gui/include/gui/home_screen/HomeView.hpp:
 
@@ -204,3 +205,5 @@ CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidg
 CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB565.hpp:
 
 CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB565.hpp:
+
+CM7/TouchGFX/generated/images/include/BitmapDatabase.hpp:

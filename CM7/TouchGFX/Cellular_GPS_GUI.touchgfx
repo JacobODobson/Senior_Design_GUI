@@ -141,7 +141,7 @@
             "Name": "textArea3",
             "X": 210,
             "Y": 111,
-            "Width": 114,
+            "Width": 113,
             "Height": 23,
             "TextId": "__SingleUse_S398",
             "TextRotation": "0",
@@ -192,33 +192,6 @@
             "Height": 102,
             "Filename": "Grid.png",
             "ScalingAlgorithm": "Nearest-neighbor"
-          },
-          {
-            "Type": "Image",
-            "Name": "image1",
-            "X": 360,
-            "Y": 167,
-            "Width": 10,
-            "Height": 10,
-            "RelativeFilename": "Point_Map.png"
-          },
-          {
-            "Type": "Image",
-            "Name": "image1_1",
-            "X": 388,
-            "Y": 158,
-            "Width": 10,
-            "Height": 10,
-            "RelativeFilename": "Point_Map.png"
-          },
-          {
-            "Type": "Image",
-            "Name": "image1_1_1",
-            "X": 423,
-            "Y": 210,
-            "Width": 10,
-            "Height": 10,
-            "RelativeFilename": "Point_Map.png"
           }
         ],
         "Interactions": [
@@ -404,36 +377,6 @@
             "Width": 189,
             "Height": 176,
             "Filename": "Grid.png",
-            "ScalingAlgorithm": "Nearest-neighbor"
-          },
-          {
-            "Type": "ScalableImage",
-            "Name": "scalableImage4",
-            "X": 171,
-            "Y": 83,
-            "Width": 15,
-            "Height": 17,
-            "Filename": "Dot.png",
-            "ScalingAlgorithm": "Nearest-neighbor"
-          },
-          {
-            "Type": "ScalableImage",
-            "Name": "scalableImage5",
-            "X": 286,
-            "Y": 193,
-            "Width": 15,
-            "Height": 15,
-            "Filename": "Dot.png",
-            "ScalingAlgorithm": "Nearest-neighbor"
-          },
-          {
-            "Type": "ScalableImage",
-            "Name": "scalableImage6",
-            "X": 227,
-            "Y": 76,
-            "Width": 15,
-            "Height": 15,
-            "Filename": "Dot.png",
             "ScalingAlgorithm": "Nearest-neighbor"
           }
         ],
@@ -785,7 +728,6 @@
           {
             "Type": "Box",
             "Name": "box1",
-            "Y": -6,
             "Width": 480,
             "Height": 272,
             "Color": {
