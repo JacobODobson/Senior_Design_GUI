@@ -66,9 +66,9 @@ void StoreViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& src)
 {
     if (&src == &Back)
     {
-        //To_Map
-        //When Back clicked change screen to Map
-        //Go to Map with no screen transition
-        application().gotoMapScreenNoTransition();
+        //To_List
+        //When Back clicked change screen to List
+        //Go to List with no screen transition
+        application().gotoListScreenNoTransition();
     }
 }

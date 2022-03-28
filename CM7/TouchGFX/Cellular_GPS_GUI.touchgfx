@@ -61,21 +61,9 @@
           },
           {
             "Type": "ButtonWithLabel",
-            "Name": "Map",
-            "X": 19,
-            "Y": 32,
-            "Width": 166,
-            "Height": 42,
-            "Pressed": "Button_Pressed.png",
-            "Released": "Button_Unpressed.png",
-            "TextId": "__SingleUse_0ZP6",
-            "TextRotation": "0"
-          },
-          {
-            "Type": "ButtonWithLabel",
             "Name": "List",
             "X": 19,
-            "Y": 80,
+            "Y": 43,
             "Width": 166,
             "Height": 42,
             "Pressed": "Button_Pressed.png",
@@ -85,21 +73,9 @@
           },
           {
             "Type": "ButtonWithLabel",
-            "Name": "Export",
-            "X": 19,
-            "Y": 128,
-            "Width": 166,
-            "Height": 42,
-            "Pressed": "Button_Pressed.png",
-            "Released": "Button_Unpressed.png",
-            "TextId": "__SingleUse_9D38",
-            "TextRotation": "0"
-          },
-          {
-            "Type": "ButtonWithLabel",
             "Name": "Pair",
             "X": 19,
-            "Y": 176,
+            "Y": 115,
             "Width": 166,
             "Height": 42,
             "Pressed": "Button_Pressed.png",
@@ -111,7 +87,7 @@
             "Type": "ButtonWithLabel",
             "Name": "Settings",
             "X": 19,
-            "Y": 224,
+            "Y": 189,
             "Width": 166,
             "Height": 42,
             "Pressed": "Button_Pressed.png",
@@ -161,16 +137,6 @@
             "AutoSize": true
           },
           {
-            "Type": "ScalableImage",
-            "Name": "scalableImage6",
-            "X": 310,
-            "Y": 149,
-            "Width": 146,
-            "Height": 109,
-            "Filename": "Small_Map.png",
-            "ScalingAlgorithm": "Nearest-neighbor"
-          },
-          {
             "Type": "TextArea",
             "Name": "textArea3",
             "X": 210,
@@ -200,8 +166,8 @@
             "Name": "textArea4",
             "X": 204,
             "Y": 149,
-            "Width": 64,
-            "Height": 12,
+            "Width": 97,
+            "Height": 18,
             "TextId": "__SingleUse_QD7P",
             "TextRotation": "0",
             "AutoSize": true
@@ -209,28 +175,26 @@
           {
             "Type": "TextArea",
             "Name": "textArea5",
-            "X": 204,
-            "Y": 164,
-            "Width": 62,
-            "Height": 12,
+            "X": 206,
+            "Y": 189,
+            "Width": 93,
+            "Height": 18,
             "TextId": "__SingleUse_EVKR",
             "TextRotation": "0",
             "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage6",
+            "X": 341,
+            "Y": 149,
+            "Width": 115,
+            "Height": 102,
+            "Filename": "Grid.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
           }
         ],
         "Interactions": [
-          {
-            "InteractionName": "Map",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "Map"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "Map"
-            }
-          },
           {
             "InteractionName": "List",
             "Trigger": {
@@ -241,18 +205,6 @@
               "Type": "ActionGotoScreen",
               "ScreenTransitionType": "ScreenTransitionNone",
               "ActionComponent": "List"
-            }
-          },
-          {
-            "InteractionName": "Export",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "Export"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "Export"
             }
           },
           {
@@ -277,256 +229,6 @@
               "Type": "ActionGotoScreen",
               "ScreenTransitionType": "ScreenTransitionNone",
               "ActionComponent": "Settings"
-            }
-          }
-        ]
-      },
-      {
-        "Name": "Map",
-        "Components": [
-          {
-            "Type": "Box",
-            "Name": "box1",
-            "Width": 480,
-            "Height": 272,
-            "Color": {
-              "Red": 229,
-              "Green": 229,
-              "Blue": 229
-            }
-          },
-          {
-            "Type": "Box",
-            "Name": "box2",
-            "Width": 480,
-            "Height": 27,
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            }
-          },
-          {
-            "Type": "ScalableImage",
-            "Name": "scalableImage1",
-            "X": 11,
-            "Y": 56,
-            "Width": 342,
-            "Height": 210,
-            "Filename": "Map_Border.png",
-            "ScalingAlgorithm": "Nearest-neighbor"
-          },
-          {
-            "Type": "ButtonWithLabel",
-            "Name": "Map_Tab",
-            "X": 11,
-            "Y": 34,
-            "Width": 95,
-            "Height": 22,
-            "Pressed": "Background_Tab.png",
-            "Released": "Foreground_Tab.png",
-            "TextId": "__SingleUse_32LF",
-            "PressedColor": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "TextRotation": "0"
-          },
-          {
-            "Type": "ButtonWithIcon",
-            "Name": "Right_Arrow",
-            "X": 363,
-            "Y": 34,
-            "Width": 117,
-            "Height": 41,
-            "Pressed": "Side_Button_Pressed.png",
-            "Released": "Side_Button.png",
-            "IconPressed": "Arrow_Right.png",
-            "IconReleased": "Arrow_Right.png",
-            "IconX": 49,
-            "IconY": 10,
-            "IconHeight": 20,
-            "IconWidth": 18
-          },
-          {
-            "Type": "ButtonWithIcon",
-            "Name": "Left_Arrow",
-            "X": 363,
-            "Y": 83,
-            "Width": 117,
-            "Height": 41,
-            "Pressed": "Side_Button_Pressed.png",
-            "Released": "Side_Button.png",
-            "IconPressed": "Arrow_Left.png",
-            "IconReleased": "Arrow_Left.png",
-            "IconX": 49,
-            "IconY": 10,
-            "IconHeight": 20,
-            "IconWidth": 18
-          },
-          {
-            "Type": "ButtonWithLabel",
-            "Name": "Home",
-            "X": 363,
-            "Y": 130,
-            "Width": 117,
-            "Height": 41,
-            "Pressed": "Side_Button_Pressed.png",
-            "Released": "Side_Button.png",
-            "TextId": "__SingleUse_9YKY",
-            "TextRotation": "0"
-          },
-          {
-            "Type": "ButtonWithLabel",
-            "Name": "Store",
-            "X": 363,
-            "Y": 177,
-            "Width": 117,
-            "Height": 41,
-            "Pressed": "Side_Button_Pressed.png",
-            "Released": "Side_Button.png",
-            "TextId": "__SingleUse_GYON",
-            "TextRotation": "0"
-          },
-          {
-            "Type": "ButtonWithLabel",
-            "Name": "Back",
-            "X": 363,
-            "Y": 225,
-            "Width": 117,
-            "Height": 41,
-            "Pressed": "Side_Button_Pressed.png",
-            "Released": "Side_Button.png",
-            "TextId": "__SingleUse_4YHD",
-            "TextRotation": "0"
-          },
-          {
-            "Type": "ButtonWithLabel",
-            "Name": "List_Tab",
-            "X": 106,
-            "Y": 34,
-            "Width": 95,
-            "Height": 22,
-            "Pressed": "Background_Tab.png",
-            "Released": "Background_Tab.png",
-            "TextId": "__SingleUse_MPCF",
-            "TextRotation": "0"
-          },
-          {
-            "Type": "DigitalClock",
-            "Name": "digitalClock1",
-            "X": 11,
-            "Y": 4,
-            "Width": 69,
-            "Height": 23,
-            "TextId": "__SingleUse_VVE3",
-            "UseAmPm": true,
-            "InitialHour": 10,
-            "InitialMinute": 10
-          },
-          {
-            "Type": "TextArea",
-            "Name": "textArea1",
-            "X": 209,
-            "Y": 4,
-            "Width": 53,
-            "Height": 18,
-            "TextId": "__SingleUse_QT17",
-            "TextRotation": "0",
-            "AutoSize": true
-          },
-          {
-            "Type": "ScalableImage",
-            "Name": "scalableImage2",
-            "X": 411,
-            "Y": 1,
-            "Width": 24,
-            "Height": 26,
-            "Filename": "Battery.png",
-            "ScalingAlgorithm": "Nearest-neighbor"
-          },
-          {
-            "Type": "ScalableImage",
-            "Name": "scalableImage3",
-            "X": 20,
-            "Y": 66,
-            "Width": 325,
-            "Height": 191,
-            "Filename": "Example_Map.png",
-            "ScalingAlgorithm": "Nearest-neighbor"
-          },
-          {
-            "Type": "TextArea",
-            "Name": "textArea2",
-            "X": 441,
-            "Y": 7,
-            "Width": 23,
-            "Height": 13,
-            "TextId": "__SingleUse_0ZM8",
-            "TextRotation": "0",
-            "AutoSize": true
-          }
-        ],
-        "Interactions": [
-          {
-            "InteractionName": "List",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "List_Tab"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "List"
-            }
-          },
-          {
-            "InteractionName": "Right",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "Right_Arrow"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "List"
-            }
-          },
-          {
-            "InteractionName": "Home",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "Home"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "Home"
-            }
-          },
-          {
-            "InteractionName": "Back",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "Back"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "Home"
-            }
-          },
-          {
-            "InteractionName": "Store",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "Store"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "Store"
             }
           }
         ]
@@ -560,78 +262,17 @@
             "Type": "ScalableImage",
             "Name": "scalableImage1",
             "X": 11,
-            "Y": 56,
-            "Width": 342,
-            "Height": 210,
-            "Filename": "Map_Border.png",
+            "Y": 42,
+            "Width": 339,
+            "Height": 216,
+            "Filename": "Status_Rectangle.png",
             "ScalingAlgorithm": "Nearest-neighbor"
-          },
-          {
-            "Type": "ButtonWithLabel",
-            "Name": "Map_Tab",
-            "X": 11,
-            "Y": 34,
-            "Width": 95,
-            "Height": 22,
-            "Pressed": "Foreground_Tab.png",
-            "Released": "Background_Tab.png",
-            "TextId": "__SingleUse_SQGE",
-            "PressedColor": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            },
-            "TextRotation": "0"
-          },
-          {
-            "Type": "ButtonWithIcon",
-            "Name": "Right_Button",
-            "X": 363,
-            "Y": 34,
-            "Width": 117,
-            "Height": 41,
-            "Pressed": "Side_Button_Pressed.png",
-            "Released": "Side_Button.png",
-            "IconPressed": "Arrow_Right.png",
-            "IconReleased": "Arrow_Right.png",
-            "IconX": 49,
-            "IconY": 10,
-            "IconHeight": 20,
-            "IconWidth": 18
-          },
-          {
-            "Type": "ButtonWithIcon",
-            "Name": "Left_Button",
-            "X": 363,
-            "Y": 83,
-            "Width": 117,
-            "Height": 41,
-            "Pressed": "Side_Button_Pressed.png",
-            "Released": "Side_Button.png",
-            "IconPressed": "Arrow_Left.png",
-            "IconReleased": "Arrow_Left.png",
-            "IconX": 49,
-            "IconY": 10,
-            "IconHeight": 20,
-            "IconWidth": 18
-          },
-          {
-            "Type": "ButtonWithLabel",
-            "Name": "Home",
-            "X": 363,
-            "Y": 130,
-            "Width": 117,
-            "Height": 41,
-            "Pressed": "Side_Button_Pressed.png",
-            "Released": "Side_Button.png",
-            "TextId": "__SingleUse_LOKL",
-            "TextRotation": "0"
           },
           {
             "Type": "ButtonWithLabel",
             "Name": "Store",
             "X": 363,
-            "Y": 177,
+            "Y": 42,
             "Width": 117,
             "Height": 41,
             "Pressed": "Side_Button_Pressed.png",
@@ -643,24 +284,12 @@
             "Type": "ButtonWithLabel",
             "Name": "Back",
             "X": 363,
-            "Y": 225,
+            "Y": 100,
             "Width": 117,
             "Height": 41,
             "Pressed": "Side_Button_Pressed.png",
             "Released": "Side_Button.png",
             "TextId": "__SingleUse_8SBT",
-            "TextRotation": "0"
-          },
-          {
-            "Type": "ButtonWithLabel",
-            "Name": "List_Tab",
-            "X": 106,
-            "Y": 34,
-            "Width": 95,
-            "Height": 22,
-            "Pressed": "Background_Tab.png",
-            "Released": "Foreground_Tab.png",
-            "TextId": "__SingleUse_35B8",
             "TextRotation": "0"
           },
           {
@@ -711,9 +340,9 @@
             "Type": "TextArea",
             "Name": "textArea3",
             "X": 24,
-            "Y": 69,
-            "Width": 43,
-            "Height": 13,
+            "Y": 51,
+            "Width": 55,
+            "Height": 18,
             "TextId": "__SingleUse_EKQZ",
             "TextRotation": "0",
             "AutoSize": true
@@ -722,9 +351,9 @@
             "Type": "TextArea",
             "Name": "textArea3_1",
             "X": 24,
-            "Y": 90,
-            "Width": 43,
-            "Height": 13,
+            "Y": 100,
+            "Width": 55,
+            "Height": 18,
             "TextId": "__SingleUse_660L",
             "TextRotation": "0",
             "AutoSize": true
@@ -733,51 +362,25 @@
             "Type": "TextArea",
             "Name": "textArea3_2",
             "X": 24,
-            "Y": 111,
-            "Width": 43,
-            "Height": 13,
+            "Y": 150,
+            "Width": 55,
+            "Height": 18,
             "TextId": "__SingleUse_4J7M",
             "TextRotation": "0",
             "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage3",
+            "X": 146,
+            "Y": 62,
+            "Width": 189,
+            "Height": 176,
+            "Filename": "Grid.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
           }
         ],
         "Interactions": [
-          {
-            "InteractionName": "Map_Tab",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "Map_Tab"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "Map"
-            }
-          },
-          {
-            "InteractionName": "Left_Arrow",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "Left_Button"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "Map"
-            }
-          },
-          {
-            "InteractionName": "Home",
-            "Trigger": {
-              "Type": "TriggerClicked",
-              "TriggerComponent": "Home"
-            },
-            "Action": {
-              "Type": "ActionGotoScreen",
-              "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "Home"
-            }
-          },
           {
             "InteractionName": "Store",
             "Trigger": {
@@ -888,7 +491,7 @@
         ],
         "Interactions": [
           {
-            "InteractionName": "To_Map",
+            "InteractionName": "To_List",
             "Trigger": {
               "Type": "TriggerClicked",
               "TriggerComponent": "Back"
@@ -896,7 +499,7 @@
             "Action": {
               "Type": "ActionGotoScreen",
               "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "Map"
+              "ActionComponent": "List"
             }
           }
         ]
@@ -1093,113 +696,28 @@
               "ScreenTransitionType": "ScreenTransitionNone",
               "ActionComponent": "Home"
             }
-          }
-        ]
-      },
-      {
-        "Name": "Export",
-        "Components": [
-          {
-            "Type": "Box",
-            "Name": "box1",
-            "Width": 480,
-            "Height": 272,
-            "Color": {
-              "Red": 229,
-              "Green": 229,
-              "Blue": 229
-            }
           },
           {
-            "Type": "Box",
-            "Name": "box2",
-            "Width": 480,
-            "Height": 27,
-            "Color": {
-              "Red": 255,
-              "Green": 255,
-              "Blue": 255
-            }
-          },
-          {
-            "Type": "ButtonWithLabel",
-            "Name": "Back",
-            "X": 363,
-            "Y": 225,
-            "Width": 117,
-            "Height": 41,
-            "Pressed": "Side_Button_Pressed.png",
-            "Released": "Side_Button.png",
-            "TextId": "__SingleUse_XHJ7",
-            "TextRotation": "0"
-          },
-          {
-            "Type": "DigitalClock",
-            "Name": "digitalClock1",
-            "X": 11,
-            "Y": 4,
-            "Width": 69,
-            "Height": 23,
-            "TextId": "__SingleUse_ZEGU",
-            "UseAmPm": true,
-            "InitialHour": 10,
-            "InitialMinute": 10
-          },
-          {
-            "Type": "TextArea",
-            "Name": "textArea1",
-            "X": 209,
-            "Y": 4,
-            "Width": 53,
-            "Height": 18,
-            "TextId": "__SingleUse_4NXD",
-            "TextRotation": "0",
-            "AutoSize": true
-          },
-          {
-            "Type": "ScalableImage",
-            "Name": "scalableImage2",
-            "X": 411,
-            "Y": 1,
-            "Width": 24,
-            "Height": 26,
-            "Filename": "Battery.png",
-            "ScalingAlgorithm": "Nearest-neighbor"
-          },
-          {
-            "Type": "TextArea",
-            "Name": "textArea2",
-            "X": 441,
-            "Y": 7,
-            "Width": 23,
-            "Height": 13,
-            "TextId": "__SingleUse_4VEU",
-            "TextRotation": "0",
-            "AutoSize": true
-          },
-          {
-            "Type": "TextArea",
-            "Name": "textArea3",
-            "X": 17,
-            "Y": 102,
-            "Width": 436,
-            "Height": 69,
-            "TextId": "__SingleUse_JSFL",
-            "TextRotation": "0",
-            "AutoSize": true
-          }
-        ],
-        "Interactions": [
-          {
-            "InteractionName": "Back",
+            "InteractionName": "KeyboardSelected",
+            "HasCompletedTrigger": true,
             "Trigger": {
               "Type": "TriggerClicked",
-              "TriggerComponent": "Back"
+              "TriggerComponent": "flexButtonID"
             },
             "Action": {
               "Type": "ActionGotoScreen",
               "ScreenTransitionType": "ScreenTransitionNone",
-              "ActionComponent": "Home"
+              "ActionComponent": "Keyboard_1"
+            }
+          },
+          {
+            "InteractionName": "update_text",
+            "Trigger": {
+              "Type": "TriggerScreenTransitionBegins"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateScreen"
             }
           }
         ]
@@ -1210,7 +728,6 @@
           {
             "Type": "Box",
             "Name": "box1",
-            "Y": -6,
             "Width": 480,
             "Height": 272,
             "Color": {
@@ -1531,6 +1048,139 @@
               "Type": "ActionGotoScreen",
               "ScreenTransitionType": "ScreenTransitionNone",
               "ActionComponent": "Pair"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Keyboard_1",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 480,
+            "Height": 272,
+            "Color": {
+              "Red": 229,
+              "Green": 229,
+              "Blue": 229
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2",
+            "Width": 480,
+            "Height": 27,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Cancel",
+            "X": 363,
+            "Y": 225,
+            "Width": 117,
+            "Height": 41,
+            "Pressed": "Side_Button_Pressed.png",
+            "Released": "Side_Button.png",
+            "TextId": "__SingleUse_Z24X",
+            "TextRotation": "0"
+          },
+          {
+            "Type": "DigitalClock",
+            "Name": "digitalClock1",
+            "X": 11,
+            "Y": 4,
+            "Width": 69,
+            "Height": 23,
+            "TextId": "__SingleUse_6JM7",
+            "UseAmPm": true,
+            "InitialHour": 10,
+            "InitialMinute": 10
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 209,
+            "Y": 4,
+            "Width": 53,
+            "Height": 18,
+            "TextId": "__SingleUse_YJIF",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage2",
+            "X": 411,
+            "Y": 1,
+            "Width": 24,
+            "Height": 26,
+            "Filename": "Battery.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 441,
+            "Y": 7,
+            "Width": 23,
+            "Height": 13,
+            "TextId": "__SingleUse_9UM0",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "Confirm",
+            "X": 363,
+            "Y": 177,
+            "Width": 117,
+            "Height": 41,
+            "Pressed": "Side_Button_Pressed.png",
+            "Released": "Side_Button.png",
+            "TextId": "__SingleUse_KI1X",
+            "TextRotation": "0"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "ButtonCancel",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Cancel"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Settings"
+            }
+          },
+          {
+            "InteractionName": "ButtonConfirm",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Confirm"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "getBuffer_1"
+            }
+          },
+          {
+            "InteractionName": "goBack",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "ButtonConfirm"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Settings"
             }
           }
         ]

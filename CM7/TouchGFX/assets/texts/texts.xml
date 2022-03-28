@@ -1,41 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.18.0">
   <Texts>
-    <Text Id="__SingleUse_32LF" TypographyId="Arial_Medium" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">Map</Translation>
-    </Text>
-    <Text Id="__SingleUse_9YKY" TypographyId="Arial_Medium" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">Home</Translation>
-    </Text>
-    <Text Id="__SingleUse_GYON" TypographyId="Arial_Medium" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">Store</Translation>
-    </Text>
-    <Text Id="__SingleUse_4YHD" TypographyId="Arial_Medium" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">Back</Translation>
-    </Text>
-    <Text Id="__SingleUse_MPCF" TypographyId="Arial_Medium" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">List</Translation>
-    </Text>
-    <Text Id="__SingleUse_VVE3" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
-      <Translation Language="GB">&lt;&gt;</Translation>
-    </Text>
-    <Text Id="__SingleUse_QT17" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
-      <Translation Language="GB">Rover 1</Translation>
-    </Text>
-    <Text Id="__SingleUse_SQGE" TypographyId="Arial_Medium" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">Map</Translation>
-    </Text>
-    <Text Id="__SingleUse_LOKL" TypographyId="Arial_Medium" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">Home</Translation>
-    </Text>
     <Text Id="__SingleUse_JZM8" TypographyId="Arial_Medium" Alignment="Center" Direction="LTR">
       <Translation Language="GB">Store</Translation>
     </Text>
     <Text Id="__SingleUse_8SBT" TypographyId="Arial_Medium" Alignment="Center" Direction="LTR">
       <Translation Language="GB">Back</Translation>
-    </Text>
-    <Text Id="__SingleUse_35B8" TypographyId="Arial_Medium" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">List</Translation>
     </Text>
     <Text Id="__SingleUse_3XS0" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
       <Translation Language="GB">&lt;&gt;</Translation>
@@ -49,14 +19,8 @@
     <Text Id="__SingleUse_5QAY" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
       <Translation Language="GB">Rover 1</Translation>
     </Text>
-    <Text Id="__SingleUse_0ZP6" TypographyId="Arial_Large" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">Map</Translation>
-    </Text>
     <Text Id="__SingleUse_BNSB" TypographyId="Arial_Large" Alignment="Center" Direction="LTR">
       <Translation Language="GB">List</Translation>
-    </Text>
-    <Text Id="__SingleUse_9D38" TypographyId="Arial_Large" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">Export</Translation>
     </Text>
     <Text Id="__SingleUse_KZ8L" TypographyId="Arial_Large" Alignment="Center" Direction="LTR">
       <Translation Language="GB">Pair</Translation>
@@ -82,15 +46,6 @@
     <Text Id="__SingleUse_6CUD" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
       <Translation Language="GB">Rover 1</Translation>
     </Text>
-    <Text Id="__SingleUse_XHJ7" TypographyId="Arial_Medium" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">Back</Translation>
-    </Text>
-    <Text Id="__SingleUse_ZEGU" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
-      <Translation Language="GB">&lt;&gt;</Translation>
-    </Text>
-    <Text Id="__SingleUse_4NXD" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
-      <Translation Language="GB">Rover 1</Translation>
-    </Text>
     <Text Id="__SingleUse_LL1S" TypographyId="Arial_Medium" Alignment="Center" Direction="LTR">
       <Translation Language="GB">Back</Translation>
     </Text>
@@ -99,9 +54,6 @@
     </Text>
     <Text Id="__SingleUse_3EHN" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
       <Translation Language="GB">Rover 1</Translation>
-    </Text>
-    <Text Id="__SingleUse_0ZM8" TypographyId="Small" Alignment="Left" Direction="LTR">
-      <Translation Language="GB">60%</Translation>
     </Text>
     <Text Id="__SingleUse_1YGC" TypographyId="Small" Alignment="Left" Direction="LTR">
       <Translation Language="GB">60%</Translation>
@@ -115,28 +67,25 @@
     <Text Id="__SingleUse_K9AW" TypographyId="Small" Alignment="Left" Direction="LTR">
       <Translation Language="GB">60%</Translation>
     </Text>
-    <Text Id="__SingleUse_4VEU" TypographyId="Small" Alignment="Left" Direction="LTR">
-      <Translation Language="GB">60%</Translation>
-    </Text>
     <Text Id="__SingleUse_63ID" TypographyId="Small" Alignment="Left" Direction="LTR">
       <Translation Language="GB">60%</Translation>
     </Text>
-    <Text Id="__SingleUse_EKQZ" TypographyId="Small" Alignment="Left" Direction="LTR">
+    <Text Id="__SingleUse_EKQZ" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
       <Translation Language="GB">Point 1: </Translation>
     </Text>
-    <Text Id="__SingleUse_660L" TypographyId="Small" Alignment="Left" Direction="LTR">
+    <Text Id="__SingleUse_660L" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
       <Translation Language="GB">Point 2: </Translation>
     </Text>
-    <Text Id="__SingleUse_4J7M" TypographyId="Small" Alignment="Left" Direction="LTR">
+    <Text Id="__SingleUse_4J7M" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
       <Translation Language="GB">Point 3: </Translation>
     </Text>
     <Text Id="__SingleUse_S398" TypographyId="Arial_Large" Alignment="Left" Direction="LTR">
       <Translation Language="GB">Quick Status</Translation>
     </Text>
-    <Text Id="__SingleUse_QD7P" TypographyId="Arial_Small" Alignment="Left" Direction="LTR">
+    <Text Id="__SingleUse_QD7P" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
       <Translation Language="GB">Base Stations:</Translation>
     </Text>
-    <Text Id="__SingleUse_EVKR" TypographyId="Arial_Small" Alignment="Left" Direction="LTR">
+    <Text Id="__SingleUse_EVKR" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
       <Translation Language="GB">Saved Points:</Translation>
     </Text>
     <Text Id="__SingleUse_ZM34" TypographyId="Arial_Medium" Alignment="Center" Direction="LTR">
@@ -175,11 +124,23 @@
     <Text Id="__SingleUse_Z8T1" TypographyId="Arial_Large" Alignment="Left" Direction="LTR">
       <Translation Language="GB">Device Name</Translation>
     </Text>
-    <Text Id="__SingleUse_JSFL" TypographyId="Arial_Large" Alignment="Center" Direction="LTR">
-      <Translation Language="GB">To export data, connect this device to a computer&#10;and use the computer's file explorer to navigate&#10;to this device's internal storage</Translation>
-    </Text>
     <Text Id="__SingleUse_XH0F" TypographyId="Default" Alignment="Left" Direction="LTR">
       <Translation Language="GB">&lt;value&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_Z24X" TypographyId="Arial_Medium" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Cancel</Translation>
+    </Text>
+    <Text Id="__SingleUse_6JM7" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">&lt;&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_YJIF" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">Rover 1</Translation>
+    </Text>
+    <Text Id="__SingleUse_9UM0" TypographyId="Small" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">60%</Translation>
+    </Text>
+    <Text Id="__SingleUse_KI1X" TypographyId="Arial_Medium" Alignment="Center" Direction="LTR">
+      <Translation Language="GB">Confirm</Translation>
     </Text>
   </Texts>
   <Typographies>

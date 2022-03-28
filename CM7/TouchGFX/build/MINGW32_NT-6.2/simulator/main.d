@@ -93,10 +93,6 @@ build/MINGW32_NT-6.2/simulator/main.o: simulator/main.cpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidget.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB565.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB565.hpp \
- gui/include/gui/map_screen/MapView.hpp \
- generated/gui_generated/include/gui_generated/map_screen/MapViewBase.hpp \
- gui/include/gui/map_screen/MapPresenter.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.hpp \
  gui/include/gui/list_screen/ListView.hpp \
  generated/gui_generated/include/gui_generated/list_screen/ListViewBase.hpp \
  gui/include/gui/list_screen/ListPresenter.hpp \
@@ -124,9 +120,6 @@ build/MINGW32_NT-6.2/simulator/main.o: simulator/main.cpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TouchButtonTrigger.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TwoWildcardTextButtonStyle.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/WildcardTextButtonStyle.hpp \
- gui/include/gui/export_screen/ExportView.hpp \
- generated/gui_generated/include/gui_generated/export_screen/ExportViewBase.hpp \
- gui/include/gui/export_screen/ExportPresenter.hpp \
  gui/include/gui/pair_screen/PairView.hpp \
  generated/gui_generated/include/gui_generated/pair_screen/PairViewBase.hpp \
  gui/include/gui/pair_screen/PairPresenter.hpp \
@@ -138,6 +131,9 @@ build/MINGW32_NT-6.2/simulator/main.o: simulator/main.cpp \
  generated/texts/include/texts/TextKeysAndLanguages.hpp \
  gui/include/gui/common/KeyboardLayout.hpp \
  gui/include/gui/common/KeyboardKeyMapping.hpp \
+ gui/include/gui/keyboard_1_screen/Keyboard_1View.hpp \
+ generated/gui_generated/include/gui_generated/keyboard_1_screen/Keyboard_1ViewBase.hpp \
+ gui/include/gui/keyboard_1_screen/Keyboard_1Presenter.hpp \
  generated/gui_generated/include/gui_generated/common/SimConstants.hpp \
  ../Middlewares/ST/touchgfx/framework/include/platform/driver/touch/SDL2TouchController.hpp \
  generated/simulator/include/simulator/mainBase.hpp
@@ -332,14 +328,6 @@ gui/include/gui/model/ModelListener.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB565.hpp:
 
-gui/include/gui/map_screen/MapView.hpp:
-
-generated/gui_generated/include/gui_generated/map_screen/MapViewBase.hpp:
-
-gui/include/gui/map_screen/MapPresenter.hpp:
-
-../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.hpp:
-
 gui/include/gui/list_screen/ListView.hpp:
 
 generated/gui_generated/include/gui_generated/list_screen/ListViewBase.hpp:
@@ -394,12 +382,6 @@ gui/include/gui/settings_screen/SettingsPresenter.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/WildcardTextButtonStyle.hpp:
 
-gui/include/gui/export_screen/ExportView.hpp:
-
-generated/gui_generated/include/gui_generated/export_screen/ExportViewBase.hpp:
-
-gui/include/gui/export_screen/ExportPresenter.hpp:
-
 gui/include/gui/pair_screen/PairView.hpp:
 
 generated/gui_generated/include/gui_generated/pair_screen/PairViewBase.hpp:
@@ -421,6 +403,12 @@ generated/texts/include/texts/TextKeysAndLanguages.hpp:
 gui/include/gui/common/KeyboardLayout.hpp:
 
 gui/include/gui/common/KeyboardKeyMapping.hpp:
+
+gui/include/gui/keyboard_1_screen/Keyboard_1View.hpp:
+
+generated/gui_generated/include/gui_generated/keyboard_1_screen/Keyboard_1ViewBase.hpp:
+
+gui/include/gui/keyboard_1_screen/Keyboard_1Presenter.hpp:
 
 generated/gui_generated/include/gui_generated/common/SimConstants.hpp:
 

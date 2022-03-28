@@ -10,7 +10,6 @@
 #include <touchgfx/widgets/Box.hpp>
 #include <touchgfx/widgets/ScalableImage.hpp>
 #include <touchgfx/widgets/ButtonWithLabel.hpp>
-#include <touchgfx/widgets/ButtonWithIcon.hpp>
 #include <touchgfx/containers/clock/DigitalClock.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
 
@@ -33,13 +32,8 @@ protected:
     touchgfx::Box box1;
     touchgfx::Box box2;
     touchgfx::ScalableImage scalableImage1;
-    touchgfx::ButtonWithLabel Map_Tab;
-    touchgfx::ButtonWithIcon Right_Button;
-    touchgfx::ButtonWithIcon Left_Button;
-    touchgfx::ButtonWithLabel Home;
     touchgfx::ButtonWithLabel Store;
     touchgfx::ButtonWithLabel Back;
-    touchgfx::ButtonWithLabel List_Tab;
     touchgfx::DigitalClock digitalClock1;
     touchgfx::TextArea textArea1;
     touchgfx::ScalableImage scalableImage2;
@@ -47,6 +41,7 @@ protected:
     touchgfx::TextArea textArea3;
     touchgfx::TextArea textArea3_1;
     touchgfx::TextArea textArea3_2;
+    touchgfx::ScalableImage scalableImage3;
 
 private:
 

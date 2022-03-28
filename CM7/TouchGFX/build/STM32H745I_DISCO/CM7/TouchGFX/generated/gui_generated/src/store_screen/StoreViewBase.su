@@ -33,4 +33,4 @@ Drawable.hpp:216:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16
 Box.hpp:33:5:touchgfx::Box::Box()	0	static
 ButtonWithLabel.hpp:132:10:void touchgfx::ButtonWithLabel::updateTextPosition()	24	static
 TextArea.hpp:42:5:touchgfx::TextArea::TextArea()	0	static
-StoreViewBase.cpp:9:1:StoreViewBase::StoreViewBase()	80	static
+StoreViewBase.cpp:9:1:StoreViewBase::StoreViewBase()	88	static

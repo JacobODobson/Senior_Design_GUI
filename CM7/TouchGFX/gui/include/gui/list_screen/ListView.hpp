@@ -12,6 +12,14 @@ public:
     virtual void setupScreen();
     virtual void tearDownScreen();
 protected:
+    touchgfx::Image roverDot;
+    touchgfx::Image station1;
+    touchgfx::Image station2;
+    touchgfx::Image station3;
+
 };
+
+int myExtraSpecialXRescaler(float x);
+int myExtraSpecialYRescaler(float y);
 
 #endif // LISTVIEW_HPP

@@ -72,10 +72,6 @@ build/MINGW32_NT-6.2/generated/gui_generated/src/common/FrontendApplicationBase.
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidget.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB565.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB565.hpp \
- gui/include/gui/map_screen/MapView.hpp \
- generated/gui_generated/include/gui_generated/map_screen/MapViewBase.hpp \
- gui/include/gui/map_screen/MapPresenter.hpp \
- ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.hpp \
  gui/include/gui/list_screen/ListView.hpp \
  generated/gui_generated/include/gui_generated/list_screen/ListViewBase.hpp \
  gui/include/gui/list_screen/ListPresenter.hpp \
@@ -103,9 +99,6 @@ build/MINGW32_NT-6.2/generated/gui_generated/src/common/FrontendApplicationBase.
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TouchButtonTrigger.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TwoWildcardTextButtonStyle.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/WildcardTextButtonStyle.hpp \
- gui/include/gui/export_screen/ExportView.hpp \
- generated/gui_generated/include/gui_generated/export_screen/ExportViewBase.hpp \
- gui/include/gui/export_screen/ExportPresenter.hpp \
  gui/include/gui/pair_screen/PairView.hpp \
  generated/gui_generated/include/gui_generated/pair_screen/PairViewBase.hpp \
  gui/include/gui/pair_screen/PairPresenter.hpp \
@@ -120,6 +113,9 @@ build/MINGW32_NT-6.2/generated/gui_generated/src/common/FrontendApplicationBase.
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/FontManager.hpp \
  generated/images/include/BitmapDatabase.hpp \
  gui/include/gui/common/KeyboardKeyMapping.hpp \
+ gui/include/gui/keyboard_1_screen/Keyboard_1View.hpp \
+ generated/gui_generated/include/gui_generated/keyboard_1_screen/Keyboard_1ViewBase.hpp \
+ gui/include/gui/keyboard_1_screen/Keyboard_1Presenter.hpp \
  ../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD16bpp.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp \
  ../Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD16DebugPrinter.hpp
@@ -270,14 +266,6 @@ gui/include/gui/model/ModelListener.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB565.hpp:
 
-gui/include/gui/map_screen/MapView.hpp:
-
-generated/gui_generated/include/gui_generated/map_screen/MapViewBase.hpp:
-
-gui/include/gui/map_screen/MapPresenter.hpp:
-
-../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.hpp:
-
 gui/include/gui/list_screen/ListView.hpp:
 
 generated/gui_generated/include/gui_generated/list_screen/ListViewBase.hpp:
@@ -332,12 +320,6 @@ gui/include/gui/settings_screen/SettingsPresenter.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/WildcardTextButtonStyle.hpp:
 
-gui/include/gui/export_screen/ExportView.hpp:
-
-generated/gui_generated/include/gui_generated/export_screen/ExportViewBase.hpp:
-
-gui/include/gui/export_screen/ExportPresenter.hpp:
-
 gui/include/gui/pair_screen/PairView.hpp:
 
 generated/gui_generated/include/gui_generated/pair_screen/PairViewBase.hpp:
@@ -365,6 +347,12 @@ generated/fonts/include/fonts/ApplicationFontProvider.hpp:
 generated/images/include/BitmapDatabase.hpp:
 
 gui/include/gui/common/KeyboardKeyMapping.hpp:
+
+gui/include/gui/keyboard_1_screen/Keyboard_1View.hpp:
+
+generated/gui_generated/include/gui_generated/keyboard_1_screen/Keyboard_1ViewBase.hpp:
+
+gui/include/gui/keyboard_1_screen/Keyboard_1Presenter.hpp:
 
 ../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD16bpp.hpp:
 

@@ -76,10 +76,6 @@ CM7/TouchGFX/build/STM32H745I_DISCO/CM7/TouchGFX/target/generated/TouchGFXConfig
  CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidget.hpp \
  CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB565.hpp \
  CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB565.hpp \
- CM7/TouchGFX/gui/include/gui/map_screen/MapView.hpp \
- CM7/TouchGFX/generated/gui_generated/include/gui_generated/map_screen/MapViewBase.hpp \
- CM7/TouchGFX/gui/include/gui/map_screen/MapPresenter.hpp \
- CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.hpp \
  CM7/TouchGFX/gui/include/gui/list_screen/ListView.hpp \
  CM7/TouchGFX/generated/gui_generated/include/gui_generated/list_screen/ListViewBase.hpp \
  CM7/TouchGFX/gui/include/gui/list_screen/ListPresenter.hpp \
@@ -107,9 +103,6 @@ CM7/TouchGFX/build/STM32H745I_DISCO/CM7/TouchGFX/target/generated/TouchGFXConfig
  CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TouchButtonTrigger.hpp \
  CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TwoWildcardTextButtonStyle.hpp \
  CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/WildcardTextButtonStyle.hpp \
- CM7/TouchGFX/gui/include/gui/export_screen/ExportView.hpp \
- CM7/TouchGFX/generated/gui_generated/include/gui_generated/export_screen/ExportViewBase.hpp \
- CM7/TouchGFX/gui/include/gui/export_screen/ExportPresenter.hpp \
  CM7/TouchGFX/gui/include/gui/pair_screen/PairView.hpp \
  CM7/TouchGFX/generated/gui_generated/include/gui_generated/pair_screen/PairViewBase.hpp \
  CM7/TouchGFX/gui/include/gui/pair_screen/PairPresenter.hpp \
@@ -122,6 +115,9 @@ CM7/TouchGFX/build/STM32H745I_DISCO/CM7/TouchGFX/target/generated/TouchGFXConfig
  CM7/TouchGFX/gui/include/gui/common/KeyboardLayout.hpp \
  CM7/TouchGFX/generated/images/include/BitmapDatabase.hpp \
  CM7/TouchGFX/gui/include/gui/common/KeyboardKeyMapping.hpp \
+ CM7/TouchGFX/gui/include/gui/keyboard_1_screen/Keyboard_1View.hpp \
+ CM7/TouchGFX/generated/gui_generated/include/gui_generated/keyboard_1_screen/Keyboard_1ViewBase.hpp \
+ CM7/TouchGFX/gui/include/gui/keyboard_1_screen/Keyboard_1Presenter.hpp \
  CM7/Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD16bpp.hpp \
  CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp \
  CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/lcd/LCD16DebugPrinter.hpp \
@@ -318,14 +314,6 @@ CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB
 
 CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB565.hpp:
 
-CM7/TouchGFX/gui/include/gui/map_screen/MapView.hpp:
-
-CM7/TouchGFX/generated/gui_generated/include/gui_generated/map_screen/MapViewBase.hpp:
-
-CM7/TouchGFX/gui/include/gui/map_screen/MapPresenter.hpp:
-
-CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithIcon.hpp:
-
 CM7/TouchGFX/gui/include/gui/list_screen/ListView.hpp:
 
 CM7/TouchGFX/generated/gui_generated/include/gui_generated/list_screen/ListViewBase.hpp:
@@ -380,12 +368,6 @@ CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/TwoWil
 
 CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/WildcardTextButtonStyle.hpp:
 
-CM7/TouchGFX/gui/include/gui/export_screen/ExportView.hpp:
-
-CM7/TouchGFX/generated/gui_generated/include/gui_generated/export_screen/ExportViewBase.hpp:
-
-CM7/TouchGFX/gui/include/gui/export_screen/ExportPresenter.hpp:
-
 CM7/TouchGFX/gui/include/gui/pair_screen/PairView.hpp:
 
 CM7/TouchGFX/generated/gui_generated/include/gui_generated/pair_screen/PairViewBase.hpp:
@@ -409,6 +391,12 @@ CM7/TouchGFX/gui/include/gui/common/KeyboardLayout.hpp:
 CM7/TouchGFX/generated/images/include/BitmapDatabase.hpp:
 
 CM7/TouchGFX/gui/include/gui/common/KeyboardKeyMapping.hpp:
+
+CM7/TouchGFX/gui/include/gui/keyboard_1_screen/Keyboard_1View.hpp:
+
+CM7/TouchGFX/generated/gui_generated/include/gui_generated/keyboard_1_screen/Keyboard_1ViewBase.hpp:
+
+CM7/TouchGFX/gui/include/gui/keyboard_1_screen/Keyboard_1Presenter.hpp:
 
 CM7/Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD16bpp.hpp:
 

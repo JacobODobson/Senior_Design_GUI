@@ -1,0 +1,8 @@
+Keyboard_1Presenter.hpp:28:13:Keyboard_1Presenter::~Keyboard_1Presenter()	0	static
+TypedText.hpp:65:13:touchgfx::TypedText::~TypedText()	0	static
+Keyboard_1Presenter.cpp:10:6:virtual void Keyboard_1Presenter::activate()	0	static
+Keyboard_1Presenter.hpp:28:13:virtual Keyboard_1Presenter::~Keyboard_1Presenter()	8	static
+TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	8	static
+Keyboard_1Presenter.hpp:28:13:virtual void* Keyboard_1Presenter::_ZThn4_N19Keyboard_1PresenterD1Ev()	0	static
+Keyboard_1Presenter.cpp:4:1:Keyboard_1Presenter::Keyboard_1Presenter(Keyboard_1View&)	8	static
+Keyboard_1Presenter.cpp:18:1:cpp)	0	static

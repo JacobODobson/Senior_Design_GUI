@@ -18,9 +18,6 @@ public:
     // Home
     void gotoHomeScreenNoTransition();
 
-    // Map
-    void gotoMapScreenNoTransition();
-
     // List
     void gotoListScreenNoTransition();
 
@@ -30,14 +27,14 @@ public:
     // Settings
     void gotoSettingsScreenNoTransition();
 
-    // Export
-    void gotoExportScreenNoTransition();
-
     // Pair
     void gotoPairScreenNoTransition();
 
     // Keyboard
     void gotoKeyboardScreenNoTransition();
+
+    // Keyboard_1
+    void gotoKeyboard_1ScreenNoTransition();
 
 protected:
     touchgfx::Callback<FrontendApplicationBase> transitionCallback;
@@ -46,9 +43,6 @@ protected:
 
     // Home
     void gotoHomeScreenNoTransitionImpl();
-
-    // Map
-    void gotoMapScreenNoTransitionImpl();
 
     // List
     void gotoListScreenNoTransitionImpl();
@@ -59,14 +53,14 @@ protected:
     // Settings
     void gotoSettingsScreenNoTransitionImpl();
 
-    // Export
-    void gotoExportScreenNoTransitionImpl();
-
     // Pair
     void gotoPairScreenNoTransitionImpl();
 
     // Keyboard
     void gotoKeyboardScreenNoTransitionImpl();
+
+    // Keyboard_1
+    void gotoKeyboard_1ScreenNoTransitionImpl();
 };
 
 #endif // FRONTENDAPPLICATIONBASE_HPP

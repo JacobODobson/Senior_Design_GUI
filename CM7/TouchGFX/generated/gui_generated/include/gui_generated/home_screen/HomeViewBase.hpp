@@ -36,21 +36,19 @@ protected:
     touchgfx::DigitalClock digitalClock1;
     touchgfx::TextArea textArea1;
     touchgfx::ScalableImage scalableImage2;
-    touchgfx::ButtonWithLabel Map;
     touchgfx::ButtonWithLabel List;
-    touchgfx::ButtonWithLabel Export;
     touchgfx::ButtonWithLabel Pair;
     touchgfx::ButtonWithLabel Settings;
     touchgfx::ScalableImage scalableImage3;
     touchgfx::ScalableImage scalableImage4;
     touchgfx::ScalableImage scalableImage5;
     touchgfx::TextArea textArea2;
-    touchgfx::ScalableImage scalableImage6;
     touchgfx::TextArea textArea3;
     touchgfx::Line line1;
     touchgfx::PainterRGB565 line1Painter;
     touchgfx::TextArea textArea4;
     touchgfx::TextArea textArea5;
+    touchgfx::ScalableImage scalableImage6;
 
 private:
 

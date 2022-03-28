@@ -352,16 +352,6 @@
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/gui/src/common/FrontendApplication.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/gui/ExportPresenter.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/gui/src/export_screen/ExportPresenter.cpp</locationURI>
-		</link>
-		<link>
-			<name>Application/User/gui/ExportView.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/gui/src/export_screen/ExportView.cpp</locationURI>
-		</link>
-		<link>
 			<name>Application/User/gui/HomePresenter.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/gui/src/home_screen/HomePresenter.cpp</locationURI>
@@ -370,6 +360,16 @@
 			<name>Application/User/gui/HomeView.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/gui/src/home_screen/HomeView.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/gui/Keyboard_1Presenter.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/gui/src/keyboard_1_screen/Keyboard_1Presenter.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/gui/Keyboard_1View.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/gui/src/keyboard_1_screen/Keyboard_1View.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/gui/KeyboardPresenter.cpp</name>
@@ -390,16 +390,6 @@
 			<name>Application/User/gui/ListView.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/gui/src/list_screen/ListView.cpp</locationURI>
-		</link>
-		<link>
-			<name>Application/User/gui/MapPresenter.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/gui/src/map_screen/MapPresenter.cpp</locationURI>
-		</link>
-		<link>
-			<name>Application/User/gui/MapView.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/gui/src/map_screen/MapView.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/gui/Model.cpp</name>
@@ -587,14 +577,14 @@
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/gui_generated/src/common/FrontendApplicationBase.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/ExportViewBase.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/gui_generated/src/export_screen/ExportViewBase.cpp</locationURI>
-		</link>
-		<link>
 			<name>Application/User/generated/HomeViewBase.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/gui_generated/src/home_screen/HomeViewBase.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/Keyboard_1ViewBase.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/gui_generated/src/keyboard_1_screen/Keyboard_1ViewBase.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/KeyboardViewBase.cpp</name>
@@ -605,11 +595,6 @@
 			<name>Application/User/generated/ListViewBase.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/gui_generated/src/list_screen/ListViewBase.cpp</locationURI>
-		</link>
-		<link>
-			<name>Application/User/generated/MapViewBase.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/gui_generated/src/map_screen/MapViewBase.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/PairViewBase.cpp</name>
@@ -692,6 +677,11 @@
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_Button_Unpressed.cpp</locationURI>
 		</link>
 		<link>
+			<name>Application/User/generated/image_Dot.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_Dot.cpp</locationURI>
+		</link>
+		<link>
 			<name>Application/User/generated/image_Example_Map.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_Example_Map.cpp</locationURI>
@@ -700,6 +690,11 @@
 			<name>Application/User/generated/image_Foreground_Tab.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_Foreground_Tab.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_Grid.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_Grid.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/image_Logo_Border.cpp</name>
@@ -820,6 +815,16 @@
 			<name>Application/User/generated/image_keyboard_space_highlighted.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_keyboard_space_highlighted.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_o.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_o.cpp</locationURI>
+		</link>
+		<link>
+			<name>Application/User/generated/image_x.cpp</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/CM7/TouchGFX/generated/images/src/image_x.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/LanguageGb.cpp</name>

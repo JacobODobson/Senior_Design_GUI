@@ -39,35 +39,21 @@ HomeViewBase::HomeViewBase() :
     scalableImage2.setPosition(411, 0, 24, 26);
     scalableImage2.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
 
-    Map.setXY(19, 32);
-    Map.setBitmaps(touchgfx::Bitmap(BITMAP_BUTTON_UNPRESSED_ID), touchgfx::Bitmap(BITMAP_BUTTON_PRESSED_ID));
-    Map.setLabelText(touchgfx::TypedText(T___SINGLEUSE_0ZP6));
-    Map.setLabelColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
-    Map.setLabelColorPressed(touchgfx::Color::getColorFromRGB(0, 0, 0));
-    Map.setAction(buttonCallback);
-
-    List.setXY(19, 80);
+    List.setXY(19, 43);
     List.setBitmaps(touchgfx::Bitmap(BITMAP_BUTTON_UNPRESSED_ID), touchgfx::Bitmap(BITMAP_BUTTON_PRESSED_ID));
     List.setLabelText(touchgfx::TypedText(T___SINGLEUSE_BNSB));
     List.setLabelColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     List.setLabelColorPressed(touchgfx::Color::getColorFromRGB(0, 0, 0));
     List.setAction(buttonCallback);
 
-    Export.setXY(19, 128);
-    Export.setBitmaps(touchgfx::Bitmap(BITMAP_BUTTON_UNPRESSED_ID), touchgfx::Bitmap(BITMAP_BUTTON_PRESSED_ID));
-    Export.setLabelText(touchgfx::TypedText(T___SINGLEUSE_9D38));
-    Export.setLabelColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
-    Export.setLabelColorPressed(touchgfx::Color::getColorFromRGB(0, 0, 0));
-    Export.setAction(buttonCallback);
-
-    Pair.setXY(19, 176);
+    Pair.setXY(19, 115);
     Pair.setBitmaps(touchgfx::Bitmap(BITMAP_BUTTON_UNPRESSED_ID), touchgfx::Bitmap(BITMAP_BUTTON_PRESSED_ID));
     Pair.setLabelText(touchgfx::TypedText(T___SINGLEUSE_KZ8L));
     Pair.setLabelColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     Pair.setLabelColorPressed(touchgfx::Color::getColorFromRGB(0, 0, 0));
     Pair.setAction(buttonCallback);
 
-    Settings.setXY(19, 224);
+    Settings.setXY(19, 189);
     Settings.setBitmaps(touchgfx::Bitmap(BITMAP_BUTTON_UNPRESSED_ID), touchgfx::Bitmap(BITMAP_BUTTON_PRESSED_ID));
     Settings.setLabelText(touchgfx::TypedText(T___SINGLEUSE_L9IW));
     Settings.setLabelColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
@@ -91,10 +77,6 @@ HomeViewBase::HomeViewBase() :
     textArea2.setLinespacing(0);
     textArea2.setTypedText(touchgfx::TypedText(T___SINGLEUSE_0QAP));
 
-    scalableImage6.setBitmap(touchgfx::Bitmap(BITMAP_SMALL_MAP_ID));
-    scalableImage6.setPosition(310, 149, 146, 109);
-    scalableImage6.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
-
     textArea3.setXY(210, 111);
     textArea3.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     textArea3.setLinespacing(0);
@@ -113,10 +95,14 @@ HomeViewBase::HomeViewBase() :
     textArea4.setLinespacing(0);
     textArea4.setTypedText(touchgfx::TypedText(T___SINGLEUSE_QD7P));
 
-    textArea5.setXY(204, 164);
+    textArea5.setXY(206, 189);
     textArea5.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     textArea5.setLinespacing(0);
     textArea5.setTypedText(touchgfx::TypedText(T___SINGLEUSE_EVKR));
+
+    scalableImage6.setBitmap(touchgfx::Bitmap(BITMAP_GRID_ID));
+    scalableImage6.setPosition(341, 149, 115, 102);
+    scalableImage6.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
 
     add(__background);
     add(box1);
@@ -124,20 +110,18 @@ HomeViewBase::HomeViewBase() :
     add(digitalClock1);
     add(textArea1);
     add(scalableImage2);
-    add(Map);
     add(List);
-    add(Export);
     add(Pair);
     add(Settings);
     add(scalableImage3);
     add(scalableImage4);
     add(scalableImage5);
     add(textArea2);
-    add(scalableImage6);
     add(textArea3);
     add(line1);
     add(textArea4);
     add(textArea5);
+    add(scalableImage6);
 }
 
 void HomeViewBase::setupScreen()
@@ -147,26 +131,12 @@ void HomeViewBase::setupScreen()
 
 void HomeViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& src)
 {
-    if (&src == &Map)
-    {
-        //Map
-        //When Map clicked change screen to Map
-        //Go to Map with no screen transition
-        application().gotoMapScreenNoTransition();
-    }
-    else if (&src == &List)
+    if (&src == &List)
     {
         //List
         //When List clicked change screen to List
         //Go to List with no screen transition
         application().gotoListScreenNoTransition();
-    }
-    else if (&src == &Export)
-    {
-        //Export
-        //When Export clicked change screen to Export
-        //Go to Export with no screen transition
-        application().gotoExportScreenNoTransition();
     }
     else if (&src == &Pair)
     {

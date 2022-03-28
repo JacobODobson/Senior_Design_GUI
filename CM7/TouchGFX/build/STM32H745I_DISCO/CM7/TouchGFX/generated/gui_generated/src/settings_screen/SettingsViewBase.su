@@ -23,8 +23,8 @@ AbstractButtonContainer.hpp:119:18:virtual void touchgfx::AbstractButtonContaine
 AbstractButtonContainer.hpp:34:7:touchgfx::AbstractButtonContainer::~AbstractButtonContainer()	0	static
 View.hpp:36:7:touchgfx::View<SettingsPresenter>::~View()	0	static
 SettingsViewBase.hpp:24:13:SettingsViewBase::~SettingsViewBase()	0	static
-SettingsViewBase.cpp:98:6:virtual void SettingsViewBase::setupScreen()	0	static
-SettingsViewBase.cpp:114:6:void SettingsViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	0	static
+SettingsViewBase.hpp:30:18:virtual void SettingsViewBase::updateScreen()	0	static
+SettingsViewBase.cpp:99:6:virtual void SettingsViewBase::setupScreen()	0	static
 ClickButtonTrigger.hpp:35:7:touchgfx::ClickButtonTrigger::~ClickButtonTrigger()	0	static
 BoxWithBorderButtonStyle.hpp:123:18:void touchgfx::BoxWithBorderButtonStyle<T>::handlePressedUpdated() [with T = touchgfx::ClickButtonTrigger]	0	static
 Callback.hpp:357:8:touchgfx::Callback<SettingsViewBase, const touchgfx::AbstractButtonContainer&>::~Callback()	0	static
@@ -45,7 +45,8 @@ Callback.hpp:357:8:virtual touchgfx::Callback<SettingsViewBase, const touchgfx::
 SettingsViewBase.hpp:24:13:virtual SettingsViewBase::~SettingsViewBase()	8	static
 AbstractButtonContainer.hpp:99:18:virtual void touchgfx::AbstractButtonContainer::executeAction()	8	static
 ClickButtonTrigger.hpp:47:18:virtual void touchgfx::ClickButtonTrigger::handleClickEvent(const touchgfx::ClickEvent&)	16	static
-SettingsViewBase.cpp:103:6:void SettingsViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	8	static
+SettingsViewBase.cpp:109:6:void SettingsViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	8	static
+SettingsViewBase.cpp:120:6:void SettingsViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	8	static
 Drawable.hpp:48:5:touchgfx::Drawable::Drawable()	0	static
 Drawable.hpp:326:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	16	static
 Drawable.hpp:216:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	16	static
