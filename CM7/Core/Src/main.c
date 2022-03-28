@@ -25,11 +25,14 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "main_user.h"
+#include "trilateration.h"
+#include "stdio.h"
+#include "errno.h"
+#include "queue.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -38,6 +41,14 @@
 #ifndef HSEM_ID_0
 #define HSEM_ID_0 (0U) /* HW semaphore 0*/
 #endif
+
+#ifdef __GNUC__
+/* With GCC/RAISONANCE, small printf (option LD Linker->Libraries->Small printf
+set to 'Yes') calls __io_putchar() */
+#define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
+#else
+#define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
+#endif /* __GNUC__ */
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -55,6 +66,8 @@ LTDC_HandleTypeDef hltdc;
 
 QSPI_HandleTypeDef hqspi;
 
+UART_HandleTypeDef huart3;
+
 SDRAM_HandleTypeDef hsdram2;
 
 /* Definitions for defaultTask */
@@ -71,8 +84,29 @@ const osThreadAttr_t TouchGFXTask_attributes = {
   .stack_size = 3048 * 4,
   .priority = (osPriority_t) osPriorityNormal,
 };
+/* Definitions for TrilaterateTask */
+osThreadId_t TrilaterateTaskHandle;
+const osThreadAttr_t TrilaterateTask_attributes = {
+  .name = "TrilaterateTask",
+  .stack_size = 512 * 4,
+  .priority = (osPriority_t) osPriorityNormal,
+};
 /* USER CODE BEGIN PV */
 
+const vec3d monument_loc = {2096103.42, 735109.43, 364.0};
+vec3d baseStations[4] = {{monument_loc.x, monument_loc.y, monument_loc.z},
+	  		  	  	  	  	  {monument_loc.x+100, monument_loc.y, monument_loc.z},
+	  						  {monument_loc.x, monument_loc.y+100, monument_loc.z},
+	  						  {monument_loc.x+100, monument_loc.y+100, monument_loc.z}};
+int use4thAnchor = 1;
+
+typedef struct distancesStruct {
+	double dists[4];
+} distancesStruct;
+
+static const uint8_t distance_queue_max_len = 8;
+
+static QueueHandle_t distance_queue;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -84,16 +118,27 @@ static void MX_FMC_Init(void);
 static void MX_LTDC_Init(void);
 static void MX_CRC_Init(void);
 static void MX_DMA2D_Init(void);
+static void MX_USART3_UART_Init(void);
 void StartDefaultTask(void *argument);
 void TouchGFX_Task(void *argument);
+void Trilaterate_Task(void *argument);
 
 /* USER CODE BEGIN PFP */
-
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
+//DOES NOT WORK
+//HAL_UART_Transmit method returns ok for some weird reason
+PUTCHAR_PROTOTYPE
+{
+  /* Place your implementation of fputc here */
+  /* e.g. write a character to the USART1 and Loop until the end of transmission */
+  HAL_UART_Transmit(&huart3, (uint8_t *)&ch, 1, 0xFFFFF);
+
+  return ch;
+}
 /* USER CODE END 0 */
 
 /**
@@ -167,6 +212,7 @@ Error_Handler();
   MX_LTDC_Init();
   MX_CRC_Init();
   MX_DMA2D_Init();
+  MX_USART3_UART_Init();
   MX_TouchGFX_Init();
   /* USER CODE BEGIN 2 */
 
@@ -189,6 +235,11 @@ Error_Handler();
 
   /* USER CODE BEGIN RTOS_QUEUES */
   /* add queues, ... */
+  distance_queue = xQueueCreate(distance_queue_max_len, sizeof(distancesStruct));
+  distancesStruct testQueueItem = {{70.71, 70.71, 70.71, 70.71}};
+  if(xQueueSend(distance_queue, (void *)&testQueueItem, 100) != pdTRUE) {
+	  printf("Could not send data to distances queue");
+  }
   /* USER CODE END RTOS_QUEUES */
 
   /* Create the thread(s) */
@@ -197,6 +248,9 @@ Error_Handler();
 
   /* creation of TouchGFXTask */
   TouchGFXTaskHandle = osThreadNew(TouchGFX_Task, NULL, &TouchGFXTask_attributes);
+
+  /* creation of TrilaterateTask */
+  TrilaterateTaskHandle = osThreadNew(Trilaterate_Task, NULL, &TrilaterateTask_attributes);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -438,6 +492,58 @@ static void MX_QUADSPI_Init(void)
 
 }
 
+/**
+  * @brief USART3 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_USART3_UART_Init(void)
+{
+
+  /* USER CODE BEGIN USART3_Init 0 */
+
+  /* USER CODE END USART3_Init 0 */
+
+  /* USER CODE BEGIN USART3_Init 1 */
+
+  /* USER CODE END USART3_Init 1 */
+  huart3.Instance = USART3;
+  huart3.Init.BaudRate = 115200;
+  huart3.Init.WordLength = UART_WORDLENGTH_8B;
+  huart3.Init.StopBits = UART_STOPBITS_1;
+  huart3.Init.Parity = UART_PARITY_NONE;
+  huart3.Init.Mode = UART_MODE_TX_RX;
+  huart3.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart3.Init.OverSampling = UART_OVERSAMPLING_16;
+  huart3.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+  huart3.Init.ClockPrescaler = UART_PRESCALER_DIV1;
+  huart3.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+  if (HAL_UART_Init(&huart3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_UARTEx_SetTxFifoThreshold(&huart3, UART_TXFIFO_THRESHOLD_1_8) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_UARTEx_SetRxFifoThreshold(&huart3, UART_RXFIFO_THRESHOLD_1_8) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_UARTEx_DisableFifoMode(&huart3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN USART3_Init 2 */
+  HAL_UART_DeInit(&huart3);
+  if(HAL_UART_Init(&huart3) != HAL_OK)
+    {
+  	  Error_Handler();
+    }
+  /* USER CODE END USART3_Init 2 */
+
+}
+
 /* FMC initialization function */
 void MX_FMC_Init(void)
 {
@@ -504,6 +610,7 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOF_CLK_ENABLE();
   __HAL_RCC_GPIOH_CLK_ENABLE();
+  __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin : PA8 */
   GPIO_InitStruct.Pin = GPIO_PIN_8;
@@ -553,6 +660,30 @@ __weak void TouchGFX_Task(void *argument)
     osDelay(1);
   }
   /* USER CODE END TouchGFX_Task */
+}
+
+/* USER CODE BEGIN Header_Trilaterate_Task */
+/**
+* @brief Function implementing the TrilaterateTask thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_Trilaterate_Task */
+void Trilaterate_Task(void *argument)
+{
+  /* USER CODE BEGIN Trilaterate_Task */
+  /* Infinite loop */
+  for(;;)
+  {
+	vec3d pos;
+	distancesStruct trilaterateTaskDistances;
+	if(xQueueReceive(distance_queue, (void *)&trilaterateTaskDistances, 20) == pdTRUE) {
+	  GetLocation(&pos, use4thAnchor, baseStations, trilaterateTaskDistances.dists);
+	  printf("Current position %f, %f, %f\n", pos.x, pos.y, pos.z);
+	}
+    osDelay(1500);
+  }
+  /* USER CODE END Trilaterate_Task */
 }
 
 /* MPU Configuration */
@@ -643,4 +774,3 @@ void assert_failed(uint8_t *file, uint32_t line)
 }
 #endif /* USE_FULL_ASSERT */
 
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
