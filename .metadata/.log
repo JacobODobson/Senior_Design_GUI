@@ -1,0 +1,21 @@
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-30 09:39:49.115
+!MESSAGE Ignored L/stm32h745i_disco_CM7/Application/User/generated/ExportViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-30 09:39:49.139
+!MESSAGE Ignored L/stm32h745i_disco_CM7/Application/User/generated/MapViewBase.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-30 09:39:49.189
+!MESSAGE Ignored L/stm32h745i_disco_CM7/Application/User/gui/ExportPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-30 09:39:49.189
+!MESSAGE Ignored L/stm32h745i_disco_CM7/Application/User/gui/ExportView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-30 09:39:49.198
+!MESSAGE Ignored L/stm32h745i_disco_CM7/Application/User/gui/MapPresenter.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-30 09:39:49.199
+!MESSAGE Ignored L/stm32h745i_disco_CM7/Application/User/gui/MapView.cpp from Makefile generation (invalid resource)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2022-03-30 09:40:25.863
+!MESSAGE SWV configuration; base: 192000000; minDiv: 16; maxDiv: 65535; maxSWO: 12000000; limit: 12000000 => SWO: 8000000; CPU: 16000000; div: 2

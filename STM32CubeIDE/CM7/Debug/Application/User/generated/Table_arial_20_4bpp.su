@@ -1,8 +1,8 @@
-Font.hpp:167:13:touchgfx::Font::~Font()	16	static
-Font.hpp:167:13:virtual touchgfx::Font::~Font()	16	static
-ConstFont.hpp:35:7:touchgfx::ConstFont::~ConstFont()	16	static
-ConstFont.hpp:35:7:virtual touchgfx::ConstFont::~ConstFont()	16	static
-GeneratedFont.hpp:17:7:touchgfx::GeneratedFont::~GeneratedFont()	16	static
-GeneratedFont.hpp:17:7:virtual touchgfx::GeneratedFont::~GeneratedFont()	16	static
-Table_arial_20_4bpp.cpp:63:179:void __tcf_0()	8	static
-Table_arial_20_4bpp.cpp:61:26:touchgfx::GeneratedFont& getFont_arial_20_4bpp()	56	static
+../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp:167:13:touchgfx::Font::~Font()	16	static
+../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Font.hpp:167:13:virtual touchgfx::Font::~Font()	16	static
+../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/ConstFont.hpp:35:7:touchgfx::ConstFont::~ConstFont()	16	static
+../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/ConstFont.hpp:35:7:virtual touchgfx::ConstFont::~ConstFont()	16	static
+../../CM7/../../CM7/TouchGFX/generated/fonts/include/fonts/GeneratedFont.hpp:17:7:touchgfx::GeneratedFont::~GeneratedFont()	16	static
+../../CM7/../../CM7/TouchGFX/generated/fonts/include/fonts/GeneratedFont.hpp:17:7:virtual touchgfx::GeneratedFont::~GeneratedFont()	16	static
+C:/TouchGFXProjects/Senior_Design_GUI/CM7/TouchGFX/generated/fonts/src/Table_arial_20_4bpp.cpp:63:179:void __tcf_0()	8	static
+C:/TouchGFXProjects/Senior_Design_GUI/CM7/TouchGFX/generated/fonts/src/Table_arial_20_4bpp.cpp:61:26:touchgfx::GeneratedFont& getFont_arial_20_4bpp()	56	static
