@@ -28,7 +28,9 @@
 #include "trilateration.h"
 #include "stdio.h"
 #include "errno.h"
+#include "ff.h"
 #include "queue.h"
+#include "stm32h745i_discovery_mmc.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -65,6 +67,8 @@ DMA2D_HandleTypeDef hdma2d;
 LTDC_HandleTypeDef hltdc;
 
 QSPI_HandleTypeDef hqspi;
+
+MMC_HandleTypeDef hmmc1;
 
 UART_HandleTypeDef huart3;
 
@@ -258,6 +262,8 @@ Error_Handler();
 
   /* USER CODE BEGIN RTOS_EVENTS */
   /* add events, ... */
+  FRESULT res;
+
   /* USER CODE END RTOS_EVENTS */
 
   /* Start scheduler */
@@ -603,6 +609,7 @@ static void MX_GPIO_Init(void)
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOK_CLK_ENABLE();
   __HAL_RCC_GPIOG_CLK_ENABLE();
+  __HAL_RCC_GPIOC_CLK_ENABLE();
   __HAL_RCC_GPIOI_CLK_ENABLE();
   __HAL_RCC_GPIOE_CLK_ENABLE();
   __HAL_RCC_GPIOJ_CLK_ENABLE();

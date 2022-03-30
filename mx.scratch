@@ -403,6 +403,8 @@
           </Cdefines>
           <Ldefines />
           <Cincludes>
+            <include>CM7\FATFS\Target</include>
+            <include>CM7\FATFS\App</include>
             <include>CM7\Core\Inc</include>
             <include>CM7\TouchGFX\App</include>
             <include>CM7\TouchGFX\target\generated</include>
@@ -411,6 +413,7 @@
             <include>Drivers/BSP/STM32H745I-DISCO</include>
             <include>Drivers\STM32H7xx_HAL_Driver\Inc</include>
             <include>Drivers\STM32H7xx_HAL_Driver\Inc\Legacy</include>
+            <include>Middlewares\Third_Party\FatFs\src</include>
             <include>Middlewares\Third_Party\FreeRTOS\Source\include</include>
             <include>Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2</include>
             <include>Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F</include>
@@ -514,6 +517,15 @@
               <name>Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_qspi.c</name>
             </file>
             <file>
+              <name>Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_ll_sdmmc.c</name>
+            </file>
+            <file>
+              <name>Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mmc.c</name>
+            </file>
+            <file>
+              <name>Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_mmc_ex.c</name>
+            </file>
+            <file>
               <name>Drivers\STM32H7xx_HAL_Driver\Src\stm32h7xx_hal_tim.c</name>
             </file>
             <file>
@@ -566,6 +578,21 @@
             </file>
             <file>
               <name>Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c</name>
+            </file>
+          </group>
+          <group>
+            <name>FatFs</name>
+            <file>
+              <name>Middlewares\Third_Party\FatFs\src\diskio.c</name>
+            </file>
+            <file>
+              <name>Middlewares\Third_Party\FatFs\src\ff.c</name>
+            </file>
+            <file>
+              <name>Middlewares\Third_Party\FatFs\src\ff_gen_drv.c</name>
+            </file>
+            <file>
+              <name>Middlewares\Third_Party\FatFs\src\option\syscall.c</name>
             </file>
           </group>
         </group>
@@ -666,6 +693,15 @@
                 </group>
               </group>
               <group>
+                <name>FATFS</name>
+                <group>
+                  <name>App</name>
+                  <file>
+                    <name>CM7\FATFS\App\fatfs.c</name>
+                  </file>
+                </group>
+              </group>
+              <group>
                 <name>TouchGFX</name>
                 <group>
                   <name>target</name>
@@ -699,6 +735,18 @@
                       <name>CM7\TouchGFX\target\generated\OSWrappers.cpp</name>
                     </file>
                   </group>
+                </group>
+              </group>
+              <group>
+                <name>FATFS</name>
+                <group>
+                  <name>Target</name>
+                  <file>
+                    <name>CM7\FATFS\Target\bsp_driver_sdram.c</name>
+                  </file>
+                  <file>
+                    <name>CM7\FATFS\Target\sdram_diskio.c</name>
+                  </file>
                 </group>
               </group>
               <group>
