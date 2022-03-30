@@ -1,5 +1,0 @@
-PairPresenter.hpp:28:13:PairPresenter::~PairPresenter()	0	static
-PairPresenter.cpp:10:6:virtual void PairPresenter::activate()	0	static
-PairPresenter.hpp:28:13:virtual PairPresenter::~PairPresenter()	8	static
-PairPresenter.hpp:28:13:virtual void* PairPresenter::_ZThn4_N13PairPresenterD1Ev()	0	static
-PairPresenter.cpp:4:1:PairPresenter::PairPresenter(PairView&)	8	static
