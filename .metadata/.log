@@ -1,37 +1,24 @@
+!SESSION 2022-04-04 11:02:44.781 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\TouchGFXProjects\Senior_Design_GUI
 
-!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-30 09:39:49.115
-!MESSAGE Ignored L/stm32h745i_disco_CM7/Application/User/generated/ExportViewBase.cpp from Makefile generation (invalid resource)
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-04-04 11:02:49.776
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
 
-!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-30 09:39:49.139
-!MESSAGE Ignored L/stm32h745i_disco_CM7/Application/User/generated/MapViewBase.cpp from Makefile generation (invalid resource)
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-04-04 11:02:49.839
+!MESSAGE Log4j initialized with config file C:\TouchGFXProjects\Senior_Design_GUI\.metadata\.log4j.xml
 
-!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-30 09:39:49.189
-!MESSAGE Ignored L/stm32h745i_disco_CM7/Application/User/gui/ExportPresenter.cpp from Makefile generation (invalid resource)
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-04-04 11:02:52.260
+!MESSAGE Started RMI Server, listening on port 41337
 
-!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-30 09:39:49.189
-!MESSAGE Ignored L/stm32h745i_disco_CM7/Application/User/gui/ExportView.cpp from Makefile generation (invalid resource)
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-04 11:03:15.621
+!MESSAGE Indexed 'stm32h745i_disco_CM4' (11 sources, 85 headers) in 3.23 sec: 6,503 declarations; 19,114 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0078%)
 
-!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-30 09:39:49.198
-!MESSAGE Ignored L/stm32h745i_disco_CM7/Application/User/gui/MapPresenter.cpp from Makefile generation (invalid resource)
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-04 11:03:38.387
+!MESSAGE Indexed 'stm32h745i_disco_CM7' (166 sources, 405 headers) in 22.8 sec: 35,294 declarations; 150,509 references; 0 unresolved inclusions; 1 syntax errors; 11 unresolved names (0.0059%)
 
-!ENTRY com.st.stm32cube.ide.mcu.toolchain.arm-none.oss 2 2 2022-03-30 09:39:49.199
-!MESSAGE Ignored L/stm32h745i_disco_CM7/Application/User/gui/MapView.cpp from Makefile generation (invalid resource)
-
-!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2022-03-30 09:40:25.863
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2022-04-04 11:06:33.193
 !MESSAGE SWV configuration; base: 192000000; minDiv: 16; maxDiv: 65535; maxSWO: 12000000; limit: 12000000 => SWO: 8000000; CPU: 16000000; div: 2
-
-!ENTRY org.eclipse.core.resources 4 568 2022-03-30 09:45:01.604
-!MESSAGE Could not write metadata for '/'.
-!STACK 0
-java.io.FileNotFoundException: C:\TouchGFXProjects\Senior_Design_GUI\.metadata\.plugins\org.eclipse.core.resources\.root\.markers.snap (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:298)
-	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:237)
-	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:158)
-	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:48)
-	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:44)
-	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1765)
-	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1202)
-	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
-	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

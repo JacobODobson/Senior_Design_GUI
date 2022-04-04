@@ -1,0 +1,11 @@
+11:07:40 **** Clean-only build of configuration Debug for project stm32h745i_disco_CM4 ****
+make -j12 clean 
+rm -rf ./Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal.d ./Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal.o ./Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_cortex.d ./Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_cortex.o ./Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_hsem.d ./Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_hsem.o ./Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_pwr_ex.d ./Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_pwr_ex.o ./Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_rcc.d ./Drivers/STM32H7xx_HAL_Driver/stm32h7xx_hal_rcc.o
+rm -rf ./Common/system_stm32h7xx_dualcore_boot_cm4_cm7.d ./Common/system_stm32h7xx_dualcore_boot_cm4_cm7.o
+rm -rf ./Application/User/Startup/startup_stm32h745xihx.d ./Application/User/Startup/startup_stm32h745xihx.o
+rm -rf ./Application/User/Core/main.d ./Application/User/Core/main.o ./Application/User/Core/stm32h7xx_hal_msp.d ./Application/User/Core/stm32h7xx_hal_msp.o ./Application/User/Core/stm32h7xx_it.d ./Application/User/Core/stm32h7xx_it.o ./Application/User/Core/syscalls.d ./Application/User/Core/syscalls.o ./Application/User/Core/sysmem.d ./Application/User/Core/sysmem.o
+rm -rf default.size.stdout stm32h745i_disco_CM4.bin stm32h745i_disco_CM4.elf stm32h745i_disco_CM4.list
+ 
+
+11:07:40 Build Finished. 0 errors, 0 warnings. (took 187ms)
+
