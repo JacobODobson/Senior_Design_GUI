@@ -11,6 +11,7 @@
 #include <touchgfx/widgets/ScalableImage.hpp>
 #include <touchgfx/widgets/ButtonWithLabel.hpp>
 #include <touchgfx/containers/clock/DigitalClock.hpp>
+#include <touchgfx/widgets/TextAreaWithWildcard.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
 
 class ListViewBase : public touchgfx::View<ListPresenter>
@@ -35,13 +36,19 @@ protected:
     touchgfx::ButtonWithLabel Store;
     touchgfx::ButtonWithLabel Back;
     touchgfx::DigitalClock digitalClock1;
-    touchgfx::TextArea textArea1;
+    touchgfx::TextAreaWithOneWildcard textArea1;
     touchgfx::ScalableImage scalableImage2;
     touchgfx::TextArea textArea2;
     touchgfx::TextArea textArea3;
     touchgfx::TextArea textArea3_1;
     touchgfx::TextArea textArea3_2;
     touchgfx::ScalableImage scalableImage3;
+
+    /*
+     * Wildcard Buffers
+     */
+    static const uint16_t TEXTAREA1_SIZE = 18;
+    touchgfx::Unicode::UnicodeChar textArea1Buffer[TEXTAREA1_SIZE];
 
 private:
 

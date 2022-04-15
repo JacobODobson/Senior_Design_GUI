@@ -9,9 +9,10 @@
 #include <gui/home_screen/HomePresenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
 #include <touchgfx/containers/clock/DigitalClock.hpp>
-#include <touchgfx/widgets/TextArea.hpp>
+#include <touchgfx/widgets/TextAreaWithWildcard.hpp>
 #include <touchgfx/widgets/ScalableImage.hpp>
 #include <touchgfx/widgets/ButtonWithLabel.hpp>
+#include <touchgfx/widgets/TextArea.hpp>
 #include <touchgfx/widgets/canvas/Line.hpp>
 #include <touchgfx/widgets/canvas/PainterRGB565.hpp>
 
@@ -34,7 +35,7 @@ protected:
     touchgfx::Box box1;
     touchgfx::Box box2;
     touchgfx::DigitalClock digitalClock1;
-    touchgfx::TextArea textArea1;
+    touchgfx::TextAreaWithOneWildcard textArea1;
     touchgfx::ScalableImage scalableImage2;
     touchgfx::ButtonWithLabel List;
     touchgfx::ButtonWithLabel Pair;
@@ -49,6 +50,12 @@ protected:
     touchgfx::TextArea textArea4;
     touchgfx::TextArea textArea5;
     touchgfx::ScalableImage scalableImage6;
+
+    /*
+     * Wildcard Buffers
+     */
+    static const uint16_t TEXTAREA1_SIZE = 10;
+    touchgfx::Unicode::UnicodeChar textArea1Buffer[TEXTAREA1_SIZE];
 
 private:
 

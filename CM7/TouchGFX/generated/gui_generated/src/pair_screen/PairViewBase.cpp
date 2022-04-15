@@ -37,6 +37,9 @@ PairViewBase::PairViewBase() :
     textArea1.setXY(209, 4);
     textArea1.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     textArea1.setLinespacing(0);
+    Unicode::snprintf(textArea1Buffer, TEXTAREA1_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_Z2PX).getText());
+    textArea1.setWildcard(textArea1Buffer);
+    textArea1.resizeToCurrentText();
     textArea1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_3EHN));
 
     scalableImage2.setBitmap(touchgfx::Bitmap(BITMAP_BATTERY_ID));
@@ -58,7 +61,7 @@ PairViewBase::PairViewBase() :
     textAreaID.setLinespacing(0);
     textAreaIDBuffer[0] = 0;
     textAreaID.setWildcard(textAreaIDBuffer);
-    textAreaID.setTypedText(touchgfx::TypedText(T___SINGLEUSE_S131));
+    textAreaID.setTypedText(touchgfx::TypedText(T___SINGLEUSE_JGZX));
 
     flexButtonID.setBoxWithBorderPosition(0, 0, 243, 50);
     flexButtonID.setBorderSize(5);

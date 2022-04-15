@@ -10,11 +10,11 @@
 #include <touchgfx/widgets/Box.hpp>
 #include <touchgfx/widgets/ButtonWithLabel.hpp>
 #include <touchgfx/containers/clock/DigitalClock.hpp>
-#include <touchgfx/widgets/TextArea.hpp>
+#include <touchgfx/widgets/TextAreaWithWildcard.hpp>
 #include <touchgfx/widgets/ScalableImage.hpp>
+#include <touchgfx/widgets/TextArea.hpp>
 #include <touchgfx/widgets/ToggleButton.hpp>
 #include <touchgfx/widgets/BoxWithBorder.hpp>
-#include <touchgfx/widgets/TextAreaWithWildcard.hpp>
 #include <touchgfx/containers/buttons/Buttons.hpp>
 
 class SettingsViewBase : public touchgfx::View<SettingsPresenter>
@@ -45,7 +45,7 @@ protected:
     touchgfx::Box box2;
     touchgfx::ButtonWithLabel Back;
     touchgfx::DigitalClock digitalClock1;
-    touchgfx::TextArea textArea1;
+    touchgfx::TextAreaWithOneWildcard textArea1;
     touchgfx::ScalableImage scalableImage2;
     touchgfx::TextArea textArea2;
     touchgfx::ToggleButton Mode;
@@ -58,6 +58,8 @@ protected:
     /*
      * Wildcard Buffers
      */
+    static const uint16_t TEXTAREA1_SIZE = 18;
+    touchgfx::Unicode::UnicodeChar textArea1Buffer[TEXTAREA1_SIZE];
     static const uint16_t TEXTAREAID_SIZE = 18;
     touchgfx::Unicode::UnicodeChar textAreaIDBuffer[TEXTAREAID_SIZE];
 

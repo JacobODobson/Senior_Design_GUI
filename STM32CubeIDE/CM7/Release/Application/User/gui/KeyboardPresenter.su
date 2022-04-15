@@ -1,0 +1,8 @@
+../../CM7/../../CM7/TouchGFX/gui/include/gui/keyboard_screen/KeyboardPresenter.hpp:28:13:KeyboardPresenter::~KeyboardPresenter()	0	static
+../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:touchgfx::TypedText::~TypedText()	0	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/keyboard_screen/KeyboardPresenter.cpp:10:6:virtual void KeyboardPresenter::activate()	0	static
+../../CM7/../../CM7/TouchGFX/gui/include/gui/keyboard_screen/KeyboardPresenter.hpp:28:13:virtual KeyboardPresenter::~KeyboardPresenter()	8	static
+../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:65:13:virtual touchgfx::TypedText::~TypedText()	8	static
+../../CM7/../../CM7/TouchGFX/gui/include/gui/keyboard_screen/KeyboardPresenter.hpp:28:13:virtual void* KeyboardPresenter::_ZThn4_N17KeyboardPresenterD1Ev()	0	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/keyboard_screen/KeyboardPresenter.cpp:4:1:KeyboardPresenter::KeyboardPresenter(KeyboardView&)	8	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/keyboard_screen/KeyboardPresenter.cpp:18:1:cpp)	0	static

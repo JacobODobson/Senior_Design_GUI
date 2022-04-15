@@ -48,7 +48,12 @@
             "Height": 18,
             "TextId": "__SingleUse_5QAY",
             "TextRotation": "0",
-            "AutoSize": true
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_Y882",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
           },
           {
             "Type": "ScalableImage",
@@ -141,7 +146,7 @@
             "Name": "textArea3",
             "X": 210,
             "Y": 111,
-            "Width": 114,
+            "Width": 113,
             "Height": 23,
             "TextId": "__SingleUse_S398",
             "TextRotation": "0",
@@ -313,7 +318,12 @@
             "Height": 18,
             "TextId": "__SingleUse_LIZG",
             "TextRotation": "0",
-            "AutoSize": true
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_RGSV",
+              "UseBuffer": true,
+              "BufferSize": 18
+            }
           },
           {
             "Type": "ScalableImage",
@@ -465,7 +475,12 @@
             "Height": 18,
             "TextId": "__SingleUse_OI0A",
             "TextRotation": "0",
-            "AutoSize": true
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_3ADT",
+              "UseBuffer": true,
+              "BufferSize": 18
+            }
           },
           {
             "Type": "ScalableImage",
@@ -562,7 +577,12 @@
             "Height": 18,
             "TextId": "__SingleUse_6CUD",
             "TextRotation": "0",
-            "AutoSize": true
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_PE4M",
+              "UseBuffer": true,
+              "BufferSize": 18
+            }
           },
           {
             "Type": "ScalableImage",
@@ -641,6 +661,7 @@
             "TextId": "__SingleUse_XH0F",
             "TextRotation": "0",
             "Wildcard1": {
+              "TextId": "__SingleUse_VOWU",
               "UseBuffer": true,
               "BufferSize": 18
             }
@@ -780,7 +801,12 @@
             "Height": 18,
             "TextId": "__SingleUse_3EHN",
             "TextRotation": "0",
-            "AutoSize": true
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_Z2PX",
+              "UseBuffer": true,
+              "BufferSize": 18
+            }
           },
           {
             "Type": "ScalableImage",
@@ -824,7 +850,7 @@
             "Y": 188,
             "Width": 210,
             "Height": 25,
-            "TextId": "__SingleUse_S131",
+            "TextId": "__SingleUse_JGZX",
             "TextRotation": "0",
             "Wildcard1": {
               "UseBuffer": true,
@@ -977,7 +1003,12 @@
             "Height": 18,
             "TextId": "__SingleUse_X6DM",
             "TextRotation": "0",
-            "AutoSize": true
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_C1R6",
+              "UseBuffer": true,
+              "BufferSize": 18
+            }
           },
           {
             "Type": "ScalableImage",
@@ -1110,7 +1141,12 @@
             "Height": 18,
             "TextId": "__SingleUse_YJIF",
             "TextRotation": "0",
-            "AutoSize": true
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_FZ9L",
+              "UseBuffer": true,
+              "BufferSize": 18
+            }
           },
           {
             "Type": "ScalableImage",
@@ -1181,6 +1217,16 @@
               "Type": "ActionGotoScreen",
               "ScreenTransitionType": "ScreenTransitionNone",
               "ActionComponent": "Settings"
+            }
+          },
+          {
+            "InteractionName": "update_text",
+            "Trigger": {
+              "Type": "TriggerScreenTransitionBegins"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateScreen"
             }
           }
         ]

@@ -37,6 +37,9 @@ SettingsViewBase::SettingsViewBase() :
     textArea1.setXY(209, 4);
     textArea1.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     textArea1.setLinespacing(0);
+    Unicode::snprintf(textArea1Buffer, TEXTAREA1_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_PE4M).getText());
+    textArea1.setWildcard(textArea1Buffer);
+    textArea1.resizeToCurrentText();
     textArea1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_6CUD));
 
     scalableImage2.setBitmap(touchgfx::Bitmap(BITMAP_BATTERY_ID));
@@ -69,7 +72,7 @@ SettingsViewBase::SettingsViewBase() :
     textAreaID.setPosition(173, 123, 210, 25);
     textAreaID.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     textAreaID.setLinespacing(0);
-    textAreaIDBuffer[0] = 0;
+    Unicode::snprintf(textAreaIDBuffer, TEXTAREAID_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_VOWU).getText());
     textAreaID.setWildcard(textAreaIDBuffer);
     textAreaID.setTypedText(touchgfx::TypedText(T___SINGLEUSE_XH0F));
 

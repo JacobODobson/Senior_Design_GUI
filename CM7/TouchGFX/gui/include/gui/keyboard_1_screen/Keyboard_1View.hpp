@@ -13,6 +13,7 @@ public:
     virtual void setupScreen();
     virtual void tearDownScreen();
 	virtual void getBuffer_1();
+    virtual void updateScreen();
 protected:
 	CustomKeyboard keyboard; // add
 };

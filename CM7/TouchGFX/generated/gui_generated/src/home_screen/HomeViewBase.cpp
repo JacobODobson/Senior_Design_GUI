@@ -33,6 +33,9 @@ HomeViewBase::HomeViewBase() :
     textArea1.setXY(214, 4);
     textArea1.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     textArea1.setLinespacing(0);
+    Unicode::snprintf(textArea1Buffer, TEXTAREA1_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_Y882).getText());
+    textArea1.setWildcard(textArea1Buffer);
+    textArea1.resizeToCurrentText();
     textArea1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_5QAY));
 
     scalableImage2.setBitmap(touchgfx::Bitmap(BITMAP_BATTERY_ID));

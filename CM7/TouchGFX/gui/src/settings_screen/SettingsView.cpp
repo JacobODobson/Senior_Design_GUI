@@ -27,5 +27,11 @@ void SettingsView::updateScreen()
         Unicode::strncpy(textAreaIDBuffer, keyboardBuffer_1, TEXTAREAID_SIZE - 1);
         textAreaIDBuffer[TEXTAREAID_SIZE-1] = '\0'; // make sure last index is null
         textAreaID.invalidate();
+
+
+        memset(&textArea1Buffer, 0, TEXTAREA1_SIZE);
+        Unicode::strncpy(textArea1Buffer, keyboardBuffer_1, TEXTAREA1_SIZE - 1);
+        textArea1Buffer[TEXTAREA1_SIZE-1] = '\0'; // make sure last index is null
+        textArea1.invalidate();
     }
 }

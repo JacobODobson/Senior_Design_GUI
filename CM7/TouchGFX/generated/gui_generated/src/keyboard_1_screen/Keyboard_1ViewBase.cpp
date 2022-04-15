@@ -36,6 +36,9 @@ Keyboard_1ViewBase::Keyboard_1ViewBase() :
     textArea1.setXY(209, 4);
     textArea1.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     textArea1.setLinespacing(0);
+    Unicode::snprintf(textArea1Buffer, TEXTAREA1_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_FZ9L).getText());
+    textArea1.setWildcard(textArea1Buffer);
+    textArea1.resizeToCurrentText();
     textArea1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_YJIF));
 
     scalableImage2.setBitmap(touchgfx::Bitmap(BITMAP_BATTERY_ID));
@@ -67,6 +70,11 @@ Keyboard_1ViewBase::Keyboard_1ViewBase() :
 
 void Keyboard_1ViewBase::setupScreen()
 {
+
+    //update_text
+    //When screen transition begins call virtual function
+    //Call updateScreen
+    updateScreen();
 
 }
 

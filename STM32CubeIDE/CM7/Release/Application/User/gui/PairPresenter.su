@@ -1,0 +1,5 @@
+../../CM7/../../CM7/TouchGFX/gui/include/gui/pair_screen/PairPresenter.hpp:28:13:PairPresenter::~PairPresenter()	0	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/pair_screen/PairPresenter.cpp:10:6:virtual void PairPresenter::activate()	0	static
+../../CM7/../../CM7/TouchGFX/gui/include/gui/pair_screen/PairPresenter.hpp:28:13:virtual PairPresenter::~PairPresenter()	8	static
+../../CM7/../../CM7/TouchGFX/gui/include/gui/pair_screen/PairPresenter.hpp:28:13:virtual void* PairPresenter::_ZThn4_N13PairPresenterD1Ev()	0	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/pair_screen/PairPresenter.cpp:4:1:PairPresenter::PairPresenter(PairView&)	8	static

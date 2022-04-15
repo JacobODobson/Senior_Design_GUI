@@ -10,8 +10,9 @@
 #include <touchgfx/widgets/Box.hpp>
 #include <touchgfx/widgets/ButtonWithLabel.hpp>
 #include <touchgfx/containers/clock/DigitalClock.hpp>
-#include <touchgfx/widgets/TextArea.hpp>
+#include <touchgfx/widgets/TextAreaWithWildcard.hpp>
 #include <touchgfx/widgets/ScalableImage.hpp>
+#include <touchgfx/widgets/TextArea.hpp>
 
 class KeyboardViewBase : public touchgfx::View<KeyboardPresenter>
 {
@@ -41,10 +42,16 @@ protected:
     touchgfx::Box box2;
     touchgfx::ButtonWithLabel Cancel;
     touchgfx::DigitalClock digitalClock1;
-    touchgfx::TextArea textArea1;
+    touchgfx::TextAreaWithOneWildcard textArea1;
     touchgfx::ScalableImage scalableImage2;
     touchgfx::TextArea textArea2;
     touchgfx::ButtonWithLabel Confirm;
+
+    /*
+     * Wildcard Buffers
+     */
+    static const uint16_t TEXTAREA1_SIZE = 18;
+    touchgfx::Unicode::UnicodeChar textArea1Buffer[TEXTAREA1_SIZE];
 
 private:
 

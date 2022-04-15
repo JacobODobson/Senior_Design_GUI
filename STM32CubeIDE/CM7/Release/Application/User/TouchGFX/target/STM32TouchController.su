@@ -1,0 +1,4 @@
+../../../CM7/TouchGFX/target/STM32TouchController.hpp:34:7:STM32TouchController::~STM32TouchController()	0	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/target/STM32TouchController.cpp:24:6:virtual void STM32TouchController::init()	0	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/target/STM32TouchController.cpp:33:6:virtual bool STM32TouchController::sampleTouch(int32_t&, int32_t&)	0	static
+../../../CM7/TouchGFX/target/STM32TouchController.hpp:34:7:virtual STM32TouchController::~STM32TouchController()	8	static
