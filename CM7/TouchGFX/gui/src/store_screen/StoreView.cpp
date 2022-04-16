@@ -1,4 +1,6 @@
 #include <gui/store_screen/StoreView.hpp>
+#include <string.h>
+
 extern Unicode::UnicodeChar keyboardBuffer_1[18];
 
 StoreView::StoreView()

@@ -1,8 +1,8 @@
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/Core/Src/main.c:749:6:Error_Handler	0	static,ignoring_inline_asm
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/Core/Src/main.c:750:6:Error_Handler	0	static,ignoring_inline_asm
 C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/Core/Src/main.c:636:6:StartDefaultTask	8	static
 C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/Core/Src/main.c:654:13:TouchGFX_Task	8	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/Core/Src/main.c:672:6:Trilaterate_Task	80	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/Core/Src/main.c:674:6:Trilaterate_Task	24	static
 C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/Core/Src/main.c:134:1:__io_putchar	16	static
 C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/Core/Src/main.c:282:6:SystemClock_Config	136	static,ignoring_inline_asm
 C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/Core/Src/main.c:148:5:main	136	static,ignoring_inline_asm
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/Core/Src/main.c:732:6:HAL_TIM_PeriodElapsedCallback	0	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/Core/Src/main.c:733:6:HAL_TIM_PeriodElapsedCallback	0	static

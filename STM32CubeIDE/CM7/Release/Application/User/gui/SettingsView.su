@@ -5,5 +5,5 @@
 C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/settings_screen/SettingsView.cpp:17:6:virtual void SettingsView::tearDownScreen()	0	static
 C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/settings_screen/SettingsView.cpp:12:6:virtual void SettingsView::setupScreen()	0	static
 ../../CM7/../../CM7/TouchGFX/gui/include/gui/settings_screen/SettingsView.hpp:11:13:virtual SettingsView::~SettingsView()	8	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/settings_screen/SettingsView.cpp:22:6:virtual void SettingsView::updateScreen()	8	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/settings_screen/SettingsView.cpp:22:6:virtual void SettingsView::updateScreen()	16	static
 C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/settings_screen/SettingsView.cpp:7:1:SettingsView::SettingsView()	8	static

@@ -1,5 +1,6 @@
 #include <gui/list_screen/ListView.hpp>
 #include <BitmapDatabase.hpp>
+#include <string.h>
 
 float roverXloc, roverYloc, station1Xloc, station1Yloc, station2Xloc, station2Yloc, station3Xloc, station3Yloc;
 

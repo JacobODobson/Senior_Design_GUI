@@ -24,7 +24,7 @@
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<SettingsPresenter>::~View()	0	static
 ../../CM7/../../CM7/TouchGFX/generated/gui_generated/include/gui_generated/settings_screen/SettingsViewBase.hpp:24:13:SettingsViewBase::~SettingsViewBase()	0	static
 ../../CM7/../../CM7/TouchGFX/generated/gui_generated/include/gui_generated/settings_screen/SettingsViewBase.hpp:30:18:virtual void SettingsViewBase::updateScreen()	0	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/settings_screen/SettingsViewBase.cpp:99:6:virtual void SettingsViewBase::setupScreen()	0	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/settings_screen/SettingsViewBase.cpp:102:6:virtual void SettingsViewBase::setupScreen()	0	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:35:7:touchgfx::ClickButtonTrigger::~ClickButtonTrigger()	0	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/BoxWithBorderButtonStyle.hpp:123:18:void touchgfx::BoxWithBorderButtonStyle<T>::handlePressedUpdated() [with T = touchgfx::ClickButtonTrigger]	0	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<SettingsViewBase, const touchgfx::AbstractButtonContainer&>::~Callback()	0	static
@@ -45,12 +45,12 @@ C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/g
 ../../CM7/../../CM7/TouchGFX/generated/gui_generated/include/gui_generated/settings_screen/SettingsViewBase.hpp:24:13:virtual SettingsViewBase::~SettingsViewBase()	8	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/AbstractButtonContainer.hpp:99:18:virtual void touchgfx::AbstractButtonContainer::executeAction()	8	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:47:18:virtual void touchgfx::ClickButtonTrigger::handleClickEvent(const touchgfx::ClickEvent&)	16	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/settings_screen/SettingsViewBase.cpp:109:6:void SettingsViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	8	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/settings_screen/SettingsViewBase.cpp:120:6:void SettingsViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	8	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/settings_screen/SettingsViewBase.cpp:112:6:void SettingsViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	8	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/settings_screen/SettingsViewBase.cpp:123:6:void SettingsViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	8	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:326:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:216:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:36:7:touchgfx::Widget::Widget()	0	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:33:5:touchgfx::Box::Box()	8	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp:132:10:void touchgfx::ButtonWithLabel::updateTextPosition()	24	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:42:5:touchgfx::TextArea::TextArea()	8	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/settings_screen/SettingsViewBase.cpp:9:1:SettingsViewBase::SettingsViewBase()	104	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/settings_screen/SettingsViewBase.cpp:9:1:SettingsViewBase::SettingsViewBase()	120	static

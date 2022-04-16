@@ -50,16 +50,19 @@
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:42:5:touchgfx::TextArea::TextArea()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:39:7:touchgfx::TextArea::~TextArea()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:39:7:virtual touchgfx::TextArea::~TextArea()	16	static
+../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:37:5:touchgfx::TextAreaWithOneWildcard::TextAreaWithOneWildcard()	16	static
+../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:58:10:void touchgfx::TextAreaWithOneWildcard::setWildcard(const UnicodeChar*)	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp:101:18:virtual void touchgfx::DigitalClock::setDisplayMode(touchgfx::DigitalClock::DisplayMode)	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<Keyboard_1Presenter>::~View()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:virtual touchgfx::View<Keyboard_1Presenter>::~View()	16	static
-../../CM7/../../CM7/TouchGFX/generated/gui_generated/include/gui_generated/keyboard_1_screen/Keyboard_1ViewBase.hpp:20:13:Keyboard_1ViewBase::~Keyboard_1ViewBase()	16	static
-../../CM7/../../CM7/TouchGFX/generated/gui_generated/include/gui_generated/keyboard_1_screen/Keyboard_1ViewBase.hpp:20:13:virtual Keyboard_1ViewBase::~Keyboard_1ViewBase()	16	static
-../../CM7/../../CM7/TouchGFX/generated/gui_generated/include/gui_generated/keyboard_1_screen/Keyboard_1ViewBase.hpp:26:18:virtual void Keyboard_1ViewBase::getBuffer_1()	16	static
-../../CM7/../../CM7/TouchGFX/generated/gui_generated/include/gui_generated/keyboard_1_screen/Keyboard_1ViewBase.hpp:32:26:FrontendApplication& Keyboard_1ViewBase::application()	16	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/keyboard_1_screen/Keyboard_1ViewBase.cpp:9:1:Keyboard_1ViewBase::Keyboard_1ViewBase()	216	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/keyboard_1_screen/Keyboard_1ViewBase.cpp:68:6:virtual void Keyboard_1ViewBase::setupScreen()	16	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/keyboard_1_screen/Keyboard_1ViewBase.cpp:73:6:void Keyboard_1ViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	16	static
+../../CM7/../../CM7/TouchGFX/generated/gui_generated/include/gui_generated/keyboard_1_screen/Keyboard_1ViewBase.hpp:21:13:Keyboard_1ViewBase::~Keyboard_1ViewBase()	16	static
+../../CM7/../../CM7/TouchGFX/generated/gui_generated/include/gui_generated/keyboard_1_screen/Keyboard_1ViewBase.hpp:21:13:virtual Keyboard_1ViewBase::~Keyboard_1ViewBase()	16	static
+../../CM7/../../CM7/TouchGFX/generated/gui_generated/include/gui_generated/keyboard_1_screen/Keyboard_1ViewBase.hpp:27:18:virtual void Keyboard_1ViewBase::getBuffer_1()	16	static
+../../CM7/../../CM7/TouchGFX/generated/gui_generated/include/gui_generated/keyboard_1_screen/Keyboard_1ViewBase.hpp:32:18:virtual void Keyboard_1ViewBase::updateScreen()	16	static
+../../CM7/../../CM7/TouchGFX/generated/gui_generated/include/gui_generated/keyboard_1_screen/Keyboard_1ViewBase.hpp:38:26:FrontendApplication& Keyboard_1ViewBase::application()	16	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/keyboard_1_screen/Keyboard_1ViewBase.cpp:9:1:Keyboard_1ViewBase::Keyboard_1ViewBase()	224	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/keyboard_1_screen/Keyboard_1ViewBase.cpp:71:6:virtual void Keyboard_1ViewBase::setupScreen()	16	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/keyboard_1_screen/Keyboard_1ViewBase.cpp:81:6:void Keyboard_1ViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:39:5:touchgfx::View<T>::View() [with T = Keyboard_1Presenter]	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:134:7:constexpr touchgfx::GenericCallback<const touchgfx::AbstractButton&>::GenericCallback()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:373:5:touchgfx::Callback<dest_type, T1, void, void>::Callback(dest_type*, void (dest_type::*)(T1)) [with dest_type = Keyboard_1ViewBase; T1 = const touchgfx::AbstractButton&]	24	static
@@ -77,10 +80,10 @@ C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/g
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp:38:7:virtual touchgfx::ButtonWithLabel::~ButtonWithLabel()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/AbstractClock.hpp:32:7:touchgfx::AbstractClock::~AbstractClock()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/AbstractClock.hpp:32:7:virtual touchgfx::AbstractClock::~AbstractClock()	16	static
-../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:34:7:touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	16	static
-../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:34:7:virtual touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp:37:7:touchgfx::DigitalClock::~DigitalClock()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/DigitalClock.hpp:37:7:virtual touchgfx::DigitalClock::~DigitalClock()	16	static
+../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:34:7:touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	16	static
+../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:34:7:virtual touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:38:7:touchgfx::Image::~Image()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:38:7:virtual touchgfx::Image::~Image()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ScalableImage.hpp:35:7:touchgfx::ScalableImage::~ScalableImage()	16	static

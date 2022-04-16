@@ -669,19 +669,20 @@ __weak void TouchGFX_Task(void *argument)
 * @retval None
 */
 /* USER CODE END Header_Trilaterate_Task */
+vec3d pos;
+double theta = 0;
 void Trilaterate_Task(void *argument)
 {
   /* USER CODE BEGIN Trilaterate_Task */
   /* Infinite loop */
   for(;;)
   {
-	vec3d pos;
-	distancesStruct trilaterateTaskDistances;
-	if(xQueueReceive(distance_queue, (void *)&trilaterateTaskDistances, 20) == pdTRUE) {
-	  GetLocation(&pos, use4thAnchor, baseStations, trilaterateTaskDistances.dists);
-	  printf("Current position %f, %f, %f\n", pos.x, pos.y, pos.z);
-	}
-    osDelay(1500);
+    pos.x = 0.5 + (0.3 * cos(theta));
+    pos.y = 0.5 + (0.3 * sin(theta));
+    pos.z = 1;
+    theta += 0.1;
+    printf("Rover at %f, %f, %f\n", pos.x, pos.y, pos.z);
+    osDelay(1000);
   }
   /* USER CODE END Trilaterate_Task */
 }

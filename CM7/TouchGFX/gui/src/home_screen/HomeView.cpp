@@ -1,14 +1,44 @@
 #include <gui/home_screen/HomeView.hpp>
 #include <BitmapDatabase.hpp>
+#include <string.h>
+#include "trilateration.h"
 
 extern float roverXloc, roverYloc, station1Xloc, station1Yloc, station2Xloc, station2Yloc, station3Xloc, station3Yloc;
+extern vec3d pos;
 
 extern Unicode::UnicodeChar keyboardBuffer_1[18];
 
-
 HomeView::HomeView()
 {
+	roverXloc = 0.5; roverYloc = 0.5;
+	station1Xloc = 0.2; station1Yloc = 0.5;
+	station2Xloc = 0.5; station2Yloc = 0.2;
+	station3Xloc = 0.6; station3Yloc = 0.3;
 
+	roverDot.setBitmap(touchgfx::Bitmap(BITMAP_O_ID));
+	station1.setBitmap(touchgfx::Bitmap(BITMAP_X_ID));
+	station2.setBitmap(touchgfx::Bitmap(BITMAP_X_ID));
+	station3.setBitmap(touchgfx::Bitmap(BITMAP_X_ID));
+
+	roverDot.setXY(myExtraSpecialXRescaler2(pos.x), myExtraSpecialYRescaler2(pos.y));
+	station1.setXY(myExtraSpecialXRescaler2(station1Xloc), myExtraSpecialYRescaler2(station1Yloc));
+	station2.setXY(myExtraSpecialXRescaler2(station2Xloc), myExtraSpecialYRescaler2(station2Yloc));
+	station3.setXY(myExtraSpecialXRescaler2(station3Xloc), myExtraSpecialYRescaler2(station3Yloc));
+
+
+	add(roverDot);
+	add(station1);
+	add(station2);
+	add(station3);
+}
+
+
+void HomeView::handleTickEvent()
+{
+	roverDot.setXY(myExtraSpecialXRescaler2(pos.x), myExtraSpecialYRescaler2(pos.y));
+	roverDot.invalidate();
+
+	scalableImage6.invalidate();
 }
 
 int myExtraSpecialXRescaler2(float x) {
@@ -33,26 +63,6 @@ int myExtraSpecialYRescaler2(float y) {
 void HomeView::setupScreen()
 {
     HomeViewBase::setupScreen();
-
-    roverXloc = 0.5; roverYloc = 0.5;
-    station1Xloc = 0.2; station1Yloc = 0.5;
-    station2Xloc = 0.5; station2Yloc = 0.2;
-    station3Xloc = 0.6; station3Yloc = 0.3;
-
-    roverDot.setBitmap(touchgfx::Bitmap(BITMAP_O_ID));
-    station1.setBitmap(touchgfx::Bitmap(BITMAP_X_ID));
-    station2.setBitmap(touchgfx::Bitmap(BITMAP_X_ID));
-    station3.setBitmap(touchgfx::Bitmap(BITMAP_X_ID));
-
-    roverDot.setXY(myExtraSpecialXRescaler2(roverXloc), myExtraSpecialYRescaler2(roverYloc));
-    station1.setXY(myExtraSpecialXRescaler2(station1Xloc), myExtraSpecialYRescaler2(station1Yloc));
-    station2.setXY(myExtraSpecialXRescaler2(station2Xloc), myExtraSpecialYRescaler2(station2Yloc));
-    station3.setXY(myExtraSpecialXRescaler2(station3Xloc), myExtraSpecialYRescaler2(station3Yloc));
-
-    add(roverDot);
-    add(station1);
-    add(station2);
-    add(station3);
 
     if(Unicode::strlen(keyboardBuffer_1) > 0)
     {

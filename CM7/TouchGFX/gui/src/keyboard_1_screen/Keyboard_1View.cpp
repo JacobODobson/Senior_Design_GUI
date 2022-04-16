@@ -1,4 +1,5 @@
 #include <gui/keyboard_1_screen/Keyboard_1View.hpp>
+#include <string.h>
 
 extern Unicode::UnicodeChar keyboardBuffer_1[18];
 

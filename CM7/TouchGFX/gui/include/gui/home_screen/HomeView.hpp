@@ -11,6 +11,7 @@ public:
     virtual ~HomeView() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+    virtual void handleTickEvent();
     //virtual void updateScreen();
 protected:
     touchgfx::Image roverDot;

@@ -2,7 +2,7 @@
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
 ../../CM7/../../CM7/TouchGFX/gui/include/gui/store_screen/StoreView.hpp:11:13:StoreView::~StoreView()	0	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/store_screen/StoreView.cpp:13:6:virtual void StoreView::tearDownScreen()	0	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/store_screen/StoreView.cpp:8:6:virtual void StoreView::setupScreen()	0	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/store_screen/StoreView.cpp:25:6:virtual void StoreView::tearDownScreen()	0	static
 ../../CM7/../../CM7/TouchGFX/gui/include/gui/store_screen/StoreView.hpp:11:13:virtual StoreView::~StoreView()	8	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/store_screen/StoreView.cpp:3:1:StoreView::StoreView()	8	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/store_screen/StoreView.cpp:11:6:virtual void StoreView::setupScreen()	8	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/store_screen/StoreView.cpp:6:1:StoreView::StoreView()	8	static

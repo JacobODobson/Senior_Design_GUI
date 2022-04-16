@@ -68,7 +68,8 @@ Application/User/gui/HomeView.o: \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/CanvasWidget.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB565.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB565.hpp \
- ../../CM7/../../CM7/TouchGFX/generated/images/include/BitmapDatabase.hpp
+ ../../CM7/../../CM7/TouchGFX/generated/images/include/BitmapDatabase.hpp \
+ ../../../CM7/Core/Inc/trilateration.h
 ../../CM7/../../CM7/TouchGFX/gui/include/gui/home_screen/HomeView.hpp:
 ../../CM7/../../CM7/TouchGFX/generated/gui_generated/include/gui_generated/home_screen/HomeViewBase.hpp:
 ../../CM7/../../CM7/TouchGFX/gui/include/gui/common/FrontendApplication.hpp:
@@ -138,3 +139,4 @@ Application/User/gui/HomeView.o: \
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB565.hpp:
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB565.hpp:
 ../../CM7/../../CM7/TouchGFX/generated/images/include/BitmapDatabase.hpp:
+../../../CM7/Core/Inc/trilateration.h:

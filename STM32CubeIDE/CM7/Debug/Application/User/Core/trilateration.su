@@ -1,0 +1,13 @@
+../Application/User/Core/trilateration.c:40:7:vdiff	136	static
+../Application/User/Core/trilateration.c:50:7:vsum	136	static
+../Application/User/Core/trilateration.c:60:7:vmul	120	static
+../Application/User/Core/trilateration.c:70:7:vdiv	120	static
+../Application/User/Core/trilateration.c:80:8:vdist	80	static
+../Application/User/Core/trilateration.c:89:8:vnorm	32	static
+../Application/User/Core/trilateration.c:95:8:dot	56	static
+../Application/User/Core/trilateration.c:101:7:cross	136	static
+../Application/User/Core/trilateration.c:113:8:gdoprate	192	static
+../Application/User/Core/trilateration.c:144:5:sphereline	128	static
+../Application/User/Core/trilateration.c:190:5:trilateration	640	static
+../Application/User/Core/trilateration.c:494:5:deca_3dlocate	616	static
+../Application/User/Core/trilateration.c:632:5:GetLocation	384	static
