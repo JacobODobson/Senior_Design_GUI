@@ -80,10 +80,10 @@
       <Translation Language="GB">Quick Status</Translation>
     </Text>
     <Text Id="__SingleUse_QD7P" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
-      <Translation Language="GB">Base Stations:</Translation>
+      <Translation Language="GB">Base Stations: 3</Translation>
     </Text>
     <Text Id="__SingleUse_EVKR" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
-      <Translation Language="GB">Saved Points:</Translation>
+      <Translation Language="GB">Saved Points: 0</Translation>
     </Text>
     <Text Id="__SingleUse_ZM34" TypographyId="Arial_Medium" Alignment="Center" Direction="LTR">
       <Translation Language="GB">Cancel</Translation>

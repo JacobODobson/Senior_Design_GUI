@@ -54,7 +54,8 @@ Application/User/gui/ListView.o: \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/containers/clock/AbstractClock.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp \
- ../../CM7/../../CM7/TouchGFX/generated/images/include/BitmapDatabase.hpp
+ ../../CM7/../../CM7/TouchGFX/generated/images/include/BitmapDatabase.hpp \
+ ../../../CM7/Core/Inc/trilateration.h
 ../../CM7/../../CM7/TouchGFX/gui/include/gui/list_screen/ListView.hpp:
 ../../CM7/../../CM7/TouchGFX/generated/gui_generated/include/gui_generated/list_screen/ListViewBase.hpp:
 ../../CM7/../../CM7/TouchGFX/gui/include/gui/common/FrontendApplication.hpp:
@@ -110,3 +111,4 @@ Application/User/gui/ListView.o: \
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:
 ../../CM7/../../CM7/TouchGFX/generated/images/include/BitmapDatabase.hpp:
+../../../CM7/Core/Inc/trilateration.h:

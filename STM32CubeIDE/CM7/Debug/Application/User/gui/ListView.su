@@ -44,11 +44,12 @@
 ../../CM7/../../CM7/TouchGFX/generated/gui_generated/include/gui_generated/list_screen/ListViewBase.hpp:21:13:virtual ListViewBase::~ListViewBase()	16	static
 ../../CM7/../../CM7/TouchGFX/gui/include/gui/list_screen/ListView.hpp:11:13:ListView::~ListView()	16	static
 ../../CM7/../../CM7/TouchGFX/gui/include/gui/list_screen/ListView.hpp:11:13:virtual ListView::~ListView()	16	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/list_screen/ListView.cpp:10:1:ListView::ListView()	40	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/list_screen/ListView.cpp:16:5:int myExtraSpecialXRescaler(float)	16	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/list_screen/ListView.cpp:25:5:int myExtraSpecialYRescaler(float)	16	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/list_screen/ListView.cpp:35:6:virtual void ListView::setupScreen()	40	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/list_screen/ListView.cpp:64:6:virtual void ListView::tearDownScreen()	16	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/list_screen/ListView.cpp:12:1:ListView::ListView()	40	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/list_screen/ListView.cpp:17:6:virtual void ListView::handleTickEvent()	24	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/list_screen/ListView.cpp:26:5:int myExtraSpecialXRescaler(float)	16	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/list_screen/ListView.cpp:35:5:int myExtraSpecialYRescaler(float)	16	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/list_screen/ListView.cpp:45:6:virtual void ListView::setupScreen()	40	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/list_screen/ListView.cpp:76:6:virtual void ListView::tearDownScreen()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:40:7:touchgfx::Container::~Container()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:40:7:virtual touchgfx::Container::~Container()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:29:7:touchgfx::Box::~Box()	16	static

@@ -11,15 +11,15 @@
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:568:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	4	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:683:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	0	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
-../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:47:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
 ../../CM7/../../CM7/TouchGFX/gui/include/gui/list_screen/ListView.hpp:11:13:ListView::~ListView()	0	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/list_screen/ListView.cpp:64:6:virtual void ListView::tearDownScreen()	0	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/list_screen/ListView.cpp:76:6:virtual void ListView::tearDownScreen()	0	static
 ../../CM7/../../CM7/TouchGFX/gui/include/gui/list_screen/ListView.hpp:11:13:virtual ListView::~ListView()	8	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:326:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:50:5:touchgfx::Image::Image(const touchgfx::Bitmap&)	8	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/list_screen/ListView.cpp:10:1:ListView::ListView()	24	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/list_screen/ListView.cpp:16:5:int myExtraSpecialXRescaler(float)	0	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/list_screen/ListView.cpp:25:5:int myExtraSpecialYRescaler(float)	0	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/list_screen/ListView.cpp:35:6:virtual void ListView::setupScreen()	48	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/list_screen/ListView.cpp:12:1:ListView::ListView()	24	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/list_screen/ListView.cpp:26:5:int myExtraSpecialXRescaler(float)	0	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/list_screen/ListView.cpp:35:5:int myExtraSpecialYRescaler(float)	0	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/list_screen/ListView.cpp:17:6:virtual void ListView::handleTickEvent()	16	static
+C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/list_screen/ListView.cpp:45:6:virtual void ListView::setupScreen()	48	static

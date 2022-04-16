@@ -11,6 +11,7 @@ public:
     virtual ~ListView() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+    virtual void handleTickEvent();
 protected:
     touchgfx::Image roverDot;
     touchgfx::Image station1;

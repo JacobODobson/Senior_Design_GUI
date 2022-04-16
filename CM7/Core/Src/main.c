@@ -677,12 +677,12 @@ void Trilaterate_Task(void *argument)
   /* Infinite loop */
   for(;;)
   {
-    pos.x = 0.5 + (0.3 * cos(theta));
-    pos.y = 0.5 + (0.3 * sin(theta));
+    pos.x = 0.5 + (0.24 * cos(theta));
+    pos.y = 0.5 + (0.24 * sin(theta));
     pos.z = 1;
-    theta += 0.1;
+    theta += 0.05;
     printf("Rover at %f, %f, %f\n", pos.x, pos.y, pos.z);
-    osDelay(1000);
+    osDelay(250);
   }
   /* USER CODE END Trilaterate_Task */
 }

@@ -1,8 +1,10 @@
 #include <gui/list_screen/ListView.hpp>
 #include <BitmapDatabase.hpp>
 #include <string.h>
+#include "trilateration.h"
 
-float roverXloc, roverYloc, station1Xloc, station1Yloc, station2Xloc, station2Yloc, station3Xloc, station3Yloc;
+float station1Xloc, station1Yloc, station2Xloc, station2Yloc, station3Xloc, station3Yloc;
+extern vec3d pos;
 
 extern Unicode::UnicodeChar keyboardBuffer_1[18];
 
@@ -10,6 +12,14 @@ extern Unicode::UnicodeChar keyboardBuffer_1[18];
 ListView::ListView()
 {
     
+}
+
+void ListView::handleTickEvent()
+{
+	roverDot.setXY(myExtraSpecialXRescaler(pos.x), myExtraSpecialYRescaler(pos.y));
+	roverDot.invalidate();
+
+	scalableImage3.invalidate();
 }
 
 
@@ -41,15 +51,17 @@ void ListView::setupScreen()
     station2.setBitmap(touchgfx::Bitmap(BITMAP_X_ID));
     station3.setBitmap(touchgfx::Bitmap(BITMAP_X_ID));
 
-    roverDot.setXY(myExtraSpecialXRescaler(roverXloc), myExtraSpecialYRescaler(roverYloc));
+    roverDot.setXY(myExtraSpecialXRescaler(pos.x), myExtraSpecialYRescaler(pos.y));
     station1.setXY(myExtraSpecialXRescaler(station1Xloc), myExtraSpecialYRescaler(station1Yloc));
     station2.setXY(myExtraSpecialXRescaler(station2Xloc), myExtraSpecialYRescaler(station2Yloc));
     station3.setXY(myExtraSpecialXRescaler(station3Xloc), myExtraSpecialYRescaler(station3Yloc));
 
-    add(roverDot);
+
     add(station1);
     add(station2);
     add(station3);
+
+    add(roverDot);
 
     if(Unicode::strlen(keyboardBuffer_1) > 0)
     {

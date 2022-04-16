@@ -3,17 +3,17 @@
 #include <string.h>
 #include "trilateration.h"
 
-extern float roverXloc, roverYloc, station1Xloc, station1Yloc, station2Xloc, station2Yloc, station3Xloc, station3Yloc;
+extern float station1Xloc, station1Yloc, station2Xloc, station2Yloc, station3Xloc, station3Yloc;
 extern vec3d pos;
 
 extern Unicode::UnicodeChar keyboardBuffer_1[18];
 
 HomeView::HomeView()
 {
-	roverXloc = 0.5; roverYloc = 0.5;
-	station1Xloc = 0.2; station1Yloc = 0.5;
-	station2Xloc = 0.5; station2Yloc = 0.2;
-	station3Xloc = 0.6; station3Yloc = 0.3;
+	station1Xloc = 0.2; station1Yloc = 0.9;
+	station2Xloc = 0.95; station2Yloc = 0.5;
+	station3Xloc = 0.4; station3Yloc = 0.05;
+
 
 	roverDot.setBitmap(touchgfx::Bitmap(BITMAP_O_ID));
 	station1.setBitmap(touchgfx::Bitmap(BITMAP_X_ID));
@@ -26,10 +26,12 @@ HomeView::HomeView()
 	station3.setXY(myExtraSpecialXRescaler2(station3Xloc), myExtraSpecialYRescaler2(station3Yloc));
 
 
-	add(roverDot);
+
 	add(station1);
 	add(station2);
 	add(station3);
+
+	add(roverDot);
 }
 
 
@@ -45,9 +47,9 @@ int myExtraSpecialXRescaler2(float x) {
     if (x <= 0)
         return 341;
     if (x >= 1)
-        return 428;
+        return 441;
 
-    return 341 + x*(428-341);
+    return 341 + x*(441-341);
 }
 
 int myExtraSpecialYRescaler2(float y) {
