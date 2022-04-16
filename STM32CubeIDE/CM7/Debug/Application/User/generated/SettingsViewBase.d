@@ -1,5 +1,5 @@
 Application/User/generated/SettingsViewBase.o: \
- C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/settings_screen/SettingsViewBase.cpp \
+ A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/settings_screen/SettingsViewBase.cpp \
  ../../CM7/../../CM7/TouchGFX/generated/gui_generated/include/gui_generated/settings_screen/SettingsViewBase.hpp \
  ../../CM7/../../CM7/TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../CM7/../../CM7/TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \

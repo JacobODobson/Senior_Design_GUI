@@ -1,5 +1,5 @@
 Common/system_stm32h7xx_dualcore_boot_cm4_cm7.o: \
- C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c \
+ A:/TouchGFX/Senior_Design_GUI/Common/Src/system_stm32h7xx_dualcore_boot_cm4_cm7.c \
  ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
  ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h745xx.h \
  ../../../Drivers/CMSIS/Include/core_cm7.h \

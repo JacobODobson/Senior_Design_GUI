@@ -1,2 +1,2 @@
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/target/stm32h745i_touchcontroller.cpp:11:6:void STM32H745ITouchController::init()	24	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/target/stm32h745i_touchcontroller.cpp:37:6:bool STM32H745ITouchController::sampleTouch(int32_t&, int32_t&)	16	static
+A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/target/stm32h745i_touchcontroller.cpp:11:6:void STM32H745ITouchController::init()	24	static
+A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/target/stm32h745i_touchcontroller.cpp:37:6:bool STM32H745ITouchController::sampleTouch(int32_t&, int32_t&)	16	static

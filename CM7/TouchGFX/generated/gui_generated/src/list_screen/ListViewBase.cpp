@@ -94,7 +94,7 @@ ListViewBase::ListViewBase() :
     textAreaZ.setXY(24, 123);
     textAreaZ.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     textAreaZ.setLinespacing(0);
-    Unicode::snprintf(textAreaZBuffer, TEXTAREAZ_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_VNAC).getText());
+    Unicode::snprintf(textAreaZBuffer, TEXTAREAZ_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_F87O).getText());
     textAreaZ.setWildcard(textAreaZBuffer);
     textAreaZ.resizeToCurrentText();
     textAreaZ.setTypedText(touchgfx::TypedText(T___SINGLEUSE_RN46));

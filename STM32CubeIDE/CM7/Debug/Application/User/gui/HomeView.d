@@ -1,5 +1,5 @@
 Application/User/gui/HomeView.o: \
- C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/home_screen/HomeView.cpp \
+ A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/gui/src/home_screen/HomeView.cpp \
  ../../CM7/../../CM7/TouchGFX/gui/include/gui/home_screen/HomeView.hpp \
  ../../CM7/../../CM7/TouchGFX/generated/gui_generated/include/gui_generated/home_screen/HomeViewBase.hpp \
  ../../CM7/../../CM7/TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

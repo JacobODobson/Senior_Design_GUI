@@ -22,8 +22,8 @@ void ListView::handleTickEvent()
 
 	scalableImage3.invalidate();
 
-	Unicode::UnicodeChar x_string[10];
-	Unicode::strncpy(x_string, std::to_string(pos.x).c_str(), TEXTAREAX_SIZE - 1);
+	Unicode::UnicodeChar x_string[11];
+	Unicode::strncpy(x_string, std::to_string(10*pos.x+735249.058).c_str(), TEXTAREAX_SIZE - 1);
 
 	if(Unicode::strlen(x_string) > 0)
 	{
@@ -31,6 +31,17 @@ void ListView::handleTickEvent()
 		Unicode::strncpy(textAreaXBuffer, x_string, TEXTAREAX_SIZE - 1);
 		textAreaXBuffer[TEXTAREAX_SIZE-1] = '\0'; // make sure last index is null
 		textAreaX.invalidate();
+	}
+	
+	Unicode::UnicodeChar y_string[12];
+	Unicode::strncpy(y_string, std::to_string(10*pos.y+2096168.453).c_str(), TEXTAREAY_SIZE - 1);
+
+	if(Unicode::strlen(y_string) > 0)
+	{
+		memset(&textAreaYBuffer, 0, TEXTAREAY_SIZE);
+		Unicode::strncpy(textAreaYBuffer, y_string, TEXTAREAY_SIZE - 1);
+		textAreaYBuffer[TEXTAREAY_SIZE-1] = '\0'; // make sure last index is null
+		textAreaY.invalidate();
 	}
 
 }

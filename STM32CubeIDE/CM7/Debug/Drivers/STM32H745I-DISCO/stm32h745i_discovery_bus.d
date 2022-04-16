@@ -1,7 +1,7 @@
 Drivers/STM32H745I-DISCO/stm32h745i_discovery_bus.o: \
- C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_bus.c \
- C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_bus.h \
- C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_conf.h \
+ A:/TouchGFX/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_bus.c \
+ A:/TouchGFX/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_bus.h \
+ A:/TouchGFX/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_conf.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../../CM7/Core/Inc/stm32h7xx_hal_conf.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -42,9 +42,9 @@ Drivers/STM32H745I-DISCO/stm32h745i_discovery_bus.o: \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
- C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_errno.h
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_bus.h:
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_conf.h:
+ A:/TouchGFX/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_errno.h
+A:/TouchGFX/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_bus.h:
+A:/TouchGFX/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_conf.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../../CM7/Core/Inc/stm32h7xx_hal_conf.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:
@@ -85,4 +85,4 @@ C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/Drivers/BSP/STM32H745I-D
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_errno.h:
+A:/TouchGFX/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_errno.h:

@@ -1,5 +1,5 @@
 Application/User/generated/StoreViewBase.o: \
- C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/store_screen/StoreViewBase.cpp \
+ A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/store_screen/StoreViewBase.cpp \
  ../../CM7/../../CM7/TouchGFX/generated/gui_generated/include/gui_generated/store_screen/StoreViewBase.hpp \
  ../../CM7/../../CM7/TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../CM7/../../CM7/TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \

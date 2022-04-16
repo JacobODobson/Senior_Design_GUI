@@ -1,5 +1,5 @@
 Application/User/generated/GeneratedFont.o: \
- C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/fonts/src/GeneratedFont.cpp \
+ A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/generated/fonts/src/GeneratedFont.cpp \
  ../../CM7/../../CM7/TouchGFX/generated/fonts/include/fonts/GeneratedFont.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/ConstFont.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \

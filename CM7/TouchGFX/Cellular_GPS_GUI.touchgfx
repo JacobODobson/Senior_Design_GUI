@@ -146,7 +146,7 @@
             "Name": "textArea3",
             "X": 210,
             "Y": 111,
-            "Width": 113,
+            "Width": 114,
             "Height": 23,
             "TextId": "__SingleUse_S398",
             "TextRotation": "0",
@@ -171,7 +171,7 @@
             "Name": "textArea4",
             "X": 204,
             "Y": 149,
-            "Width": 109,
+            "Width": 110,
             "Height": 18,
             "TextId": "__SingleUse_QD7P",
             "TextRotation": "0",
@@ -362,7 +362,7 @@
             "Name": "textAreaX",
             "X": 24,
             "Y": 74,
-            "Width": 45,
+            "Width": 120,
             "Height": 18,
             "TextId": "__SingleUse_660L",
             "TextRotation": "0",
@@ -370,7 +370,7 @@
             "Wildcard1": {
               "TextId": "__SingleUse_32VY",
               "UseBuffer": true,
-              "BufferSize": 10
+              "BufferSize": 11
             }
           },
           {
@@ -399,7 +399,7 @@
             "Name": "textAreaY",
             "X": 24,
             "Y": 100,
-            "Width": 45,
+            "Width": 120,
             "Height": 18,
             "TextId": "__SingleUse_B07E",
             "TextRotation": "0",
@@ -407,7 +407,7 @@
             "Wildcard1": {
               "TextId": "__SingleUse_ENPC",
               "UseBuffer": true,
-              "BufferSize": 10
+              "BufferSize": 12
             }
           },
           {
@@ -415,13 +415,13 @@
             "Name": "textAreaZ",
             "X": 24,
             "Y": 123,
-            "Width": 24,
+            "Width": 162,
             "Height": 18,
             "TextId": "__SingleUse_RN46",
             "TextRotation": "0",
             "AutoSize": true,
             "Wildcard1": {
-              "TextId": "__SingleUse_VNAC",
+              "TextId": "__SingleUse_F87O",
               "UseBuffer": true,
               "BufferSize": 10
             }

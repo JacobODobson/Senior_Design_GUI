@@ -12,16 +12,16 @@
 ../../../CM7/TouchGFX/target/generated/STM32DMA.hpp:108:18:virtual void STM32DMA::signalDMAInterrupt()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:110:17:static touchgfx::HAL* touchgfx::HAL::getInstance()	4	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:164:10:void touchgfx::HAL::signalDMAInterrupt()	16	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/target/generated/STM32DMA.cpp:42:17:void DMA2D_XferCpltCallback(DMA2D_HandleTypeDef*)	16	static
+A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/target/generated/STM32DMA.cpp:42:17:void DMA2D_XferCpltCallback(DMA2D_HandleTypeDef*)	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/BlitOp.hpp:46:8:touchgfx::BlitOp::BlitOp()	16	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/target/generated/STM32DMA.cpp:49:1:STM32DMA::STM32DMA()	24	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/target/generated/STM32DMA.cpp:54:1:STM32DMA::~STM32DMA()	16	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/target/generated/STM32DMA.cpp:54:1:virtual STM32DMA::~STM32DMA()	16	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/target/generated/STM32DMA.cpp:60:6:virtual void STM32DMA::initialize()	24	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/target/generated/STM32DMA.cpp:74:17:uint32_t STM32DMA::getChromARTInputFormat(touchgfx::Bitmap::BitmapFormat)	24	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/target/generated/STM32DMA.cpp:109:17:uint32_t STM32DMA::getChromARTOutputFormat(touchgfx::Bitmap::BitmapFormat)	24	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/target/generated/STM32DMA.cpp:142:16:virtual touchgfx::BlitOperations STM32DMA::getBlitCaps()	16	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/target/generated/STM32DMA.cpp:165:6:virtual void STM32DMA::setupDataCopy(const touchgfx::BlitOp&)	48	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/target/generated/STM32DMA.cpp:334:6:virtual void STM32DMA::setupDataFill(const touchgfx::BlitOp&)	32	static
+A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/target/generated/STM32DMA.cpp:49:1:STM32DMA::STM32DMA()	24	static
+A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/target/generated/STM32DMA.cpp:54:1:STM32DMA::~STM32DMA()	16	static
+A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/target/generated/STM32DMA.cpp:54:1:virtual STM32DMA::~STM32DMA()	16	static
+A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/target/generated/STM32DMA.cpp:60:6:virtual void STM32DMA::initialize()	24	static
+A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/target/generated/STM32DMA.cpp:74:17:uint32_t STM32DMA::getChromARTInputFormat(touchgfx::Bitmap::BitmapFormat)	24	static
+A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/target/generated/STM32DMA.cpp:109:17:uint32_t STM32DMA::getChromARTOutputFormat(touchgfx::Bitmap::BitmapFormat)	24	static
+A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/target/generated/STM32DMA.cpp:142:16:virtual touchgfx::BlitOperations STM32DMA::getBlitCaps()	16	static
+A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/target/generated/STM32DMA.cpp:165:6:virtual void STM32DMA::setupDataCopy(const touchgfx::BlitOp&)	48	static
+A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/target/generated/STM32DMA.cpp:334:6:virtual void STM32DMA::setupDataFill(const touchgfx::BlitOp&)	32	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/DMA.hpp:87:7:touchgfx::LockFreeDMA_Queue::~LockFreeDMA_Queue()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/DMA.hpp:87:7:virtual touchgfx::LockFreeDMA_Queue::~LockFreeDMA_Queue()	16	static

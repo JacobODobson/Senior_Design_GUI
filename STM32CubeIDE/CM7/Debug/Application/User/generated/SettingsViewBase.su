@@ -92,10 +92,10 @@
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:31:7:touchgfx::Button::~Button()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:31:7:virtual touchgfx::Button::~Button()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ToggleButton.hpp:32:7:touchgfx::ToggleButton::ToggleButton()	16	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/settings_screen/SettingsViewBase.cpp:9:1:SettingsViewBase::SettingsViewBase()	368	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/settings_screen/SettingsViewBase.cpp:102:6:virtual void SettingsViewBase::setupScreen()	16	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/settings_screen/SettingsViewBase.cpp:112:6:void SettingsViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	16	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/settings_screen/SettingsViewBase.cpp:123:6:void SettingsViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	16	static
+A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/settings_screen/SettingsViewBase.cpp:9:1:SettingsViewBase::SettingsViewBase()	368	static
+A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/settings_screen/SettingsViewBase.cpp:102:6:virtual void SettingsViewBase::setupScreen()	16	static
+A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/settings_screen/SettingsViewBase.cpp:112:6:void SettingsViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	16	static
+A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/generated/gui_generated/src/settings_screen/SettingsViewBase.cpp:123:6:void SettingsViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:39:5:touchgfx::View<T>::View() [with T = SettingsPresenter]	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:35:7:touchgfx::ClickButtonTrigger::ClickButtonTrigger()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:35:7:touchgfx::ClickButtonTrigger::~ClickButtonTrigger()	16	static

@@ -1,7 +1,7 @@
 Drivers/Components/mt25tl01g.o: \
- C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/Drivers/BSP/Components/mt25tl01g/mt25tl01g.c \
- C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/Drivers/BSP/Components/mt25tl01g/mt25tl01g.h \
- C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/Drivers/BSP/Components/mt25tl01g/mt25tl01g_conf.h \
+ A:/TouchGFX/Senior_Design_GUI/Drivers/BSP/Components/mt25tl01g/mt25tl01g.c \
+ A:/TouchGFX/Senior_Design_GUI/Drivers/BSP/Components/mt25tl01g/mt25tl01g.h \
+ A:/TouchGFX/Senior_Design_GUI/Drivers/BSP/Components/mt25tl01g/mt25tl01g_conf.h \
  ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
  ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h745xx.h \
  ../../../Drivers/CMSIS/Include/core_cm7.h \
@@ -42,8 +42,8 @@ Drivers/Components/mt25tl01g.o: \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/Drivers/BSP/Components/mt25tl01g/mt25tl01g.h:
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/Drivers/BSP/Components/mt25tl01g/mt25tl01g_conf.h:
+A:/TouchGFX/Senior_Design_GUI/Drivers/BSP/Components/mt25tl01g/mt25tl01g.h:
+A:/TouchGFX/Senior_Design_GUI/Drivers/BSP/Components/mt25tl01g/mt25tl01g_conf.h:
 ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h:
 ../../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h745xx.h:
 ../../../Drivers/CMSIS/Include/core_cm7.h:

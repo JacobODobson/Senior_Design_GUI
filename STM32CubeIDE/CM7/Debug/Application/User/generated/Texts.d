@@ -1,5 +1,5 @@
 Application/User/generated/Texts.o: \
- C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/generated/texts/src/Texts.cpp \
+ A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/generated/texts/src/Texts.cpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/TextProvider.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Config.hpp \

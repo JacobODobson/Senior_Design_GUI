@@ -1,5 +1,5 @@
 Application/User/TouchGFX/target/TouchGFXHAL.o: \
- C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/target/TouchGFXHAL.cpp \
+ A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/target/TouchGFXHAL.cpp \
  ../../../CM7/TouchGFX/target/TouchGFXHAL.hpp \
  ../../../CM7/TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp \
  ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp \

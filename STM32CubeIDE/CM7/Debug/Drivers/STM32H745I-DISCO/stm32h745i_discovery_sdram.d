@@ -1,7 +1,7 @@
 Drivers/STM32H745I-DISCO/stm32h745i_discovery_sdram.o: \
- C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_sdram.c \
- C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_sdram.h \
- C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_conf.h \
+ A:/TouchGFX/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_sdram.c \
+ A:/TouchGFX/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_sdram.h \
+ A:/TouchGFX/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_conf.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../../../CM7/Core/Inc/stm32h7xx_hal_conf.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -42,11 +42,11 @@ Drivers/STM32H745I-DISCO/stm32h745i_discovery_sdram.o: \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
- C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_errno.h \
- c:\users\davis\desktop\github_sr_dsgn\senior_design_gui\drivers\bsp\components\mt48lc4m32b2\mt48lc4m32b2.h \
- c:\users\davis\desktop\github_sr_dsgn\senior_design_gui\drivers\bsp\components\mt48lc4m32b2\mt48lc4m32b2_conf.h
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_sdram.h:
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_conf.h:
+ A:/TouchGFX/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_errno.h \
+ a:\touchgfx\senior_design_gui\drivers\bsp\components\mt48lc4m32b2\mt48lc4m32b2.h \
+ a:\touchgfx\senior_design_gui\drivers\bsp\components\mt48lc4m32b2\mt48lc4m32b2_conf.h
+A:/TouchGFX/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_sdram.h:
+A:/TouchGFX/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_conf.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../../CM7/Core/Inc/stm32h7xx_hal_conf.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:
@@ -87,6 +87,6 @@ C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/Drivers/BSP/STM32H745I-D
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_errno.h:
-c:\users\davis\desktop\github_sr_dsgn\senior_design_gui\drivers\bsp\components\mt48lc4m32b2\mt48lc4m32b2.h:
-c:\users\davis\desktop\github_sr_dsgn\senior_design_gui\drivers\bsp\components\mt48lc4m32b2\mt48lc4m32b2_conf.h:
+A:/TouchGFX/Senior_Design_GUI/Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_errno.h:
+a:\touchgfx\senior_design_gui\drivers\bsp\components\mt48lc4m32b2\mt48lc4m32b2.h:
+a:\touchgfx\senior_design_gui\drivers\bsp\components\mt48lc4m32b2\mt48lc4m32b2_conf.h:

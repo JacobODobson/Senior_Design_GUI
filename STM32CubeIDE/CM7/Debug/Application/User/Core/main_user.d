@@ -1,5 +1,5 @@
 Application/User/Core/main_user.o: \
- C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/Core/Src/main_user.c \
+ A:/TouchGFX/Senior_Design_GUI/CM7/Core/Src/main_user.c \
  ../../../CM7/Core/Inc/main_user.h \
  ../../../Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_qspi.h \
  ../../../Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_conf.h \

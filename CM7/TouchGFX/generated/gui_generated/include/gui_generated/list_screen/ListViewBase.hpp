@@ -52,9 +52,9 @@ protected:
      */
     static const uint16_t TEXTAREA1_SIZE = 18;
     touchgfx::Unicode::UnicodeChar textArea1Buffer[TEXTAREA1_SIZE];
-    static const uint16_t TEXTAREAX_SIZE = 10;
+    static const uint16_t TEXTAREAX_SIZE = 11;
     touchgfx::Unicode::UnicodeChar textAreaXBuffer[TEXTAREAX_SIZE];
-    static const uint16_t TEXTAREAY_SIZE = 10;
+    static const uint16_t TEXTAREAY_SIZE = 12;
     touchgfx::Unicode::UnicodeChar textAreaYBuffer[TEXTAREAY_SIZE];
     static const uint16_t TEXTAREAZ_SIZE = 10;
     touchgfx::Unicode::UnicodeChar textAreaZBuffer[TEXTAREAZ_SIZE];

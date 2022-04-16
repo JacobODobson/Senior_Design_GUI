@@ -1,6 +1,6 @@
 Application/User/TouchGFX/target/stm32h745i_touchcontroller.o: \
- C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/target/stm32h745i_touchcontroller.cpp \
- C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/target/stm32h745i_touchcontroller.hpp \
+ A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/target/stm32h745i_touchcontroller.cpp \
+ A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/target/stm32h745i_touchcontroller.hpp \
  ../../../Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_ts.h \
  ../../../Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_conf.h \
  ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
@@ -47,7 +47,7 @@ Application/User/TouchGFX/target/stm32h745i_touchcontroller.o: \
  ../../../Drivers/BSP/STM32H745I-DISCO/../Components/ft5336/ft5336.h \
  ../../../Drivers/BSP/STM32H745I-DISCO/../Components/ft5336/ft5336_reg.h \
  ../../../Drivers/BSP/STM32H745I-DISCO/../Components/ft5336/ft5336_conf.h
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/target/stm32h745i_touchcontroller.hpp:
+A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/target/stm32h745i_touchcontroller.hpp:
 ../../../Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_ts.h:
 ../../../Drivers/BSP/STM32H745I-DISCO/stm32h745i_discovery_conf.h:
 ../../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:

@@ -57,10 +57,10 @@
 ../../CM7/../../CM7/TouchGFX/generated/gui_generated/include/gui_generated/settings_screen/SettingsViewBase.hpp:24:13:virtual SettingsViewBase::~SettingsViewBase()	16	static
 ../../CM7/../../CM7/TouchGFX/gui/include/gui/settings_screen/SettingsView.hpp:11:13:SettingsView::~SettingsView()	16	static
 ../../CM7/../../CM7/TouchGFX/gui/include/gui/settings_screen/SettingsView.hpp:11:13:virtual SettingsView::~SettingsView()	16	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/settings_screen/SettingsView.cpp:7:1:SettingsView::SettingsView()	16	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/settings_screen/SettingsView.cpp:12:6:virtual void SettingsView::setupScreen()	16	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/settings_screen/SettingsView.cpp:17:6:virtual void SettingsView::tearDownScreen()	16	static
-C:/Users/davis/Desktop/github_sr_dsgn/Senior_Design_GUI/CM7/TouchGFX/gui/src/settings_screen/SettingsView.cpp:22:6:virtual void SettingsView::updateScreen()	16	static
+A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/gui/src/settings_screen/SettingsView.cpp:7:1:SettingsView::SettingsView()	16	static
+A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/gui/src/settings_screen/SettingsView.cpp:12:6:virtual void SettingsView::setupScreen()	16	static
+A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/gui/src/settings_screen/SettingsView.cpp:17:6:virtual void SettingsView::tearDownScreen()	16	static
+A:/TouchGFX/Senior_Design_GUI/CM7/TouchGFX/gui/src/settings_screen/SettingsView.cpp:22:6:virtual void SettingsView::updateScreen()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:31:7:touchgfx::Button::~Button()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:31:7:virtual touchgfx::Button::~Button()	16	static
 ../../CM7/../../CM7/Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp:38:7:touchgfx::ButtonWithLabel::~ButtonWithLabel()	16	static
