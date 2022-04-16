@@ -68,13 +68,13 @@
       <Translation Language="GB">60%</Translation>
     </Text>
     <Text Id="__SingleUse_EKQZ" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
-      <Translation Language="GB">Point 1: </Translation>
+      <Translation Language="GB">Current point:</Translation>
     </Text>
     <Text Id="__SingleUse_660L" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
-      <Translation Language="GB">Point 2: </Translation>
+      <Translation Language="GB">x: &lt;value&gt;</Translation>
     </Text>
     <Text Id="__SingleUse_4J7M" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
-      <Translation Language="GB">Point 3: </Translation>
+      <Translation Language="GB">Saved points: </Translation>
     </Text>
     <Text Id="__SingleUse_S398" TypographyId="Arial_Large" Alignment="Left" Direction="LTR">
       <Translation Language="GB">Quick Status</Translation>
@@ -165,6 +165,24 @@
     </Text>
     <Text Id="__SingleUse_C1R6" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
       <Translation Language="GB">Rover 1</Translation>
+    </Text>
+    <Text Id="__SingleUse_B07E" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">y: &lt;value&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_RN46" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">z: &lt;value&gt;</Translation>
+    </Text>
+    <Text Id="__SingleUse_67D2" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">N/A</Translation>
+    </Text>
+    <Text Id="__SingleUse_32VY" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">0.74</Translation>
+    </Text>
+    <Text Id="__SingleUse_ENPC" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">0.74</Translation>
+    </Text>
+    <Text Id="__SingleUse_VNAC" TypographyId="Arial_Medium" Alignment="Left" Direction="LTR">
+      <Translation Language="GB">1</Translation>
     </Text>
   </Texts>
   <Typographies>

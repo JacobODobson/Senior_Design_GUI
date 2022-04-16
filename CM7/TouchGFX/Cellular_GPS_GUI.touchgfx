@@ -351,7 +351,7 @@
             "Name": "textArea3",
             "X": 24,
             "Y": 51,
-            "Width": 55,
+            "Width": 91,
             "Height": 18,
             "TextId": "__SingleUse_EKQZ",
             "TextRotation": "0",
@@ -359,21 +359,26 @@
           },
           {
             "Type": "TextArea",
-            "Name": "textArea3_1",
+            "Name": "textAreaX",
             "X": 24,
-            "Y": 100,
-            "Width": 55,
+            "Y": 74,
+            "Width": 45,
             "Height": 18,
             "TextId": "__SingleUse_660L",
             "TextRotation": "0",
-            "AutoSize": true
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_32VY",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
           },
           {
             "Type": "TextArea",
             "Name": "textArea3_2",
             "X": 24,
             "Y": 150,
-            "Width": 55,
+            "Width": 95,
             "Height": 18,
             "TextId": "__SingleUse_4J7M",
             "TextRotation": "0",
@@ -388,6 +393,49 @@
             "Height": 176,
             "Filename": "Grid.png",
             "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaY",
+            "X": 24,
+            "Y": 100,
+            "Width": 45,
+            "Height": 18,
+            "TextId": "__SingleUse_B07E",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_ENPC",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaZ",
+            "X": 24,
+            "Y": 123,
+            "Width": 24,
+            "Height": 18,
+            "TextId": "__SingleUse_RN46",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_VNAC",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaSaved",
+            "X": 24,
+            "Y": 177,
+            "Width": 25,
+            "Height": 18,
+            "TextId": "__SingleUse_67D2",
+            "TextRotation": "0",
+            "AutoSize": true
           }
         ],
         "Interactions": [

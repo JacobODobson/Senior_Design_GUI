@@ -40,15 +40,24 @@ protected:
     touchgfx::ScalableImage scalableImage2;
     touchgfx::TextArea textArea2;
     touchgfx::TextArea textArea3;
-    touchgfx::TextArea textArea3_1;
+    touchgfx::TextAreaWithOneWildcard textAreaX;
     touchgfx::TextArea textArea3_2;
     touchgfx::ScalableImage scalableImage3;
+    touchgfx::TextAreaWithOneWildcard textAreaY;
+    touchgfx::TextAreaWithOneWildcard textAreaZ;
+    touchgfx::TextArea textAreaSaved;
 
     /*
      * Wildcard Buffers
      */
     static const uint16_t TEXTAREA1_SIZE = 18;
     touchgfx::Unicode::UnicodeChar textArea1Buffer[TEXTAREA1_SIZE];
+    static const uint16_t TEXTAREAX_SIZE = 10;
+    touchgfx::Unicode::UnicodeChar textAreaXBuffer[TEXTAREAX_SIZE];
+    static const uint16_t TEXTAREAY_SIZE = 10;
+    touchgfx::Unicode::UnicodeChar textAreaYBuffer[TEXTAREAY_SIZE];
+    static const uint16_t TEXTAREAZ_SIZE = 10;
+    touchgfx::Unicode::UnicodeChar textAreaZBuffer[TEXTAREAZ_SIZE];
 
 private:
 

@@ -66,10 +66,13 @@ ListViewBase::ListViewBase() :
     textArea3.setLinespacing(0);
     textArea3.setTypedText(touchgfx::TypedText(T___SINGLEUSE_EKQZ));
 
-    textArea3_1.setXY(24, 100);
-    textArea3_1.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
-    textArea3_1.setLinespacing(0);
-    textArea3_1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_660L));
+    textAreaX.setXY(24, 74);
+    textAreaX.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    textAreaX.setLinespacing(0);
+    Unicode::snprintf(textAreaXBuffer, TEXTAREAX_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_32VY).getText());
+    textAreaX.setWildcard(textAreaXBuffer);
+    textAreaX.resizeToCurrentText();
+    textAreaX.setTypedText(touchgfx::TypedText(T___SINGLEUSE_660L));
 
     textArea3_2.setXY(24, 150);
     textArea3_2.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
@@ -79,6 +82,27 @@ ListViewBase::ListViewBase() :
     scalableImage3.setBitmap(touchgfx::Bitmap(BITMAP_GRID_ID));
     scalableImage3.setPosition(146, 62, 189, 176);
     scalableImage3.setScalingAlgorithm(touchgfx::ScalableImage::NEAREST_NEIGHBOR);
+
+    textAreaY.setXY(24, 100);
+    textAreaY.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    textAreaY.setLinespacing(0);
+    Unicode::snprintf(textAreaYBuffer, TEXTAREAY_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_ENPC).getText());
+    textAreaY.setWildcard(textAreaYBuffer);
+    textAreaY.resizeToCurrentText();
+    textAreaY.setTypedText(touchgfx::TypedText(T___SINGLEUSE_B07E));
+
+    textAreaZ.setXY(24, 123);
+    textAreaZ.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    textAreaZ.setLinespacing(0);
+    Unicode::snprintf(textAreaZBuffer, TEXTAREAZ_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_VNAC).getText());
+    textAreaZ.setWildcard(textAreaZBuffer);
+    textAreaZ.resizeToCurrentText();
+    textAreaZ.setTypedText(touchgfx::TypedText(T___SINGLEUSE_RN46));
+
+    textAreaSaved.setXY(24, 177);
+    textAreaSaved.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
+    textAreaSaved.setLinespacing(0);
+    textAreaSaved.setTypedText(touchgfx::TypedText(T___SINGLEUSE_67D2));
 
     add(__background);
     add(box1);
@@ -91,9 +115,12 @@ ListViewBase::ListViewBase() :
     add(scalableImage2);
     add(textArea2);
     add(textArea3);
-    add(textArea3_1);
+    add(textAreaX);
     add(textArea3_2);
     add(scalableImage3);
+    add(textAreaY);
+    add(textAreaZ);
+    add(textAreaSaved);
 }
 
 void ListViewBase::setupScreen()

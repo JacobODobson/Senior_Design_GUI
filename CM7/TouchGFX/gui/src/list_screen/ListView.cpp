@@ -1,5 +1,6 @@
 #include <gui/list_screen/ListView.hpp>
 #include <BitmapDatabase.hpp>
+#include <iostream>
 #include <string.h>
 #include "trilateration.h"
 
@@ -20,6 +21,18 @@ void ListView::handleTickEvent()
 	roverDot.invalidate();
 
 	scalableImage3.invalidate();
+
+	Unicode::UnicodeChar x_string[10];
+	Unicode::strncpy(x_string, std::to_string(pos.x).c_str(), TEXTAREAX_SIZE - 1);
+
+	if(Unicode::strlen(x_string) > 0)
+	{
+		memset(&textAreaXBuffer, 0, TEXTAREAX_SIZE);
+		Unicode::strncpy(textAreaXBuffer, x_string, TEXTAREAX_SIZE - 1);
+		textAreaXBuffer[TEXTAREAX_SIZE-1] = '\0'; // make sure last index is null
+		textAreaX.invalidate();
+	}
+
 }
 
 
